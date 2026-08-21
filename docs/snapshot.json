@@ -11,10 +11,11 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
+  "generated_at": "2026-08-21T10:09:41.828290+00:00",
+  "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
   "perp_qty": -28.0,
   "delta": 0.0,
-  "unconfirmed": 1,
-  "ts": "2026-08-21T10:00:55.827580+00:00"
+  "unconfirmed": 1
 }

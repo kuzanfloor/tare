@@ -1,0 +1,33 @@
+name: refresh reading
+
+# The dashboard states the age of its reading and degrades past its window.
+# This keeps the reading inside that window instead of letting the page go
+# permanently stale while still looking like an instrument.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate the snapshot
+        run: PYTHONPATH=. python scripts/refresh_snapshot.py
+
+      - name: Commit only if the reading actually changed
+        run: |
+          git config user.name  "kuzanfloor"
+          git config user.email "317854551+kuzanfloor@users.noreply.github.com"
+          git add docs/snapshot.json
+          git diff --cached --quiet && { echo "reading unchanged — nothing to commit"; exit 0; }
+          git commit -m "chore: refresh reading"
+          git push

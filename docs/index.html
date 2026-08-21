@@ -6,7 +6,7 @@
   --ground:#E4E2DC; --panel:#F2F1ED; --sunk:#D8D5CD;
   --rule:#C6C3BA; --hair:#AFACA3;
   --ink:#161A19; --steel:#6B7075; --faint:#8E938C;
-  --lcd:#BCC5B5; --oxide:#2F5D62; --hatch:#8A8F86;
+  --lcd:#BCC5B5; --oxide:#2F5D62; --hatch:#8A8F86; --stampline:#9C4A2F;
   --mono:ui-monospace,"SF Mono","Cascadia Mono",Menlo,Consolas,monospace;
   --sans:ui-sans-serif,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
@@ -15,14 +15,14 @@
     --ground:#141716; --panel:#1B1F1D; --sunk:#101312;
     --rule:#2C312E; --hair:#3A403C;
     --ink:#E6E8E2; --steel:#9AA098; --faint:#71776F;
-    --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057;
+    --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057; --stampline:#D87F62;
   }
 }
 :root[data-theme="dark"]{
   --ground:#141716; --panel:#1B1F1D; --sunk:#101312;
   --rule:#2C312E; --hair:#3A403C;
   --ink:#E6E8E2; --steel:#9AA098; --faint:#71776F;
-  --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057;
+  --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057; --stampline:#D87F62;
 }
 *{box-sizing:border-box}
 body{
@@ -60,6 +60,13 @@ main{max-width:1080px; margin:0 auto; padding:0 20px 96px}
   line-height:1; margin:10px 0 0;
 }
 .gloss{margin:14px 0 0; max-width:52ch; color:var(--steel); font-size:14px}
+.stale{
+  display:none; margin:14px 0 0; padding:9px 12px;
+  border:1px solid var(--stampline); color:var(--stampline);
+  font-family:var(--mono); font-size:12.5px; max-width:52ch;
+}
+.readout[data-stale="true"] .stale{display:block}
+footer[data-stale="true"] #stamp{color:var(--stampline)}
 .readout .figure{
   font-family:var(--mono); font-size:13px; color:var(--ink);
   margin-top:18px; padding-top:12px; border-top:1px dashed var(--hair);
@@ -121,6 +128,7 @@ footer{margin-top:56px; padding-top:14px; border-top:1px solid var(--rule);
     <div class="lbl">Delta — read</div>
     <p class="state" id="state">UNKNOWN</p>
     <p class="gloss" id="gloss">A hedge is outstanding. Neutrality cannot be asserted, so it is not claimed.</p>
+    <p class="stale" id="stale"></p>
     <div class="figure">
       <span>spot <b id="spot">—</b></span>
       <span>perp <b id="perp">—</b></span>
@@ -213,7 +221,30 @@ function render(s) {
   $("i-charged").textContent = usd(s.inference_charged_micro || 0);
   $("i-onchain").textContent = (s.inference_onchain ?? 0) + " / " + (s.inference_calls ?? 0);
 
-  $("stamp").textContent = "reading " + (s.ts || new Date().toISOString());
+  const generated = s.generated_at ? new Date(s.generated_at) : null;
+  const ageS = generated ? (Date.now() - generated.getTime()) / 1000 : null;
+  const window = s.stale_after_s ?? 3600;
+  const stale = ageS !== null && ageS >= window;
+
+  $("readout").dataset.stale = String(stale);
+  document.querySelector("footer").dataset.stale = String(stale);
+
+  if (ageS === null) {
+    $("stamp").textContent = "reading — age unknown";
+  } else {
+    $("stamp").textContent = "read " + humanAge(ageS) + " ago";
+  }
+  $("stale").textContent = stale
+    ? "This reading is " + humanAge(ageS) + " old and its window was " +
+      humanAge(window) + ". It describes the book as it was, not as it is."
+    : "";
+}
+
+function humanAge(s) {
+  if (s < 90) return Math.round(s) + "s";
+  if (s < 5400) return Math.round(s / 60) + "m";
+  if (s < 172800) return Math.round(s / 3600) + "h";
+  return Math.round(s / 86400) + "d";
 }
 
 fetch("snapshot.json", { cache: "no-store" })

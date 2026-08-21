@@ -3,7 +3,13 @@ from __future__ import annotations
 import json
 from collections import Counter
 from dataclasses import asdict, dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
+
+
+# A reading is only current for as long as the thing it reads stays put.
+# Past this, the page must say so rather than keep displaying the number.
+STALE_AFTER_S = 3600
 
 
 @dataclass(frozen=True)
@@ -39,5 +45,15 @@ def build_snapshot(journal: Path) -> Snapshot:
     )
 
 
+def is_stale(age_s: float, stale_after_s: float = STALE_AFTER_S) -> bool:
+    return age_s >= stale_after_s
+
+
 def snapshot_json(snapshot: Snapshot) -> dict:
-    return asdict(snapshot)
+    # The reading carries its own age and its own expiry. A page that shows a
+    # number without saying how old it is claims to be current when it is not.
+    return {
+        **asdict(snapshot),
+        "generated_at": datetime.now(UTC).isoformat(),
+        "stale_after_s": STALE_AFTER_S,
+    }

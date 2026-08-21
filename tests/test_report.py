@@ -68,3 +68,28 @@ def test_snapshot_json_keeps_the_refusals_and_the_unbought_judgment_visible(tmp_
     assert payload["refused"] == 1
     assert payload["refusals"]["inventory_cap_exceeded"] == 1
     assert payload["inference_calls"] == 0
+
+
+def test_snapshot_json_says_when_it_was_read_and_when_that_goes_stale(tmp_path):
+    from datetime import UTC, datetime
+
+    from tare.report import STALE_AFTER_S, snapshot_json
+
+    journal = tmp_path / "tare.jsonl"
+    book = Book(inventory_cap=100.0)
+    book.apply_fill(Fill(venue="jupiter", qty=1.0, confirmed=True))
+    step(book, proposed_qty=1.0, cid="c-1", journal=journal)
+
+    payload = snapshot_json(build_snapshot(journal))
+
+    generated = datetime.fromisoformat(payload["generated_at"])
+    assert generated.tzinfo is not None
+    assert abs((datetime.now(UTC) - generated).total_seconds()) < 60
+    assert payload["stale_after_s"] == STALE_AFTER_S
+
+
+def test_a_reading_older_than_its_window_is_stale():
+    from tare.report import is_stale
+
+    assert is_stale(age_s=3600, stale_after_s=3600) is True
+    assert is_stale(age_s=3599, stale_after_s=3600) is False
