@@ -69,3 +69,38 @@ def test_persistence_separates_two_markets_with_the_same_mean():
     assert s.pct_per_period == c.pct_per_period
     assert s.persistence == 1.0
     assert c.persistence == 0.5
+
+
+def _carry(symbol: str, hours_to_clear: float):
+    from tare.scan import Carry
+
+    return Carry(
+        symbol=symbol, mark=1.0, pct_per_period=0.001, pct_per_day=0.024,
+        apr_pct=8.8, hours_to_clear_fees=hours_to_clear, persistence=1.0, n=100,
+    )
+
+
+def test_a_market_with_no_calendar_is_open_all_the_way_through():
+    from datetime import UTC, datetime
+
+    from tare.scan import survives_to_breakeven
+
+    # crypto returns market_calendar_not_configured — nothing to close
+    assert survives_to_breakeven(
+        _carry("SOL", 67.0), next_transition=None, now=datetime.now(UTC)
+    ) is True
+
+
+def test_a_calendared_market_that_closes_before_breakeven_is_rejected():
+    from datetime import UTC, datetime, timedelta
+
+    from tare.scan import survives_to_breakeven
+
+    now = datetime.now(UTC)
+    # GOLD needs 55h of funding to cover its fees; the pit shuts in 8
+    assert survives_to_breakeven(
+        _carry("GOLD", 55.0), next_transition=now + timedelta(hours=8), now=now
+    ) is False
+    assert survives_to_breakeven(
+        _carry("GOLD", 55.0), next_transition=now + timedelta(hours=80), now=now
+    ) is True

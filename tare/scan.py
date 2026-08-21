@@ -52,3 +52,15 @@ def analyse_market(series: dict, round_trip_fee_pct: float) -> Carry | None:
         persistence=same_sign / len(rates),
         n=len(rates),
     )
+
+
+def survives_to_breakeven(carry: Carry, next_transition, now) -> bool:
+    # A carry trade that needs days to cover its fees cannot be held through a
+    # market that shuts first. When the venue closes the reference market is
+    # gone while the position stays open, arbitrage cannot close the gap, and
+    # it is structural rather than a bug to be fixed. Markets that return
+    # market_calendar_not_configured are 24/7 and have nothing to survive.
+    if next_transition is None:
+        return True
+    hours_open = (next_transition - now).total_seconds() / 3600
+    return hours_open > carry.hours_to_clear_fees
