@@ -1,0 +1,246 @@
+{
+ "marketId": 1,
+ "symbol": "SOL",
+ "points": [
+  {
+   "timestamp": 1786701601,
+   "fundingAmountPerUnit": "0.000900000000",
+   "markPrice": "75.500000000000",
+   "fundingRate": "0.119205298013"
+  },
+  {
+   "timestamp": 1786705201,
+   "fundingAmountPerUnit": "0.000700000000",
+   "markPrice": "75.410000000000",
+   "fundingRate": "0.092825885161"
+  },
+  {
+   "timestamp": 1786708800,
+   "fundingAmountPerUnit": "0.000700000000",
+   "markPrice": "75.550000000000",
+   "fundingRate": "0.092653871608"
+  },
+  {
+   "timestamp": 1786712400,
+   "fundingAmountPerUnit": "0.000700000000",
+   "markPrice": "75.490000000000",
+   "fundingRate": "0.092727513578"
+  },
+  {
+   "timestamp": 1786716001,
+   "fundingAmountPerUnit": "0.000800000000",
+   "markPrice": "75.380000000000",
+   "fundingRate": "0.106128946670"
+  },
+  {
+   "timestamp": 1786719600,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.280000000000",
+   "fundingRate": "0.066418703507"
+  },
+  {
+   "timestamp": 1786723200,
+   "fundingAmountPerUnit": "0.000400000000",
+   "markPrice": "75.660000000000",
+   "fundingRate": "0.052868094105"
+  },
+  {
+   "timestamp": 1786726800,
+   "fundingAmountPerUnit": "0.000400000000",
+   "markPrice": "75.480000000000",
+   "fundingRate": "0.052994170641"
+  },
+  {
+   "timestamp": 1786730400,
+   "fundingAmountPerUnit": "0.000400000000",
+   "markPrice": "75.300000000000",
+   "fundingRate": "0.053120849934"
+  },
+  {
+   "timestamp": 1786734000,
+   "fundingAmountPerUnit": "0.000300000000",
+   "markPrice": "74.970000000000",
+   "fundingRate": "0.040016006403"
+  },
+  {
+   "timestamp": 1786737600,
+   "fundingAmountPerUnit": "0.000100000000",
+   "markPrice": "75.020000000000",
+   "fundingRate": "0.013329778726"
+  },
+  {
+   "timestamp": 1786741200,
+   "fundingAmountPerUnit": "0.000000000000",
+   "markPrice": "75.160000000000",
+   "fundingRate": "0.000000000000"
+  },
+  {
+   "timestamp": 1786744800,
+   "fundingAmountPerUnit": "0.000200000000",
+   "markPrice": "75.200000000000",
+   "fundingRate": "0.026595744681"
+  },
+  {
+   "timestamp": 1786748400,
+   "fundingAmountPerUnit": "0.000000000000",
+   "markPrice": "75.190000000000",
+   "fundingRate": "0.000000000000"
+  },
+  {
+   "timestamp": 1786752000,
+   "fundingAmountPerUnit": "0.000900000000",
+   "markPrice": "75.420000000000",
+   "fundingRate": "0.119331742243"
+  },
+  {
+   "timestamp": 1786755601,
+   "fundingAmountPerUnit": "0.000900000000",
+   "markPrice": "75.360000000000",
+   "fundingRate": "0.119426751592"
+  },
+  {
+   "timestamp": 1786759201,
+   "fundingAmountPerUnit": "0.000800000000",
+   "markPrice": "75.440000000000",
+   "fundingRate": "0.106044538706"
+  },
+  {
+   "timestamp": 1786762800,
+   "fundingAmountPerUnit": "0.001200000000",
+   "markPrice": "75.690000000000",
+   "fundingRate": "0.158541418946"
+  },
+  {
+   "timestamp": 1786766400,
+   "fundingAmountPerUnit": "0.001100000000",
+   "markPrice": "75.440000000000",
+   "fundingRate": "0.145811240721"
+  },
+  {
+   "timestamp": 1786770001,
+   "fundingAmountPerUnit": "0.001100000000",
+   "markPrice": "75.550000000000",
+   "fundingRate": "0.145598941099"
+  },
+  {
+   "timestamp": 1786773600,
+   "fundingAmountPerUnit": "0.001000000000",
+   "markPrice": "75.380000000000",
+   "fundingRate": "0.132661183338"
+  },
+  {
+   "timestamp": 1786777200,
+   "fundingAmountPerUnit": "0.000800000000",
+   "markPrice": "75.450000000000",
+   "fundingRate": "0.106030483764"
+  },
+  {
+   "timestamp": 1786780800,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.260000000000",
+   "fundingRate": "0.079723624767"
+  },
+  {
+   "timestamp": 1786784400,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.100000000000",
+   "fundingRate": "0.079893475366"
+  },
+  {
+   "timestamp": 1786788000,
+   "fundingAmountPerUnit": "0.000400000000",
+   "markPrice": "75.240000000000",
+   "fundingRate": "0.053163211058"
+  },
+  {
+   "timestamp": 1786791600,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.300000000000",
+   "fundingRate": "0.066401062417"
+  },
+  {
+   "timestamp": 1786795200,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.260000000000",
+   "fundingRate": "0.066436353973"
+  },
+  {
+   "timestamp": 1786798800,
+   "fundingAmountPerUnit": "0.000300000000",
+   "markPrice": "75.430000000000",
+   "fundingRate": "0.039771974016"
+  },
+  {
+   "timestamp": 1786802400,
+   "fundingAmountPerUnit": "0.000300000000",
+   "markPrice": "75.580000000000",
+   "fundingRate": "0.039693040487"
+  },
+  {
+   "timestamp": 1786806000,
+   "fundingAmountPerUnit": "0.000300000000",
+   "markPrice": "75.460000000000",
+   "fundingRate": "0.039756162205"
+  },
+  {
+   "timestamp": 1786809600,
+   "fundingAmountPerUnit": "0.000400000000",
+   "markPrice": "75.540000000000",
+   "fundingRate": "0.052952078369"
+  },
+  {
+   "timestamp": 1786813200,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.500000000000",
+   "fundingRate": "0.079470198675"
+  },
+  {
+   "timestamp": 1786816800,
+   "fundingAmountPerUnit": "0.000700000000",
+   "markPrice": "75.680000000000",
+   "fundingRate": "0.092494714588"
+  },
+  {
+   "timestamp": 1786820401,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.570000000000",
+   "fundingRate": "0.079396585947"
+  },
+  {
+   "timestamp": 1786824000,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.580000000000",
+   "fundingRate": "0.066155067478"
+  },
+  {
+   "timestamp": 1786827600,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.540000000000",
+   "fundingRate": "0.066190097961"
+  },
+  {
+   "timestamp": 1786831200,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.650000000000",
+   "fundingRate": "0.079312623926"
+  },
+  {
+   "timestamp": 1786834801,
+   "fundingAmountPerUnit": "0.000600000000",
+   "markPrice": "75.600000000000",
+   "fundingRate": "0.079365079365"
+  },
+  {
+   "timestamp": 1786838400,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.360000000000",
+   "fundingRate": "0.066348195329"
+  },
+  {
+   "timestamp": 1786842000,
+   "fundingAmountPerUnit": "0.000500000000",
+   "markPrice": "75.490000000000",
+   "fundingRate": "0.066233938270"
+  }
+ ]
+}
