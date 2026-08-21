@@ -1,0 +1,228 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TARE — instrument readout</title>
+<style>
+:root{
+  --ground:#E4E2DC; --panel:#F2F1ED; --sunk:#D8D5CD;
+  --rule:#C6C3BA; --hair:#AFACA3;
+  --ink:#161A19; --steel:#6B7075; --faint:#8E938C;
+  --lcd:#BCC5B5; --oxide:#2F5D62; --hatch:#8A8F86;
+  --mono:ui-monospace,"SF Mono","Cascadia Mono",Menlo,Consolas,monospace;
+  --sans:ui-sans-serif,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#141716; --panel:#1B1F1D; --sunk:#101312;
+    --rule:#2C312E; --hair:#3A403C;
+    --ink:#E6E8E2; --steel:#9AA098; --faint:#71776F;
+    --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#141716; --panel:#1B1F1D; --sunk:#101312;
+  --rule:#2C312E; --hair:#3A403C;
+  --ink:#E6E8E2; --steel:#9AA098; --faint:#71776F;
+  --lcd:#2A322A; --oxide:#7FB3B0; --hatch:#5A6057;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--sans); font-size:15px; line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+main{max-width:1080px; margin:0 auto; padding:0 20px 96px}
+
+.plate{
+  display:flex; justify-content:space-between; align-items:baseline;
+  gap:16px; flex-wrap:wrap;
+  border-bottom:1.5px solid var(--ink); padding:22px 0 10px; margin-bottom:0;
+}
+.wordmark{font-family:var(--mono); font-size:19px; font-weight:700; letter-spacing:.42em}
+.plate .spec{font-family:var(--mono); font-size:11px; color:var(--steel); letter-spacing:.06em}
+
+.lbl{
+  font-size:10px; font-weight:650; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--steel);
+}
+
+/* ── the readout ───────────────────────────────────────── */
+.readout{
+  background:var(--lcd); border:1px solid var(--hair); border-top:0;
+  padding:34px 28px 30px; position:relative; overflow:hidden;
+}
+.readout[data-state="UNKNOWN"]{
+  background-image:repeating-linear-gradient(
+    -45deg, transparent 0 9px, color-mix(in srgb,var(--hatch) 42%, transparent) 9px 10.5px);
+}
+.state{
+  font-family:var(--mono); font-weight:700;
+  font-size:clamp(2.6rem,9vw,5.6rem); letter-spacing:.06em;
+  line-height:1; margin:10px 0 0;
+}
+.gloss{margin:14px 0 0; max-width:52ch; color:var(--steel); font-size:14px}
+.readout .figure{
+  font-family:var(--mono); font-size:13px; color:var(--ink);
+  margin-top:18px; padding-top:12px; border-top:1px dashed var(--hair);
+  display:flex; gap:26px; flex-wrap:wrap;
+}
+.figure b{font-weight:700}
+
+/* ── counters ──────────────────────────────────────────── */
+.strip{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px;
+  background:var(--rule); border:1px solid var(--rule); border-top:0}
+.cell{background:var(--panel); padding:16px 18px}
+.cell .v{font-family:var(--mono); font-size:1.9rem; line-height:1.1; font-variant-numeric:tabular-nums}
+.cell .k{margin-top:5px}
+.cell[data-emph="true"] .v{color:var(--oxide)}
+
+section{margin-top:46px}
+h2{
+  font-family:var(--mono); font-size:12px; font-weight:700; letter-spacing:.2em;
+  text-transform:uppercase; margin:0 0 4px; color:var(--ink);
+}
+.sub{margin:0 0 16px; color:var(--steel); font-size:13.5px; max-width:62ch}
+
+table{width:100%; border-collapse:collapse; background:var(--panel);
+  border:1px solid var(--rule); font-size:14px}
+th,td{text-align:left; padding:10px 14px; border-bottom:1px solid var(--rule)}
+th{font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--steel); font-weight:650; background:var(--sunk)}
+tbody tr:last-child td{border-bottom:0}
+td.reason{font-family:var(--mono); font-size:12.5px}
+td.num{text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; width:1%; white-space:nowrap}
+
+.ledger{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1px;
+  background:var(--rule); border:1px solid var(--rule)}
+.ledger div{background:var(--panel); padding:14px 16px}
+.ledger .v{font-family:var(--mono); font-size:1.25rem; font-variant-numeric:tabular-nums}
+.ledger .k{margin-top:4px}
+.ledger .note{margin-top:6px; font-size:12px; color:var(--faint)}
+
+.disclaim{border:1px solid var(--ink); padding:18px 20px; background:transparent}
+.disclaim h2{margin-bottom:10px}
+.disclaim ul{margin:0; padding-left:1.1em; color:var(--steel); font-size:14px}
+.disclaim li{margin:5px 0}
+.disclaim li::marker{color:var(--hair)}
+
+footer{margin-top:56px; padding-top:14px; border-top:1px solid var(--rule);
+  font-family:var(--mono); font-size:11px; color:var(--faint);
+  display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap}
+:focus-visible{outline:2px solid var(--oxide); outline-offset:2px}
+@media (max-width:560px){ .state{letter-spacing:.02em} }
+</style>
+
+<main>
+  <div class="plate">
+    <div class="wordmark">TARE</div>
+    <div class="spec" id="spec">delta-neutral book · jupiter spot / phoenix perps · paper</div>
+  </div>
+
+  <div class="readout" id="readout" data-state="UNKNOWN">
+    <div class="lbl">Delta — read</div>
+    <p class="state" id="state">UNKNOWN</p>
+    <p class="gloss" id="gloss">A hedge is outstanding. Neutrality cannot be asserted, so it is not claimed.</p>
+    <div class="figure">
+      <span>spot <b id="spot">—</b></span>
+      <span>perp <b id="perp">—</b></span>
+      <span>reported delta <b id="delta">—</b></span>
+      <span>unconfirmed <b id="unconf">—</b></span>
+    </div>
+  </div>
+
+  <div class="strip">
+    <div class="cell"><div class="v" id="c-dec">—</div><div class="k lbl">Decisions</div></div>
+    <div class="cell"><div class="v" id="c-exec">—</div><div class="k lbl">Executed</div></div>
+    <div class="cell" data-emph="true"><div class="v" id="c-ref">—</div><div class="k lbl">Refused</div></div>
+    <div class="cell"><div class="v" id="c-skip">—</div><div class="k lbl">Skipped</div></div>
+  </div>
+
+  <section>
+    <h2>Refusal ledger</h2>
+    <p class="sub">Every decision is journalled, including the ones that declined to act. A system
+      that records only what it did cannot evidence what it refused — and the refusals are the risk control.</p>
+    <table>
+      <thead><tr><th>Reason</th><th class="num">Count</th></tr></thead>
+      <tbody id="refusals"><tr><td class="reason">no readings yet</td><td class="num">—</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Inference, priced before it is bought</h2>
+    <p class="sub">Every model call is quoted ex ante and for free by reading the 402. Judgment is
+      purchased only when it can still change the outcome and only when it is cheap against the stake,
+      so the gap between quoted and charged is money that was never at risk.</p>
+    <div class="ledger">
+      <div><div class="v" id="i-calls">—</div><div class="k lbl">Calls bought</div></div>
+      <div><div class="v" id="i-quoted">—</div><div class="k lbl">Quoted (cap)</div></div>
+      <div><div class="v" id="i-charged">—</div><div class="k lbl">Charged</div></div>
+      <div>
+        <div class="v" id="i-onchain">—</div><div class="k lbl">Settled on Solana</div>
+        <div class="note">Surplus settles by signature and produces no onchain volume. Reported, not chosen silently.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="disclaim">
+    <h2>What this page does not claim</h2>
+    <ul id="notclaimed">
+      <li>No live venue connection. Nothing has been sent to Jupiter or Phoenix.</li>
+      <li>Paper mode. Paper results are never aggregated with live ones.</li>
+      <li>No realised performance. One regime is not evidence of edge, and a month of green is what negative expectancy looks like until it isn't.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span id="stamp">reading — awaiting snapshot</span>
+    <span>zero is a value · unknown is a hatch</span>
+  </footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const usd = m => "$" + (m / 1e6).toFixed(6);
+
+const GLOSS = {
+  UNKNOWN: "A hedge is outstanding. Neutrality cannot be asserted, so it is not claimed.",
+  NEUTRAL: "Every leg is confirmed and the legs offset inside the band.",
+  DIRECTIONAL: "Confirmed legs do not offset. The book carries exposure and says so."
+};
+
+function render(s) {
+  const state = s.delta_status || "UNKNOWN";
+  $("readout").dataset.state = state;
+  $("state").textContent = state;
+  $("gloss").textContent = GLOSS[state] || GLOSS.UNKNOWN;
+
+  $("spot").textContent   = s.spot_qty ?? "—";
+  $("perp").textContent   = s.perp_qty ?? "—";
+  $("delta").textContent  = s.delta ?? "—";
+  $("unconf").textContent = s.unconfirmed ?? "—";
+
+  $("c-dec").textContent  = s.decisions ?? 0;
+  $("c-exec").textContent = s.executed ?? 0;
+  $("c-ref").textContent  = s.refused ?? 0;
+  $("c-skip").textContent = s.skipped ?? 0;
+
+  const rows = Object.entries(s.refusals || {});
+  $("refusals").innerHTML = rows.length
+    ? rows.map(([r, n]) => `<tr><td class="reason">${r}</td><td class="num">${n}</td></tr>`).join("")
+    : `<tr><td class="reason">nothing refused yet</td><td class="num">0</td></tr>`;
+
+  $("i-calls").textContent   = s.inference_calls ?? 0;
+  $("i-quoted").textContent  = usd(s.inference_quoted_micro || 0);
+  $("i-charged").textContent = usd(s.inference_charged_micro || 0);
+  $("i-onchain").textContent = (s.inference_onchain ?? 0) + " / " + (s.inference_calls ?? 0);
+
+  $("stamp").textContent = "reading " + (s.ts || new Date().toISOString());
+}
+
+fetch("snapshot.json", { cache: "no-store" })
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(render)
+  .catch(() => {
+    // A page that cannot read its own instrument says so. It does not show zeros.
+    $("state").textContent = "NO READING";
+    $("gloss").textContent = "snapshot.json could not be read. This is not a claim that the book is flat.";
+    $("stamp").textContent = "reading unavailable";
+  });
+</script>

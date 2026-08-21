@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated runtime data — never committed. Without them the dashboard
+# renders NO READING, which is the correct answer, not zeros.
+dashboard/journal.jsonl
+dashboard/snapshot.json
