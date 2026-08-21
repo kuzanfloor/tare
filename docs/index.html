@@ -96,6 +96,9 @@ th{font-size:10px; letter-spacing:.14em; text-transform:uppercase;
   color:var(--steel); font-weight:650; background:var(--sunk)}
 tbody tr:last-child td{border-bottom:0}
 td.reason{font-family:var(--mono); font-size:12.5px}
+tr[data-verdict="reject"] td{color:var(--faint)}
+tr[data-verdict="reject"] td.sym{color:var(--stampline); text-decoration:line-through}
+td.why{font-size:12.5px; color:var(--steel)}
 td.num{text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; width:1%; white-space:nowrap}
 
 .ledger{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1px;
@@ -151,6 +154,17 @@ footer{margin-top:56px; padding-top:14px; border-top:1px solid var(--rule);
     <table>
       <thead><tr><th>Reason</th><th class="num">Count</th></tr></thead>
       <tbody id="refusals"><tr><td class="reason">no readings yet</td><td class="num">—</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Carry against cost</h2>
+    <p class="sub">Live funding across every Phoenix market, ranked against the round-trip
+      fee it has to cover. A market is struck out when it closes before the position could
+      earn its fees back — the carry may be excellent and still unreachable.</p>
+    <table>
+      <thead><tr><th>Market</th><th class="num">APR</th><th class="num">Sign held</th><th>Verdict</th></tr></thead>
+      <tbody id="carry"><tr><td class="sym">—</td><td class="num">—</td><td class="num">—</td><td class="why">awaiting reading</td></tr></tbody>
     </table>
   </section>
 
@@ -215,6 +229,16 @@ function render(s) {
   $("refusals").innerHTML = rows.length
     ? rows.map(([r, n]) => `<tr><td class="reason">${r}</td><td class="num">${n}</td></tr>`).join("")
     : `<tr><td class="reason">nothing refused yet</td><td class="num">0</td></tr>`;
+
+  const carry = s.carry;
+  $("carry").innerHTML = carry === null || carry === undefined
+    ? `<tr><td class="sym">—</td><td class="num">—</td><td class="num">—</td>
+         <td class="why">the venue could not be read — this is not a claim that nothing carries</td></tr>`
+    : carry.map(r => `<tr data-verdict="${r.verdict}">
+         <td class="sym">${r.symbol}</td>
+         <td class="num">${r.apr_pct.toFixed(1)}%</td>
+         <td class="num">${Math.round(r.persistence * 100)}%</td>
+         <td class="why">${r.why}</td></tr>`).join("");
 
   $("i-calls").textContent   = s.inference_calls ?? 0;
   $("i-quoted").textContent  = usd(s.inference_quoted_micro || 0);

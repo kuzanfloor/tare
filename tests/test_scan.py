@@ -104,3 +104,23 @@ def test_a_calendared_market_that_closes_before_breakeven_is_rejected():
     assert survives_to_breakeven(
         _carry("GOLD", 55.0), next_transition=now + timedelta(hours=80), now=now
     ) is True
+
+
+def test_carry_rows_carry_their_verdict_and_why():
+    from datetime import UTC, datetime, timedelta
+
+    from tare.scan import carry_rows
+
+    now = datetime.now(UTC)
+    rows = carry_rows(
+        [_carry("SOL", 68.0), _carry("GOLD", 54.0)],
+        transitions={"GOLD": now + timedelta(hours=11)},
+        now=now,
+    )
+
+    by_symbol = {r["symbol"]: r for r in rows}
+    assert by_symbol["SOL"]["verdict"] == "hold"
+    assert by_symbol["SOL"]["calendar"] == "24/7"
+    assert by_symbol["GOLD"]["verdict"] == "reject"
+    assert by_symbol["GOLD"]["closes_in_h"] == 11
+    assert "closes" in by_symbol["GOLD"]["why"]

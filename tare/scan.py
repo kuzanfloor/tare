@@ -64,3 +64,35 @@ def survives_to_breakeven(carry: Carry, next_transition, now) -> bool:
         return True
     hours_open = (next_transition - now).total_seconds() / 3600
     return hours_open > carry.hours_to_clear_fees
+
+
+def carry_rows(carries, transitions, now, calendars=None) -> list[dict]:
+    # The display carries the verdict AND its reason. A row that just says
+    # "reject" invites the reader to assume the carry was poor, when the carry
+    # may be excellent and the market simply shuts before it can be earned.
+    calendars = calendars or {}
+    rows = []
+    for c in carries:
+        nxt = transitions.get(c.symbol)
+        ok = survives_to_breakeven(c, nxt, now)
+        closes_in = round((nxt - now).total_seconds() / 3600) if nxt else None
+        if nxt is None:
+            why = "open continuously"
+        elif ok:
+            why = f"open {closes_in}h, needs {c.hours_to_clear_fees:.0f}h"
+        else:
+            why = f"closes in {closes_in}h, needs {c.hours_to_clear_fees:.0f}h to clear fees"
+        rows.append(
+            {
+                "symbol": c.symbol,
+                "apr_pct": round(c.apr_pct, 1),
+                "persistence": round(c.persistence, 3),
+                "hours_to_clear_fees": round(c.hours_to_clear_fees),
+                "n": c.n,
+                "calendar": calendars.get(c.symbol, "calendared" if nxt else "24/7"),
+                "closes_in_h": closes_in,
+                "verdict": "hold" if ok else "reject",
+                "why": why,
+            }
+        )
+    return rows

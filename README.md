@@ -5,6 +5,9 @@
 A delta-neutral book on Solana — Jupiter spot against Phoenix perps — and an
 instrument that refuses to guess.
 
+**Live readout: [kuzanfloor.github.io/tare](https://kuzanfloor.github.io/tare/)** — it
+states the age of every reading, and says so plainly once that reading has expired.
+
 The trading is not the interesting part. The interesting part is that this system
 declines to state things it cannot prove, and publishes the declining.
 
@@ -90,6 +93,10 @@ number, not after.*
 | SOL | 0.0250 | 9.1% | 2.8 | 97% |
 | BTC | −0.0062 | −2.3% | 11.3 | **39%** |
 
+A market is struck out when it closes before the position could earn its fees
+back — the carry may be excellent and still unreachable. Today that removes GOLD,
+third by APR with 93% persistence: it needs 53 hours and the pit shuts in 7.
+
 **Nothing clears its fees intraday.** This is not a market-making strategy; it is a
 carry trade with multi-day holds. That conclusion came from the data, and it
 contradicted the premise the project started with.
@@ -130,7 +137,7 @@ would be a flaky if-else that costs money on every tick.
 pytest
 ```
 
-42 tests, no network required. Each was written and watched fail before the code
+47 tests, no network required. Each was written and watched fail before the code
 that satisfies it. Venue payloads in `tests/fixtures/` are real captured responses,
 not invented ones.
 
@@ -141,7 +148,7 @@ tare/loop.py       the deterministic gate ladder, and the journal
 tare/judgment.py   whether a judgment is worth buying
 tare/inference.py  x402 quote parsing and rail selection
 tare/venues.py     Jupiter spot, Phoenix perps
-tare/scan.py       carry against cost, across every market
+tare/scan.py       carry against cost, and whether the market stays open long enough
 ```
 
 ## What this does not claim
@@ -152,8 +159,8 @@ tare/scan.py       carry against cost, across every market
   negative expectancy looks like, right up until it isn't.
 - **The carry table is a measurement, not a recommendation.** It says what funding
   did, not what it will do.
-- **GOLD, WTIOIL and the equity perps follow exchange calendars and close.** Holding
-  a hedge across a closure means the reference market is shut while the position is
-  open. That is structural, not a bug to be fixed, and it is unhandled today.
+- **The carry table is not a claim that these trades were taken.** Nothing has been
+  held. It says what the funding did and whether a position *could* have survived to
+  break-even, which is a different statement from having survived one.
 
 Built for the [AnsemHack Clawrena](https://clawpump.tech/ansemhack).
