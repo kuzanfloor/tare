@@ -44,3 +44,26 @@ def test_a_venue_that_cannot_be_reached_reports_unavailable_not_a_price():
     assert mark.state is ReadState.UNAVAILABLE
     assert mark.price is None
     assert mark.reason
+
+
+def test_reference_basis_comes_from_one_read_at_one_slot():
+    from tare.venues import reference_basis
+
+    payload = json.loads((FIX / "phoenix_stats_sol.json").read_text())
+
+    result = reference_basis(payload)
+
+    assert result.state is ReadState.OK
+    # mark and spot arrive in the same record at the same slot, so the gap
+    # cannot be an artefact of reading two sources at two moments
+    assert result.value == pytest.approx(93.81 - 93.94, abs=1e-9)
+    assert result.slot == 440889612
+
+
+def test_reference_basis_is_unavailable_when_the_record_is_empty():
+    from tare.venues import reference_basis
+
+    result = reference_basis({"symbol": "SOL", "stats": []})
+
+    assert result.state is ReadState.UNAVAILABLE
+    assert result.value is None

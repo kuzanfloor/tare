@@ -28,6 +28,7 @@ class Basis:
     value: float | None = None
     pct: float | None = None
     reason: str | None = None
+    slot: int | None = None
 
 
 def parse_jupiter_quote(payload: dict) -> Mark:
@@ -96,3 +97,22 @@ def fetch_jupiter_spot(
             venue="jupiter", symbol="SOL", state=ReadState.UNAVAILABLE,
             reason=type(exc).__name__.lower(),
         )
+
+
+def reference_basis(stats_payload: dict) -> Basis:
+    # Phoenix reports mark and spot in the same record at the same slot, so this
+    # gap cannot be an artefact of reading two venues a second apart. It is the
+    # REFERENCE basis: what the venue believes, not what you could execute.
+    # The difference between this and basis() over Jupiter is the cost of
+    # actually trading it.
+    rows = stats_payload.get("stats") or []
+    if not rows:
+        return Basis(state=ReadState.UNAVAILABLE, reason="phoenix:no_stats_rows")
+    row = rows[-1]
+    try:
+        mark = float(row["mark_price"])
+        spot = float(row["spot_price"])
+    except (KeyError, TypeError, ValueError):
+        return Basis(state=ReadState.UNAVAILABLE, reason="phoenix:incomplete_stats")
+    gap = spot - mark
+    return Basis(state=ReadState.OK, value=gap, pct=gap / mark * 100, slot=row.get("slot"))
