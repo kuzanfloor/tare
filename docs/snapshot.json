@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-22T05:05:27.584731+00:00",
+  "generated_at": "2026-08-22T05:59:21.043304+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -59,9 +59,9 @@
       "hours_to_clear_fees": 51,
       "n": 167,
       "calendar": "cme_commodities",
-      "closes_in_h": 41,
+      "closes_in_h": 40,
       "verdict": "reject",
-      "why": "closes in 41h, needs 51h to clear fees"
+      "why": "closes in 40h, needs 51h to clear fees"
     },
     {
       "symbol": "SOL",
