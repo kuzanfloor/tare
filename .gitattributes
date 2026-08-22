@@ -1,0 +1,3 @@
+# Generated every hour by .github/workflows/refresh.yml. Never merged —
+# whichever side wins is discarded by the next run anyway.
+docs/snapshot.json merge=ours
