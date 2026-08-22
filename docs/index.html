@@ -164,6 +164,7 @@ footer{margin-top:56px; padding-top:14px; border-top:1px solid var(--rule);
       earn its fees back — the carry may be excellent and still unreachable.</p>
     <table>
       <thead><tr><th>Market</th><th class="num">APR</th><th class="num">Sign held</th><th>Verdict</th></tr></thead>
+      <tfoot><tr><td colspan="4" class="why" id="history">—</td></tr></tfoot>
       <tbody id="carry"><tr><td class="sym">—</td><td class="num">—</td><td class="num">—</td><td class="why">awaiting reading</td></tr></tbody>
     </table>
   </section>
@@ -239,6 +240,13 @@ function render(s) {
          <td class="num">${r.apr_pct.toFixed(1)}%</td>
          <td class="num">${Math.round(r.persistence * 100)}%</td>
          <td class="why">${r.why}</td></tr>`).join("");
+
+  const h = s.history;
+  $("history").textContent = !h || !h.entries
+    ? "no history yet — this is the first reading"
+    : h.entries === 1
+      ? "one reading. Nothing to compare it against yet."
+      : `${h.entries} readings over ${h.span_h}h. Gaps are left as gaps — a missed run is not interpolated.`;
 
   $("i-calls").textContent   = s.inference_calls ?? 0;
   $("i-quoted").textContent  = usd(s.inference_quoted_micro || 0);

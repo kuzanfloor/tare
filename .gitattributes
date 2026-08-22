@@ -1,3 +1,8 @@
-# Generated every hour by .github/workflows/refresh.yml. Never merged —
-# whichever side wins is discarded by the next run anyway.
+# Regenerated hourly. Whichever side wins a merge is discarded by the next
+# refresh anyway, so a conflict here is pure friction.
 docs/snapshot.json merge=ours
+
+# Append-only. NOT merge=ours — that would silently drop readings from one
+# side, and a history that quietly loses entries is worse than no history.
+# Union keeps both sides; entries are timestamped, so duplicates cannot form.
+docs/history.jsonl merge=union

@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-22T09:03:06.908701+00:00",
+  "generated_at": "2026-08-22T09:16:12.667423+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -107,5 +107,11 @@
       "verdict": "hold",
       "why": "open continuously"
     }
-  ]
+  ],
+  "history": {
+    "entries": 2,
+    "span_h": 0.0,
+    "first": "2026-08-22T09:16:08.805766+00:00",
+    "last": "2026-08-22T09:16:12.667423+00:00"
+  }
 }

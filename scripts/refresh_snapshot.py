@@ -10,6 +10,7 @@ from datetime import UTC, datetime
 from tare.book import Book, Fill
 from tare.inference import InferenceEvent
 from tare.loop import step
+from tare.history import append_reading, history_span, load_history
 from tare.report import build_snapshot, snapshot_json
 from tare.scan import analyse_market, carry_rows
 
@@ -92,11 +93,18 @@ def main() -> None:
         unconfirmed=book.unconfirmed,
     )
     payload["carry"] = live_carry()
+
+    # Append before reporting the span, so the reading counts itself.
+    history_path = DOCS / "history.jsonl"
+    append_reading(history_path, payload)
+    payload["history"] = history_span(load_history(history_path))
+
     (DOCS / "snapshot.json").write_text(json.dumps(payload, indent=2) + "\n")
     carry = payload["carry"]
     print(f"{payload['generated_at']}  decisions={payload['decisions']} "
           f"refused={payload['refused']} delta_status={payload['delta_status']} "
-          f"carry={'unreadable' if carry is None else str(len(carry)) + ' markets'}")
+          f"carry={'unreadable' if carry is None else str(len(carry)) + ' markets'} "
+          f"history={payload['history']['entries']} readings / {payload['history']['span_h']}h")
 
 
 if __name__ == "__main__":
