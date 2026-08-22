@@ -8,6 +8,11 @@ instrument that refuses to guess.
 **Live readout: [kuzanfloor.github.io/tare](https://kuzanfloor.github.io/tare/)** — it
 states the age of every reading, and says so plainly once that reading has expired.
 
+**Token:** [`4UpeYpUpUjBW7wuQFeb8nHPcvUW2FdZ3fFErX2tRWWE5`](https://pump.fun/coin/4UpeYpUpUjBW7wuQFeb8nHPcvUW2FdZ3fFErX2tRWWE5)
+· fixed supply of 1,000,000,000, mint authority revoked
+· [launch transaction](https://solscan.io/tx/4bcV5shemY3467aEb4VbpZuGXhrumNTugHhcEnu9ATqD6rLAFQnWvkqen21EFvAFGxNsaFqL9gk2dngYk2rNdMq7),
+verified on chain rather than taken from the API response.
+
 The trading is not the interesting part. The interesting part is that this system
 declines to state things it cannot prove, and publishes the declining.
 
