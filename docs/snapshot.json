@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-23T14:55:40.821215+00:00",
+  "generated_at": "2026-08-23T15:51:41.306411+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 22.1,
+      "apr_pct": 22.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
       "n": 165,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 18.5,
+      "apr_pct": 18.8,
       "persistence": 0.958,
       "hours_to_clear_fees": 33,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 18.4,
+      "apr_pct": 18.6,
       "persistence": 0.94,
       "hours_to_clear_fees": 33,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 13.9,
+      "apr_pct": 14.1,
       "persistence": 0.944,
       "hours_to_clear_fees": 44,
       "n": 160,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 12.3,
+      "apr_pct": 12.4,
       "persistence": 1.0,
-      "hours_to_clear_fees": 50,
+      "hours_to_clear_fees": 49,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,21 +87,21 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.0,
-      "persistence": 0.842,
-      "hours_to_clear_fees": 56,
+      "apr_pct": 11.1,
+      "persistence": 0.848,
+      "hours_to_clear_fees": 55,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 7,
+      "closes_in_h": 6,
       "verdict": "reject",
-      "why": "closes in 7h, needs 56h to clear fees"
+      "why": "closes in 6h, needs 55h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 10.8,
-      "persistence": 0.833,
-      "hours_to_clear_fees": 57,
-      "n": 96,
+      "apr_pct": 10.9,
+      "persistence": 0.835,
+      "hours_to_clear_fees": 56,
+      "n": 97,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -110,8 +110,8 @@
   ],
   "history": {
     "entries": 3,
-    "span_h": 29.66,
+    "span_h": 30.59,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-23T14:55:40.821215+00:00"
+    "last": "2026-08-23T15:51:41.306411+00:00"
   }
 }
