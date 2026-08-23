@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-23T21:48:34.016766+00:00",
+  "generated_at": "2026-08-23T22:52:26.230466+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 19.9,
+      "apr_pct": 20.2,
       "persistence": 0.958,
-      "hours_to_clear_fees": 31,
+      "hours_to_clear_fees": 30,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 19.4,
+      "apr_pct": 19.5,
       "persistence": 0.94,
-      "hours_to_clear_fees": 32,
+      "hours_to_clear_fees": 31,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 15.6,
+      "apr_pct": 15.9,
       "persistence": 0.944,
       "hours_to_clear_fees": 39,
       "n": 160,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 12.8,
+      "apr_pct": 12.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 48,
       "n": 167,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 11.8,
-      "persistence": 0.853,
-      "hours_to_clear_fees": 52,
+      "apr_pct": 12.2,
+      "persistence": 0.863,
+      "hours_to_clear_fees": 50,
       "n": 102,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.6,
-      "persistence": 0.867,
-      "hours_to_clear_fees": 53,
+      "apr_pct": 11.7,
+      "persistence": 0.873,
+      "hours_to_clear_fees": 52,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 0,
+      "closes_in_h": 22,
       "verdict": "reject",
-      "why": "closes in 0h, needs 53h to clear fees"
+      "why": "closes in 22h, needs 52h to clear fees"
     }
   ],
   "history": {
     "entries": 3,
-    "span_h": 36.54,
+    "span_h": 37.6,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-23T21:48:34.016766+00:00"
+    "last": "2026-08-23T22:52:26.230466+00:00"
   }
 }
