@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-23T15:51:41.306411+00:00",
+  "generated_at": "2026-08-23T16:57:51.009725+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "BNB",
-      "apr_pct": 26.5,
+      "apr_pct": 26.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 22.2,
+      "apr_pct": 22.3,
       "persistence": 0.988,
-      "hours_to_clear_fees": 28,
+      "hours_to_clear_fees": 27,
       "n": 165,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 18.8,
+      "apr_pct": 19.0,
       "persistence": 0.958,
-      "hours_to_clear_fees": 33,
+      "hours_to_clear_fees": 32,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 18.6,
+      "apr_pct": 18.7,
       "persistence": 0.94,
       "hours_to_clear_fees": 33,
       "n": 167,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 14.1,
+      "apr_pct": 14.3,
       "persistence": 0.944,
-      "hours_to_clear_fees": 44,
+      "hours_to_clear_fees": 43,
       "n": 160,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 12.4,
+      "apr_pct": 12.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 49,
       "n": 167,
@@ -87,21 +87,21 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.1,
-      "persistence": 0.848,
+      "apr_pct": 11.2,
+      "persistence": 0.855,
       "hours_to_clear_fees": 55,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 6,
+      "closes_in_h": 5,
       "verdict": "reject",
-      "why": "closes in 6h, needs 55h to clear fees"
+      "why": "closes in 5h, needs 55h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 10.9,
-      "persistence": 0.835,
-      "hours_to_clear_fees": 56,
-      "n": 97,
+      "apr_pct": 11.1,
+      "persistence": 0.837,
+      "hours_to_clear_fees": 55,
+      "n": 98,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -110,8 +110,8 @@
   ],
   "history": {
     "entries": 3,
-    "span_h": 30.59,
+    "span_h": 31.7,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-23T15:51:41.306411+00:00"
+    "last": "2026-08-23T16:57:51.009725+00:00"
   }
 }
