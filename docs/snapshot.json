@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-23T09:02:58.053567+00:00",
+  "generated_at": "2026-08-23T09:56:09.573096+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -92,9 +92,9 @@
       "hours_to_clear_fees": 57,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 13,
+      "closes_in_h": 12,
       "verdict": "reject",
-      "why": "closes in 13h, needs 57h to clear fees"
+      "why": "closes in 12h, needs 57h to clear fees"
     },
     {
       "symbol": "TAO",
@@ -110,8 +110,8 @@
   ],
   "history": {
     "entries": 3,
-    "span_h": 23.78,
+    "span_h": 24.67,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-23T09:02:58.053567+00:00"
+    "last": "2026-08-23T09:56:09.573096+00:00"
   }
 }
