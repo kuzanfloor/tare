@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-23T19:45:41.629377+00:00",
+  "generated_at": "2026-08-23T20:54:09.383287+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "BNB",
-      "apr_pct": 26.7,
+      "apr_pct": 26.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 22.7,
+      "apr_pct": 22.8,
       "persistence": 0.988,
       "hours_to_clear_fees": 27,
       "n": 165,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 19.6,
+      "apr_pct": 19.8,
       "persistence": 0.958,
       "hours_to_clear_fees": 31,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 19.2,
+      "apr_pct": 19.3,
       "persistence": 0.94,
       "hours_to_clear_fees": 32,
       "n": 167,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 15.0,
+      "apr_pct": 15.3,
       "persistence": 0.944,
-      "hours_to_clear_fees": 41,
+      "hours_to_clear_fees": 40,
       "n": 160,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 12.7,
+      "apr_pct": 12.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 48,
       "n": 167,
@@ -87,10 +87,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 11.7,
-      "persistence": 0.85,
+      "apr_pct": 11.8,
+      "persistence": 0.851,
       "hours_to_clear_fees": 52,
-      "n": 100,
+      "n": 101,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -100,18 +100,18 @@
       "symbol": "GOLD",
       "apr_pct": 11.5,
       "persistence": 0.861,
-      "hours_to_clear_fees": 54,
+      "hours_to_clear_fees": 53,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 2,
+      "closes_in_h": 1,
       "verdict": "reject",
-      "why": "closes in 2h, needs 54h to clear fees"
+      "why": "closes in 1h, needs 53h to clear fees"
     }
   ],
   "history": {
     "entries": 3,
-    "span_h": 34.49,
+    "span_h": 35.63,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-23T19:45:41.629377+00:00"
+    "last": "2026-08-23T20:54:09.383287+00:00"
   }
 }
