@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T11:07:01.737884+00:00",
+  "generated_at": "2026-08-24T12:07:22.348611+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 23.6,
+      "apr_pct": 23.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 26,
       "n": 165,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 22.7,
+      "apr_pct": 22.9,
       "persistence": 0.958,
       "hours_to_clear_fees": 27,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.3,
+      "apr_pct": 21.4,
       "persistence": 0.946,
       "hours_to_clear_fees": 29,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 18.7,
+      "apr_pct": 18.8,
       "persistence": 0.944,
       "hours_to_clear_fees": 33,
       "n": 161,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 14.6,
-      "persistence": 0.885,
+      "persistence": 0.886,
       "hours_to_clear_fees": 42,
-      "n": 113,
+      "n": 114,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 50,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 10,
+      "closes_in_h": 9,
       "verdict": "reject",
-      "why": "closes in 10h, needs 50h to clear fees"
+      "why": "closes in 9h, needs 50h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high APR holds (ranging from 18.7% to 26.4%) indicate these are likely deeply negative perpetual futures funding rates, not investment yields, suggesting a market-wide, high-conviction short bias.",
+    "text": "The exceptionally high annualized funding rates for holding long positions suggest a massive, unsustainable short-squeeze pressure in these markets.",
     "model": "deepseek-v3.2",
-    "tx": "2q35LujSEpNdCN9CxNZ67EfZozJTegDWiAKm7wsWSXZwh1t2Aubzy3VbXJF6pCMpLGzuVtnYmguioy2Nhq8CSHWw",
+    "tx": "36P5tYhFC4nmRsoQbeRBqZfs6RAhPbi5EEBwik4i6N1iuadM1CHhuuA4EaCJBjyZETFHzqWbxe6RznVCt9B589X5",
     "charged_micro": 38
   },
   "history": {
-    "entries": 8,
-    "span_h": 49.85,
+    "entries": 9,
+    "span_h": 50.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T11:07:01.737884+00:00"
+    "last": "2026-08-24T12:07:22.348611+00:00"
   }
 }
