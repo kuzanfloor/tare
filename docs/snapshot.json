@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 37,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T10:15:36.604788+00:00",
+  "generated_at": "2026-08-24T10:16:57.629196+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The unusually high \"funding rates\" on crypto perpetual swaps are all positive, meaning long positions persistently pay shorts to hold, suggesting extreme bullish sentiment across multiple major assets.",
+    "text": "What stands out is that the \"APR hold\" rates are likely gross potential returns before subtracting the significant transaction costs implied by the note that markets can reject and close positions before they clear their fees.",
     "model": "deepseek-v3.2",
-    "tx": "48Jy1SRR3i9p3htnNCz2im8Exp81Cms5pHmA27bwMFrofK3DHikNDEAGBZTn5xPfF8Ni3MAN2dUP8aeGPbnxQTaw",
-    "charged_micro": 33
+    "tx": "3Ez5uRS2vGmsFqjq5yi5oqnErgmbBsSc8gpFcBCkCGLzp6HQkA1YbAPRqUhfGbL3ekkGEjzvukWqHr3jhEHHibCX",
+    "charged_micro": 37
   },
   "history": {
-    "entries": 6,
-    "span_h": 48.99,
+    "entries": 7,
+    "span_h": 49.01,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T10:15:36.604788+00:00"
+    "last": "2026-08-24T10:16:57.629196+00:00"
   }
 }
