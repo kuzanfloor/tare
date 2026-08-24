@@ -3,9 +3,11 @@ name: refresh reading
 # The dashboard states the age of its reading and degrades past its window.
 # This keeps the reading inside that window instead of letting the page go
 # permanently stale while still looking like an instrument.
+# The hourly schedule moved to the VPS, which holds the x402 key and can
+# therefore buy a real inference call. This stays as a manual fallback: it
+# publishes a reading with zero inference, which is honest but thinner.
+# Two schedulers writing the same generated files would only race.
 on:
-  schedule:
-    - cron: "7 * * * *"
   workflow_dispatch:
 
 permissions:
