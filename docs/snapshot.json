@@ -11,7 +11,7 @@
   "inference_charged_micro": 1640,
   "inference_quoted_micro": 2828,
   "inference_onchain": 0,
-  "generated_at": "2026-08-24T06:00:06.122727+00:00",
+  "generated_at": "2026-08-24T08:29:46.580042+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "BNB",
-      "apr_pct": 26.6,
+      "apr_pct": 26.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 21.8,
+      "apr_pct": 22.1,
       "persistence": 0.958,
       "hours_to_clear_fees": 28,
       "n": 166,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 20.4,
-      "persistence": 0.94,
+      "apr_pct": 20.8,
+      "persistence": 0.946,
       "hours_to_clear_fees": 30,
       "n": 167,
       "calendar": "24/7",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 17.8,
+      "apr_pct": 18.2,
       "persistence": 0.944,
       "hours_to_clear_fees": 34,
       "n": 160,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 13.8,
-      "persistence": 0.881,
-      "hours_to_clear_fees": 44,
-      "n": 109,
+      "apr_pct": 14.5,
+      "persistence": 0.882,
+      "hours_to_clear_fees": 42,
+      "n": 110,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.3,
+      "apr_pct": 13.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 46,
       "n": 167,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.0,
+      "apr_pct": 12.1,
       "persistence": 0.873,
       "hours_to_clear_fees": 51,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 15,
+      "closes_in_h": 13,
       "verdict": "reject",
-      "why": "closes in 15h, needs 51h to clear fees"
+      "why": "closes in 13h, needs 51h to clear fees"
     }
   ],
   "history": {
     "entries": 3,
-    "span_h": 44.73,
+    "span_h": 47.23,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T06:00:06.122727+00:00"
+    "last": "2026-08-24T08:29:46.580042+00:00"
   }
 }
