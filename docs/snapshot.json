@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 34,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T17:07:22.346172+00:00",
+  "generated_at": "2026-08-24T18:07:16.991290+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "BNB",
-      "apr_pct": 26.3,
+      "apr_pct": 26.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 23.8,
+      "apr_pct": 24.0,
       "persistence": 0.958,
       "hours_to_clear_fees": 26,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.0,
+      "apr_pct": 22.2,
       "persistence": 0.946,
       "hours_to_clear_fees": 28,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.4,
+      "apr_pct": 19.5,
       "persistence": 0.944,
       "hours_to_clear_fees": 32,
       "n": 162,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 15.5,
-      "persistence": 0.906,
-      "hours_to_clear_fees": 40,
-      "n": 117,
+      "persistence": 0.907,
+      "hours_to_clear_fees": 39,
+      "n": 118,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 4,
+      "closes_in_h": 3,
       "verdict": "reject",
-      "why": "closes in 4h, needs 48h to clear fees"
+      "why": "closes in 3h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The unusually high annual percentage returns (APRs) across multiple assets stand out, especially given the warning that rejected market closes occur before fee clearance.",
+    "text": "The high APRs are offered with a notable condition that markets can reject closing a position before fees are cleared.",
     "model": "deepseek-v3.2",
-    "tx": "5m7dy2n62sTvvC2vDTgqtfc3Gzh4WLhZvcZerd2tdAQMG1JEr6qngE1xTUwZ99iSQ2PzdNyZayawTHNYPm5NjqXc",
-    "charged_micro": 34
+    "tx": "3dzC18S27n1bapwjayg4uCL61ahfjJUVF71CJYTjEzBN8ioRebitYRi66aPv6eyXHokEetyfWZeCrCW3zjFq4SKs",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 14,
-    "span_h": 55.85,
+    "entries": 15,
+    "span_h": 56.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T17:07:22.346172+00:00"
+    "last": "2026-08-24T18:07:16.991290+00:00"
   }
 }
