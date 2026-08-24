@@ -1,6 +1,6 @@
 from tare.book import Book, Fill
 from tare.loop import step
-from tare.report import build_snapshot
+from tare.report import build_snapshot, snapshot_json
 
 
 def test_snapshot_breaks_refusals_down_by_reason(tmp_path):
@@ -93,3 +93,16 @@ def test_a_reading_older_than_its_window_is_stale():
 
     assert is_stale(age_s=3600, stale_after_s=3600) is True
     assert is_stale(age_s=3599, stale_after_s=3600) is False
+
+
+def test_a_run_that_bought_no_inference_reports_none_rather_than_an_estimate(tmp_path):
+    journal = tmp_path / "tare.jsonl"
+    book = Book(inventory_cap=100.0)
+    book.apply_fill(Fill(venue="jupiter", qty=10.0, confirmed=True))
+    # no judge_fn: nothing was purchased, so nothing may be reported
+    step(book, proposed_qty=10.0, cid="c-1", journal=journal, stake_usd=40.0, quoted_micro=707)
+
+    payload = snapshot_json(build_snapshot(journal))
+
+    assert payload["inference_calls"] == 0
+    assert payload["inference_charged_micro"] == 0

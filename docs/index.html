@@ -182,6 +182,18 @@ footer{margin-top:56px; padding-top:14px; border-top:1px solid var(--rule);
         <div class="v" id="i-onchain">—</div><div class="k lbl">Settled on Solana</div>
         <div class="note">Surplus settles by signature and produces no onchain volume. Reported, not chosen silently.</div>
       </div>
+      <div style="grid-column:1/-1">
+        <div class="k lbl">Settled on chain, once, for real</div>
+        <div class="note" style="margin-top:8px">
+          24 Aug: one call quoted at 8 microunits ($0.000008), inference cost $0.0000039,
+          Solana network fee 5,000 lamports ≈ $0.00047 — <b>the fee was ~120× the inference
+          it bought</b>. Route returned <code>centralized</code>, not marketplace.
+          <a href="https://solscan.io/tx/4kDQ4WdiMhZJBp9VdJxzZRy7NGZwNWmkrBd3LF3AqyjTcnXPFKk2aHbm8FiHohc2sGkR6zX54Bmvq4Grp6Y3vDNK">transaction</a>.
+          The counters above cover <em>this run only</em>, which purchases nothing — a
+          fabricated cost on a page that publishes measurements is the failure this
+          project exists to catch.
+        </div>
+      </div>
     </div>
   </section>
 

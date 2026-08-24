@@ -26,16 +26,6 @@ LEGS = [
 ]
 
 
-def _judge(cid: str, settle: str):
-    def judge(quoted_micro: int) -> InferenceEvent:
-        return InferenceEvent(
-            cid=cid, model="deepseek-v3-2", quoted_micro=quoted_micro,
-            charged_micro=int(quoted_micro * 0.58), route="marketplace",
-            rail="solana", settle=settle,
-        )
-
-    return judge
-
 
 def _get(url: str):
     try:
@@ -76,9 +66,10 @@ def main() -> None:
 
     for i, (venue, qty, confirmed) in enumerate(LEGS):
         book.apply_fill(Fill(venue, qty, confirmed))
-        step(book, proposed_qty=abs(qty), cid=f"c-{i}", journal=journal,
-             stake_usd=40.0, quoted_micro=707,
-             judge_fn=_judge(f"c-{i}", "onchain" if i % 2 else "surplus"))
+        # No judge_fn: this run purchases no inference, so it reports none.
+        # A fabricated cost on a page that claims to publish measurements is
+        # the exact failure this project exists to catch.
+        step(book, proposed_qty=abs(qty), cid=f"c-{i}", journal=journal)
 
     step(book, proposed_qty=200.0, cid="c-cap", journal=journal)
     book.apply_fill(Fill("phoenix", -5.0, confirmed=False))
