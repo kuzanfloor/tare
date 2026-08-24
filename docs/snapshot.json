@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 26,
+  "inference_charged_micro": 34,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T16:07:20.903507+00:00",
+  "generated_at": "2026-08-24T17:07:22.346172+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 24.1,
+      "apr_pct": 24.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 23.6,
+      "apr_pct": 23.8,
       "persistence": 0.958,
       "hours_to_clear_fees": 26,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.9,
+      "apr_pct": 22.0,
       "persistence": 0.946,
       "hours_to_clear_fees": 28,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.3,
+      "apr_pct": 19.4,
       "persistence": 0.944,
       "hours_to_clear_fees": 32,
       "n": 162,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 15.4,
-      "persistence": 0.905,
+      "apr_pct": 15.5,
+      "persistence": 0.906,
       "hours_to_clear_fees": 40,
-      "n": 116,
+      "n": 117,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.9,
+      "apr_pct": 14.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 44,
       "n": 167,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.7,
+      "apr_pct": 12.8,
       "persistence": 0.873,
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 5,
+      "closes_in_h": 4,
       "verdict": "reject",
-      "why": "closes in 5h, needs 48h to clear fees"
+      "why": "closes in 4h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "This table is notable for listing remarkably high annual percentage yields (APRs) across various cryptocurrencies, each designated as \"hold.\"",
+    "text": "The unusually high annual percentage returns (APRs) across multiple assets stand out, especially given the warning that rejected market closes occur before fee clearance.",
     "model": "deepseek-v3.2",
-    "tx": "3UDrKwQ8YV6eHPxHWWrsz8P523SNsvvUs15UrhgpQ9hecmit4UsmZFQ8gMYeYMATWy4phg4rHLCidTqQo6W5atzi",
-    "charged_micro": 26
+    "tx": "5m7dy2n62sTvvC2vDTgqtfc3Gzh4WLhZvcZerd2tdAQMG1JEr6qngE1xTUwZ99iSQ2PzdNyZayawTHNYPm5NjqXc",
+    "charged_micro": 34
   },
   "history": {
-    "entries": 13,
-    "span_h": 54.85,
+    "entries": 14,
+    "span_h": 55.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T16:07:20.903507+00:00"
+    "last": "2026-08-24T17:07:22.346172+00:00"
   }
 }
