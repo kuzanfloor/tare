@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import pathlib
 import urllib.request
 from datetime import UTC, datetime
@@ -10,8 +11,10 @@ from datetime import UTC, datetime
 from tare.book import Book, Fill
 from tare.inference import InferenceEvent
 from tare.loop import step
+from tare.events import append_event
 from tare.history import append_reading, history_span, load_history
 from tare.report import build_snapshot, snapshot_json
+from tare.x402 import buy_one
 from tare.scan import analyse_market, carry_rows
 
 DOCS = pathlib.Path(__file__).resolve().parent.parent / "docs"
@@ -83,7 +86,30 @@ def main() -> None:
         delta=round(book.position.delta, 4),
         unconfirmed=book.unconfirmed,
     )
-    payload["carry"] = live_carry()
+    carry = live_carry()
+    payload["carry"] = carry
+
+    # One paid call, doing actual work: judge the carry table we just measured.
+    # Inference that exists only to be counted is decoration; this one has to
+    # produce a sentence about real data or it is not worth buying.
+    if os.environ.get("TARE_BUY_INFERENCE") == "1" and carry:
+        top = ", ".join(f"{r['symbol']} {r['apr_pct']}% APR {r['verdict']}" for r in carry[:5])
+        bought = buy_one(
+            cid="carry-review",
+            prompt=("In one sentence, what stands out about this funding carry table? "
+                    f"{top}. Markets marked reject close before the position clears its fees."),
+            max_tokens=60,
+        )
+        if bought:
+            event, reply = bought
+            append_event(DOCS / "journal.jsonl", "tare.inference", event)
+            payload["carry_review"] = {"text": reply, "model": event.model, "tx": event.tx,
+                                       "charged_micro": event.charged_micro}
+            payload = {**snapshot_json(build_snapshot(DOCS / "journal.jsonl")), **{
+                k: v for k, v in payload.items() if k not in ("decisions", "executed", "refused", "skipped",
+                                                              "refusals", "inference_calls",
+                                                              "inference_charged_micro",
+                                                              "inference_quoted_micro", "inference_onchain")}}
 
     # Append before reporting the span, so the reading counts itself.
     history_path = DOCS / "history.jsonl"
