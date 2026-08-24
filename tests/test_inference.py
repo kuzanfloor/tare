@@ -60,3 +60,34 @@ def test_surplus_settlement_is_recorded_as_producing_no_onchain_volume():
     )
 
     assert event.onchain is False
+
+
+def test_payment_proof_echoes_the_quote_it_settles():
+    import base64
+    import json as _json
+
+    from tare.inference import build_payment_proof
+
+    quote = parse_quote(real_quote_header())
+    rail = select_rail(quote, "USDC")
+
+    proof = build_payment_proof(quote, rail, payer="PayerPubkey11111", signature="SigABC")
+
+    decoded = _json.loads(base64.b64decode(proof))
+    # the gateway matches the payment to the quote by id; a proof that echoes
+    # the wrong quote settles nothing and the money is simply gone
+    assert decoded["quote_id"] == quote.quote_id
+    assert decoded["network"] == rail.network
+    assert decoded["network"].startswith("solana:")
+    assert decoded["asset"] == "USDC"
+    assert decoded["payer_wallet"] == "PayerPubkey11111"
+    assert decoded["signature"] == "SigABC"
+
+
+def test_settlement_fee_dominates_the_inference_it_buys():
+    from tare.inference import fee_dominance
+
+    # measured 24/08: an 8-microunit call settled with a 5,000-lamport fee
+    ratio = fee_dominance(charged_micro=8, lamports_fee=5000, sol_usd=94.0)
+
+    assert ratio > 50

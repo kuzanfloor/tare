@@ -124,6 +124,27 @@ only when it is cheap against what is being decided.
 | $0.10 | deepseek-v3.2 | $0.000707 | 0.707% | bought |
 | $5.00 | glm-5.1 | $0.005353 | 0.107% | bought |
 
+### The first paid call, and what it cost
+
+Settled on Solana 24 August, verified by reading the transaction back rather than
+trusting the `200`:
+
+| | |
+|---|---|
+| quoted cap | 8 microunits · $0.000008 |
+| inference actually cost | $0.0000039 |
+| **Solana network fee** | **5,000 lamports ≈ $0.00047** |
+| route served by | `centralized` — not the marketplace |
+
+**The settlement fee was ~120× the inference it bought.** The USDC balance would cover a
+million calls; the SOL covers about five thousand. Fees are the binding constraint, not
+the price of thinking.
+
+That is why settling against surplus credit is not a convenience — for a sub-cent
+purchase, on-chain settlement is the expensive path. The instrument reports which mode
+was used, because quoting the inference price alone would understate the cost by two
+orders of magnitude.
+
 Two details that are easy to get wrong, and are handled explicitly:
 
 - The gateway quotes **three** rails, including Base — and the plain error body

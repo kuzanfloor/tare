@@ -4,6 +4,9 @@ import base64
 import json
 from dataclasses import dataclass
 
+MICROUNITS_PER_USD = 1_000_000
+LAMPORTS_PER_SOL = 1_000_000_000
+
 
 @dataclass(frozen=True)
 class Rail:
@@ -66,3 +69,32 @@ class InferenceEvent:
         # Surplus settles by signature against prior credit — no transaction,
         # therefore no onchain volume. Reported, never chosen silently.
         return self.settle == "onchain"
+
+
+def build_payment_proof(quote: Quote, rail: Rail, payer: str, signature: str) -> str:
+    # The gateway matches a payment to its quote by id. A proof echoing the
+    # wrong quote settles nothing and the money is simply gone, so the quote
+    # and rail are carried through rather than restated by the caller.
+    return base64.b64encode(
+        json.dumps(
+            {
+                "quote_id": quote.quote_id,
+                "network": rail.network,
+                "asset": rail.asset,
+                "payer_wallet": payer,
+                "signature": signature,
+            }
+        ).encode()
+    ).decode()
+
+
+def fee_dominance(charged_micro: int, lamports_fee: int, sol_usd: float) -> float:
+    # How many times the settlement costs more than the thing it settles.
+    # Measured 24/08 on a real call: 8 microunits of inference against a
+    # 5,000-lamport fee is roughly 120x. This is why surplus settlement is not
+    # a convenience — on-chain settlement of a sub-cent purchase is the
+    # expensive path, and the instrument should say so rather than imply the
+    # inference price is the cost.
+    inference_usd = charged_micro / MICROUNITS_PER_USD
+    fee_usd = lamports_fee / LAMPORTS_PER_SOL * sol_usd
+    return fee_usd / inference_usd if inference_usd else float("inf")
