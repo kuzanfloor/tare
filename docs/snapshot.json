@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 35,
+  "inference_charged_micro": 29,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T21:07:22.359663+00:00",
+  "generated_at": "2026-08-24T22:07:05.971109+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 24.5,
+      "apr_pct": 24.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 24.4,
+      "apr_pct": 24.6,
       "persistence": 0.958,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.6,
+      "apr_pct": 22.7,
       "persistence": 0.946,
       "hours_to_clear_fees": 27,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.7,
+      "apr_pct": 19.8,
       "persistence": 0.944,
       "hours_to_clear_fees": 31,
       "n": 162,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 15.7,
+      "apr_pct": 15.8,
       "persistence": 0.909,
       "hours_to_clear_fees": 39,
       "n": 121,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.9,
+      "apr_pct": 13.0,
       "persistence": 0.873,
       "hours_to_clear_fees": 47,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 1,
+      "closes_in_h": 23,
       "verdict": "reject",
-      "why": "closes in 1h, needs 47h to clear fees"
+      "why": "closes in 23h, needs 47h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high and unusually uniform hold APRs across all listed assets stand out as unrealistic for typical market conditions, suggesting this data likely represents a simulated or non-representative scenario.",
+    "text": "The unusually high APR percentages for holding positions stand out in this funding carry table.",
     "model": "deepseek-v3.2",
-    "tx": "dXcP7LHbYXLW2x6NXjFtWz9ahnCwH3KTqJP1RPTPmxfZb878J4zqn3J7wjBCD6cBRZGWBhJoNa7PbQs8ZZEyv7n",
-    "charged_micro": 35
+    "tx": "5wcojaNc1nAmBjLnpD44ubFkEeE7g1GAnZP9hcw3upRGJ3tTZB63HCU9gSFZg8SXBp9yxGxJkeoq51wswroXF9py",
+    "charged_micro": 29
   },
   "history": {
-    "entries": 18,
-    "span_h": 59.85,
+    "entries": 19,
+    "span_h": 60.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T21:07:22.359663+00:00"
+    "last": "2026-08-24T22:07:05.971109+00:00"
   }
 }
