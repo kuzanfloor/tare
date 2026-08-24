@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T18:07:16.991290+00:00",
+  "generated_at": "2026-08-24T19:07:22.274898+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 24.2,
+      "apr_pct": 24.3,
       "persistence": 0.988,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 24.0,
+      "apr_pct": 24.2,
       "persistence": 0.958,
-      "hours_to_clear_fees": 26,
+      "hours_to_clear_fees": 25,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.2,
+      "apr_pct": 22.3,
       "persistence": 0.946,
-      "hours_to_clear_fees": 28,
+      "hours_to_clear_fees": 27,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -67,7 +67,7 @@
       "symbol": "AAVE",
       "apr_pct": 19.5,
       "persistence": 0.944,
-      "hours_to_clear_fees": 32,
+      "hours_to_clear_fees": 31,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 15.5,
-      "persistence": 0.907,
+      "apr_pct": 15.6,
+      "persistence": 0.908,
       "hours_to_clear_fees": 39,
-      "n": 118,
+      "n": 119,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.0,
+      "apr_pct": 14.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 44,
       "n": 167,
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 3,
+      "closes_in_h": 2,
       "verdict": "reject",
-      "why": "closes in 3h, needs 48h to clear fees"
+      "why": "closes in 2h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The high APRs are offered with a notable condition that markets can reject closing a position before fees are cleared.",
+    "text": "The exceptionally high and closely clustered \"APR hold\" rates for different cryptocurrencies stand out, as they are unusually profitable and inconsistent with typical funding rate mechanisms.",
     "model": "deepseek-v3.2",
-    "tx": "3dzC18S27n1bapwjayg4uCL61ahfjJUVF71CJYTjEzBN8ioRebitYRi66aPv6eyXHokEetyfWZeCrCW3zjFq4SKs",
-    "charged_micro": 33
+    "tx": "SvNocnREqxuKuJoPjNwoawE7rvyaeLcg5RVGti8SdKQuM2WHedwNqYaBxvJPRbEy26h2tTCAZwBVwWUbKPTeKkY",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 15,
-    "span_h": 56.85,
+    "entries": 16,
+    "span_h": 57.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T18:07:16.991290+00:00"
+    "last": "2026-08-24T19:07:22.274898+00:00"
   }
 }
