@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-24T19:07:22.274898+00:00",
+  "generated_at": "2026-08-24T20:07:15.024656+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 24.3,
+      "apr_pct": 24.4,
       "persistence": 0.988,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 24.2,
+      "apr_pct": 24.3,
       "persistence": 0.958,
       "hours_to_clear_fees": 25,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.3,
+      "apr_pct": 22.4,
       "persistence": 0.946,
       "hours_to_clear_fees": 27,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.5,
+      "apr_pct": 19.6,
       "persistence": 0.944,
       "hours_to_clear_fees": 31,
       "n": 162,
@@ -79,7 +79,7 @@
       "apr_pct": 15.6,
       "persistence": 0.908,
       "hours_to_clear_fees": 39,
-      "n": 119,
+      "n": 120,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 14.1,
       "persistence": 1.0,
-      "hours_to_clear_fees": 44,
+      "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.8,
+      "apr_pct": 12.9,
       "persistence": 0.873,
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 2,
+      "closes_in_h": 1,
       "verdict": "reject",
-      "why": "closes in 2h, needs 48h to clear fees"
+      "why": "closes in 1h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high and closely clustered \"APR hold\" rates for different cryptocurrencies stand out, as they are unusually profitable and inconsistent with typical funding rate mechanisms.",
+    "text": "The funding carry rates are exceptionally and unsustainably high, signaling extreme market conditions where perpetual swap traders holding short positions are paying a massive premium to those holding long.",
     "model": "deepseek-v3.2",
-    "tx": "SvNocnREqxuKuJoPjNwoawE7rvyaeLcg5RVGti8SdKQuM2WHedwNqYaBxvJPRbEy26h2tTCAZwBVwWUbKPTeKkY",
+    "tx": "5uLnBMrN7nso8sfKxGeAiQQPBcBciWGaKbNpKBq6jZRj4gJp69rGnvEdaSiiQLgB2JDh6rVuAiPmnF5sJJmZB7Za",
     "charged_micro": 38
   },
   "history": {
-    "entries": 16,
-    "span_h": 57.85,
+    "entries": 17,
+    "span_h": 58.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-24T19:07:22.274898+00:00"
+    "last": "2026-08-24T20:07:15.024656+00:00"
   }
 }
