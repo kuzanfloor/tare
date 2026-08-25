@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T07:07:22.265848+00:00",
+  "generated_at": "2026-08-25T08:07:11.005677+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.3,
+      "apr_pct": 26.4,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -31,19 +31,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "BNB",
-      "apr_pct": 25.9,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 24,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "NEAR",
-      "apr_pct": 25.7,
+      "apr_pct": 26.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 24,
       "n": 167,
@@ -53,10 +42,21 @@
       "why": "open continuously"
     },
     {
+      "symbol": "BNB",
+      "apr_pct": 26.0,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 24,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "ZEC",
-      "apr_pct": 24.0,
+      "apr_pct": 24.1,
       "persistence": 0.946,
-      "hours_to_clear_fees": 26,
+      "hours_to_clear_fees": 25,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.4,
+      "apr_pct": 20.5,
       "persistence": 0.944,
       "hours_to_clear_fees": 30,
       "n": 162,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 17.6,
-      "persistence": 0.936,
+      "persistence": 0.937,
       "hours_to_clear_fees": 35,
-      "n": 125,
+      "n": 126,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 14.8,
       "persistence": 1.0,
-      "hours_to_clear_fees": 42,
+      "hours_to_clear_fees": 41,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 14,
+      "closes_in_h": 13,
       "verdict": "reject",
-      "why": "closes in 14h, needs 48h to clear fees"
+      "why": "closes in 13h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The unusually high annualized funding rates of over 20% across multiple assets stand out as they indicate extreme market leverage and potential crowding, where the cost to hold a position may exceed its gains.",
+    "text": "The funding carry table stands out for showcasing exceptionally high APRs with a \"hold\" status across major cryptocurrencies, despite market conditions that close positions before fees are cleared.",
     "model": "deepseek-v3.2",
-    "tx": "3RA5U1k2QFdkJ7SLncT1Z4VFpoHKi8FPBuzwPiumq4qqF8curAvptWSojbKBeCSULfUGXoWiYNAnveiRCBSDepQ8",
-    "charged_micro": 36
+    "tx": "4sVtA4g6XVt5WrevpQLwnXRcUyPf3qVdbZ9uDRw5SfJ7BNvZuE6Linmpf5kDXYKjx1fnG3teK6KA2PWjpJuyvTBL",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 28,
-    "span_h": 69.85,
+    "entries": 29,
+    "span_h": 70.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T07:07:22.265848+00:00"
+    "last": "2026-08-25T08:07:11.005677+00:00"
   }
 }
