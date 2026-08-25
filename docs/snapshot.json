@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T10:07:03.989500+00:00",
+  "generated_at": "2026-08-25T11:07:22.425060+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.7,
+      "apr_pct": 26.8,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 26.1,
+      "apr_pct": 26.3,
       "persistence": 0.988,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.4,
+      "apr_pct": 24.5,
       "persistence": 0.946,
       "hours_to_clear_fees": 25,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.6,
+      "apr_pct": 20.7,
       "persistence": 0.944,
       "hours_to_clear_fees": 30,
       "n": 162,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 18.0,
+      "apr_pct": 17.9,
       "persistence": 0.945,
       "hours_to_clear_fees": 34,
-      "n": 127,
+      "n": 128,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -90,7 +90,7 @@
       "apr_pct": 15.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 41,
-      "n": 167,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 11,
+      "closes_in_h": 10,
       "verdict": "reject",
-      "why": "closes in 11h, needs 48h to clear fees"
+      "why": "closes in 10h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The funding carry table stands out because all listed assets show unusually high, consistent APR holds ranging from 20.6% to 26.7%, while being paired with a condition where positions risk closure before fees clear.",
+    "text": "This table indicates unusually high and suspiciously similar annual percentage rate (APR) holds across different cryptocurrencies, suggesting they are likely fraudulent offers designed to exploit investors with promises of unrealistic returns before positions are liquidated by fees.",
     "model": "deepseek-v3.2",
-    "tx": "5iMefYrqRBFniXMm8tzsgaq7twsnXHviUrJpMagxGTAgKht1Q1svPogcHLTiZ5HD63aMqBLUXkAqUrYSD4JqHdh9",
+    "tx": "4RypUdJetX5ZakeTjs9gJ62h6GmyjGF8RPjEZd9wiz2irx2oDbfKqyLoPjSLWT96YPzgZZzDkRzGax1D5QmFyJN2",
     "charged_micro": 38
   },
   "history": {
-    "entries": 31,
-    "span_h": 72.85,
+    "entries": 32,
+    "span_h": 73.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T10:07:03.989500+00:00"
+    "last": "2026-08-25T11:07:22.425060+00:00"
   }
 }
