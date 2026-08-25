@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 28,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T02:07:13.015110+00:00",
+  "generated_at": "2026-08-25T03:07:22.300346+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 25.4,
+      "apr_pct": 25.6,
       "persistence": 0.958,
       "hours_to_clear_fees": 24,
       "n": 166,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 25.3,
+      "apr_pct": 25.4,
       "persistence": 0.988,
       "hours_to_clear_fees": 24,
       "n": 166,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.1,
+      "apr_pct": 23.2,
       "persistence": 0.946,
-      "hours_to_clear_fees": 27,
+      "hours_to_clear_fees": 26,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.2,
+      "apr_pct": 20.3,
       "persistence": 0.944,
       "hours_to_clear_fees": 30,
       "n": 162,
@@ -79,7 +79,7 @@
       "apr_pct": 16.6,
       "persistence": 0.911,
       "hours_to_clear_fees": 37,
-      "n": 123,
+      "n": 124,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.5,
+      "apr_pct": 14.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 42,
       "n": 167,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 13.1,
+      "apr_pct": 13.0,
       "persistence": 0.873,
       "hours_to_clear_fees": 47,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 19,
+      "closes_in_h": 18,
       "verdict": "reject",
-      "why": "closes in 19h, needs 47h to clear fees"
+      "why": "closes in 18h, needs 47h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The funding carry table shows remarkably high, unusually similar holding APRs for major assets, with the markets being marked \"reject\" to close positions before traders can profit from these rates.",
+    "text": "The table's exceptionally high funding rates (all over 20% APR) for \"hold\" positions suggest these are likely perp markets with extreme, unsustainable bullish sentiment where shorting is extremely expensive.",
     "model": "deepseek-v3.2",
-    "tx": "3bv9AdXaVRVkAY9YLtp5H69FHzZQ3az6v6DXeKvgDvNDCZS98Txfjhh9tmxpME1ec6TYaK34e1nY1MK3hbpeFXLY",
-    "charged_micro": 38
+    "tx": "2veChuKK72M67TBZRKpQ95jTX2T4Ku5dDyLesfvgVASxoKEc51L58rcVTCx8zjnUyZXoU7KuBpiBjgzKAX6kR8VV",
+    "charged_micro": 28
   },
   "history": {
-    "entries": 23,
-    "span_h": 64.85,
+    "entries": 24,
+    "span_h": 65.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T02:07:13.015110+00:00"
+    "last": "2026-08-25T03:07:22.300346+00:00"
   }
 }
