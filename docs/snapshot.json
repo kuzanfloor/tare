@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T11:07:22.425060+00:00",
+  "generated_at": "2026-08-25T12:07:02.996099+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.8,
+      "apr_pct": 26.9,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 26.3,
+      "apr_pct": 26.5,
       "persistence": 0.988,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.5,
+      "apr_pct": 24.7,
       "persistence": 0.946,
       "hours_to_clear_fees": 25,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.7,
+      "apr_pct": 20.8,
       "persistence": 0.944,
       "hours_to_clear_fees": 30,
       "n": 162,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 17.9,
-      "persistence": 0.945,
+      "persistence": 0.946,
       "hours_to_clear_fees": 34,
-      "n": 128,
+      "n": 129,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.0,
+      "apr_pct": 15.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 41,
       "n": 168,
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 10,
+      "closes_in_h": 9,
       "verdict": "reject",
-      "why": "closes in 10h, needs 48h to clear fees"
+      "why": "closes in 9h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "This table indicates unusually high and suspiciously similar annual percentage rate (APR) holds across different cryptocurrencies, suggesting they are likely fraudulent offers designed to exploit investors with promises of unrealistic returns before positions are liquidated by fees.",
+    "text": "What stands out is that all listed assets show unrealistically high APRs, which likely represent the interest costs for short positions rather than investment yields, as they are on \"hold\" (indicating short funding) in a market where such positions risk closure before fees are covered.",
     "model": "deepseek-v3.2",
-    "tx": "4RypUdJetX5ZakeTjs9gJ62h6GmyjGF8RPjEZd9wiz2irx2oDbfKqyLoPjSLWT96YPzgZZzDkRzGax1D5QmFyJN2",
-    "charged_micro": 38
+    "tx": "4BxW4EGVv8RrK3ZHFSChzBq2XfFbL4s6PNCthr8K8mkAxmkkycijcRobX3nCiMgaLzFemNeSEEj8qFrXsTT6gNXR",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 32,
-    "span_h": 73.85,
+    "entries": 33,
+    "span_h": 74.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T11:07:22.425060+00:00"
+    "last": "2026-08-25T12:07:02.996099+00:00"
   }
 }
