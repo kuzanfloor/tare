@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-25T19:07:20.991050+00:00",
+  "generated_at": "2026-08-25T20:07:22.366215+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 27.4,
+      "apr_pct": 27.5,
       "persistence": 0.958,
       "hours_to_clear_fees": 22,
       "n": 166,
@@ -42,22 +42,22 @@
       "why": "open continuously"
     },
     {
-      "symbol": "BNB",
-      "apr_pct": 25.9,
-      "persistence": 1.0,
+      "symbol": "ZEC",
+      "apr_pct": 26.0,
+      "persistence": 0.976,
       "hours_to_clear_fees": 24,
-      "n": 168,
+      "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     },
     {
-      "symbol": "ZEC",
+      "symbol": "BNB",
       "apr_pct": 25.9,
-      "persistence": 0.97,
+      "persistence": 1.0,
       "hours_to_clear_fees": 24,
-      "n": 167,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.8,
+      "apr_pct": 19.7,
       "persistence": 0.948,
       "hours_to_clear_fees": 31,
-      "n": 134,
+      "n": 135,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.7,
+      "apr_pct": 11.6,
       "persistence": 0.873,
-      "hours_to_clear_fees": 52,
+      "hours_to_clear_fees": 53,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 2,
+      "closes_in_h": 1,
       "verdict": "reject",
-      "why": "closes in 2h, needs 52h to clear fees"
+      "why": "closes in 1h, needs 53h to clear fees"
     }
   ],
   "history": {
-    "entries": 40,
-    "span_h": 81.85,
+    "entries": 41,
+    "span_h": 82.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T19:07:20.991050+00:00"
+    "last": "2026-08-25T20:07:22.366215+00:00"
   }
 }
