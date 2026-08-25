@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T12:07:02.996099+00:00",
+  "generated_at": "2026-08-25T13:07:22.311409+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.9,
+      "apr_pct": 27.1,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 26.5,
+      "apr_pct": 26.6,
       "persistence": 0.988,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 26.0,
+      "apr_pct": 25.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.7,
+      "apr_pct": 24.9,
       "persistence": 0.946,
       "hours_to_clear_fees": 25,
       "n": 167,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.8,
+      "apr_pct": 20.9,
       "persistence": 0.944,
-      "hours_to_clear_fees": 30,
+      "hours_to_clear_fees": 29,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 17.9,
+      "apr_pct": 18.2,
       "persistence": 0.946,
       "hours_to_clear_fees": 34,
       "n": 129,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.1,
+      "apr_pct": 15.2,
       "persistence": 1.0,
-      "hours_to_clear_fees": 41,
+      "hours_to_clear_fees": 40,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.8,
+      "apr_pct": 12.7,
       "persistence": 0.873,
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 9,
+      "closes_in_h": 8,
       "verdict": "reject",
-      "why": "closes in 9h, needs 48h to clear fees"
+      "why": "closes in 8h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "What stands out is that all listed assets show unrealistically high APRs, which likely represent the interest costs for short positions rather than investment yields, as they are on \"hold\" (indicating short funding) in a market where such positions risk closure before fees are covered.",
+    "text": "The extremely high funding rates on these assets\u2014all above 20% APR\u2014signal traders are paying a massive, unsustainable premium to hold perpetual long positions, making the market exceptionally vulnerable to a sharp correction if sentiment shifts.",
     "model": "deepseek-v3.2",
-    "tx": "4BxW4EGVv8RrK3ZHFSChzBq2XfFbL4s6PNCthr8K8mkAxmkkycijcRobX3nCiMgaLzFemNeSEEj8qFrXsTT6gNXR",
-    "charged_micro": 36
+    "tx": "5ytMQqesrjCFScLMKZ8npLDjGqHD3QgKau679SN9VbE4XZhVQJnsNAHpa73FzKCjQdRK4fSxp6iz8BBsejs5eGaq",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 33,
-    "span_h": 74.85,
+    "entries": 34,
+    "span_h": 75.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T12:07:02.996099+00:00"
+    "last": "2026-08-25T13:07:22.311409+00:00"
   }
 }
