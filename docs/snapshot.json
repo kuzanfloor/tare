@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-25T16:07:22.320437+00:00",
+  "generated_at": "2026-08-25T17:07:20.902344+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 27.0,
+      "apr_pct": 27.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 25.4,
-      "persistence": 0.958,
+      "apr_pct": 25.6,
+      "persistence": 0.964,
       "hours_to_clear_fees": 24,
       "n": 167,
       "calendar": "24/7",
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.0,
-      "persistence": 0.951,
+      "apr_pct": 21.1,
+      "persistence": 0.957,
       "hours_to_clear_fees": 29,
       "n": 163,
       "calendar": "24/7",
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.0,
+      "apr_pct": 19.9,
       "persistence": 0.947,
       "hours_to_clear_fees": 31,
-      "n": 131,
+      "n": 132,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.3,
+      "apr_pct": 15.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 40,
       "n": 168,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 12.2,
+      "apr_pct": 12.0,
       "persistence": 0.873,
-      "hours_to_clear_fees": 50,
+      "hours_to_clear_fees": 51,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 5,
+      "closes_in_h": 4,
       "verdict": "reject",
-      "why": "closes in 5h, needs 50h to clear fees"
+      "why": "closes in 4h, needs 51h to clear fees"
     }
   ],
   "history": {
-    "entries": 37,
-    "span_h": 78.85,
+    "entries": 38,
+    "span_h": 79.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T16:07:22.320437+00:00"
+    "last": "2026-08-25T17:07:20.902344+00:00"
   }
 }
