@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-25T20:07:22.366215+00:00",
+  "generated_at": "2026-08-25T21:07:10.952104+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -19,6 +19,17 @@
   "delta": 0.0,
   "unconfirmed": 1,
   "carry": [
+    {
+      "symbol": "NEAR",
+      "apr_pct": 27.5,
+      "persistence": 0.988,
+      "hours_to_clear_fees": 22,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
     {
       "symbol": "SOL",
       "apr_pct": 27.5,
@@ -31,21 +42,10 @@
       "why": "open continuously"
     },
     {
-      "symbol": "NEAR",
-      "apr_pct": 27.4,
-      "persistence": 0.988,
-      "hours_to_clear_fees": 22,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "ZEC",
-      "apr_pct": 26.0,
+      "apr_pct": 26.1,
       "persistence": 0.976,
-      "hours_to_clear_fees": 24,
+      "hours_to_clear_fees": 23,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.9,
+      "apr_pct": 25.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.2,
+      "apr_pct": 21.3,
       "persistence": 0.957,
       "hours_to_clear_fees": 29,
       "n": 164,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 19.7,
-      "persistence": 0.948,
+      "persistence": 0.949,
       "hours_to_clear_fees": 31,
-      "n": 135,
+      "n": 136,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 15.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 40,
+      "hours_to_clear_fees": 39,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,9 +109,9 @@
     }
   ],
   "history": {
-    "entries": 41,
-    "span_h": 82.85,
+    "entries": 42,
+    "span_h": 83.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T20:07:22.366215+00:00"
+    "last": "2026-08-25T21:07:10.952104+00:00"
   }
 }
