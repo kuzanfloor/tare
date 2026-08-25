@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T06:07:14.982715+00:00",
+  "generated_at": "2026-08-25T07:07:22.265848+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.1,
+      "apr_pct": 26.3,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 26.0,
+      "apr_pct": 25.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 25.6,
+      "apr_pct": 25.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 24,
       "n": 167,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.8,
+      "apr_pct": 24.0,
       "persistence": 0.946,
       "hours_to_clear_fees": 26,
       "n": 167,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 17.2,
-      "persistence": 0.928,
-      "hours_to_clear_fees": 36,
+      "apr_pct": 17.6,
+      "persistence": 0.936,
+      "hours_to_clear_fees": 35,
       "n": 125,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.7,
+      "apr_pct": 14.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 42,
       "n": 167,
@@ -100,24 +100,24 @@
       "symbol": "GOLD",
       "apr_pct": 12.9,
       "persistence": 0.873,
-      "hours_to_clear_fees": 47,
+      "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 15,
+      "closes_in_h": 14,
       "verdict": "reject",
-      "why": "closes in 15h, needs 47h to clear fees"
+      "why": "closes in 14h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high annualized funding rates across multiple assets suggest intense, persistent demand for leveraged long positions, indicating a frothy market susceptible to sharp reversals when positions are forced to close.",
+    "text": "The unusually high annualized funding rates of over 20% across multiple assets stand out as they indicate extreme market leverage and potential crowding, where the cost to hold a position may exceed its gains.",
     "model": "deepseek-v3.2",
-    "tx": "4NXW3Tc2oZmmSq2jJoTCjE6qcv8S4t4joTqmbajnAXGecRfcLf8i5hNpFGSkzYPunWyoEziGhjJf2Tp7ced7digm",
-    "charged_micro": 38
+    "tx": "3RA5U1k2QFdkJ7SLncT1Z4VFpoHKi8FPBuzwPiumq4qqF8curAvptWSojbKBeCSULfUGXoWiYNAnveiRCBSDepQ8",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 27,
-    "span_h": 68.85,
+    "entries": 28,
+    "span_h": 69.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T06:07:14.982715+00:00"
+    "last": "2026-08-25T07:07:22.265848+00:00"
   }
 }
