@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 31,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T08:07:11.005677+00:00",
+  "generated_at": "2026-08-25T09:07:22.377138+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.4,
+      "apr_pct": 26.6,
       "persistence": 0.958,
       "hours_to_clear_fees": 23,
       "n": 166,
@@ -35,7 +35,7 @@
       "apr_pct": 26.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 24,
-      "n": 167,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.1,
+      "apr_pct": 24.3,
       "persistence": 0.946,
       "hours_to_clear_fees": 25,
       "n": 167,
@@ -79,7 +79,7 @@
       "apr_pct": 17.6,
       "persistence": 0.937,
       "hours_to_clear_fees": 35,
-      "n": 126,
+      "n": 127,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.8,
+      "apr_pct": 14.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 41,
       "n": 167,
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 13,
+      "closes_in_h": 12,
       "verdict": "reject",
-      "why": "closes in 13h, needs 48h to clear fees"
+      "why": "closes in 12h, needs 48h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The funding carry table stands out for showcasing exceptionally high APRs with a \"hold\" status across major cryptocurrencies, despite market conditions that close positions before fees are cleared.",
+    "text": "The exceptionally high and unusually uniform APR percentages across disparate cryptocurrencies stand out as a likely indicator of perpetual futures funding arbitrage rather than conventional lending yields.",
     "model": "deepseek-v3.2",
-    "tx": "4sVtA4g6XVt5WrevpQLwnXRcUyPf3qVdbZ9uDRw5SfJ7BNvZuE6Linmpf5kDXYKjx1fnG3teK6KA2PWjpJuyvTBL",
-    "charged_micro": 38
+    "tx": "5CUPE3hhwi4GW2jn6QMCmqpYGj5tgi9q19KWePiCzRnxh5urJe2gPdPHHcHL8gT4dY82u4gzdK858gBvwxei44y7",
+    "charged_micro": 31
   },
   "history": {
-    "entries": 29,
-    "span_h": 70.85,
+    "entries": 30,
+    "span_h": 71.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T08:07:11.005677+00:00"
+    "last": "2026-08-25T09:07:22.377138+00:00"
   }
 }
