@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-25T05:07:22.289355+00:00",
+  "generated_at": "2026-08-25T06:07:14.982715+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,9 +21,9 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 26.0,
+      "apr_pct": 26.1,
       "persistence": 0.958,
-      "hours_to_clear_fees": 24,
+      "hours_to_clear_fees": 23,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.9,
+      "apr_pct": 26.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -43,10 +43,10 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 25.7,
+      "apr_pct": 25.6,
       "persistence": 0.988,
       "hours_to_clear_fees": 24,
-      "n": 166,
+      "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.6,
+      "apr_pct": 23.8,
       "persistence": 0.946,
       "hours_to_clear_fees": 26,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.3,
+      "apr_pct": 20.4,
       "persistence": 0.944,
       "hours_to_clear_fees": 30,
       "n": 162,
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 17.2,
-      "persistence": 0.927,
+      "persistence": 0.928,
       "hours_to_clear_fees": 36,
-      "n": 124,
+      "n": 125,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 47,
       "n": 165,
       "calendar": "cme_commodities",
-      "closes_in_h": 16,
+      "closes_in_h": 15,
       "verdict": "reject",
-      "why": "closes in 16h, needs 47h to clear fees"
+      "why": "closes in 15h, needs 47h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The extremely high APRs across all listed assets suggest a period of intense market pressure or potential price dislocation, where funding costs are punitive for one side of the market.",
+    "text": "The exceptionally high annualized funding rates across multiple assets suggest intense, persistent demand for leveraged long positions, indicating a frothy market susceptible to sharp reversals when positions are forced to close.",
     "model": "deepseek-v3.2",
-    "tx": "2ifXngkHp5tT5VVb6jqAUiTzhehws2VSDFgiZCPi3NJXEgyJ5LL2psJZR5iJmrTpCGP1p8svUsR3SABPGFVPRR9t",
-    "charged_micro": 36
+    "tx": "4NXW3Tc2oZmmSq2jJoTCjE6qcv8S4t4joTqmbajnAXGecRfcLf8i5hNpFGSkzYPunWyoEziGhjJf2Tp7ced7digm",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 26,
-    "span_h": 67.85,
+    "entries": 27,
+    "span_h": 68.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T05:07:22.289355+00:00"
+    "last": "2026-08-25T06:07:14.982715+00:00"
   }
 }
