@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-25T21:07:10.952104+00:00",
+  "generated_at": "2026-08-25T22:07:22.366692+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -19,6 +19,17 @@
   "delta": 0.0,
   "unconfirmed": 1,
   "carry": [
+    {
+      "symbol": "SOL",
+      "apr_pct": 27.6,
+      "persistence": 0.958,
+      "hours_to_clear_fees": 22,
+      "n": 166,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
     {
       "symbol": "NEAR",
       "apr_pct": 27.5,
@@ -31,19 +42,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "SOL",
-      "apr_pct": 27.5,
-      "persistence": 0.958,
-      "hours_to_clear_fees": 22,
-      "n": 166,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "ZEC",
-      "apr_pct": 26.1,
+      "apr_pct": 26.2,
       "persistence": 0.976,
       "hours_to_clear_fees": 23,
       "n": 167,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.7,
+      "apr_pct": 19.6,
       "persistence": 0.949,
       "hours_to_clear_fees": 31,
-      "n": 136,
+      "n": 137,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.5,
+      "apr_pct": 15.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.6,
-      "persistence": 0.873,
-      "hours_to_clear_fees": 53,
-      "n": 165,
+      "apr_pct": 11.4,
+      "persistence": 0.872,
+      "hours_to_clear_fees": 54,
+      "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 1,
+      "closes_in_h": 23,
       "verdict": "reject",
-      "why": "closes in 1h, needs 53h to clear fees"
+      "why": "closes in 23h, needs 54h to clear fees"
     }
   ],
   "history": {
-    "entries": 42,
-    "span_h": 83.85,
+    "entries": 43,
+    "span_h": 84.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-25T21:07:10.952104+00:00"
+    "last": "2026-08-25T22:07:22.366692+00:00"
   }
 }
