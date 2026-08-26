@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-26T21:07:22.246785+00:00",
+  "generated_at": "2026-08-26T22:07:21.023054+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.9,
+      "apr_pct": 28.8,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 27.2,
+      "apr_pct": 27.3,
       "persistence": 0.988,
-      "hours_to_clear_fees": 23,
+      "hours_to_clear_fees": 22,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.6,
+      "apr_pct": 25.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.6,
+      "apr_pct": 19.7,
       "persistence": 0.98,
       "hours_to_clear_fees": 31,
       "n": 152,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 16.4,
+      "apr_pct": 16.3,
       "persistence": 1.0,
-      "hours_to_clear_fees": 37,
+      "hours_to_clear_fees": 38,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -99,25 +99,25 @@
     {
       "symbol": "GOLD",
       "apr_pct": 10.5,
-      "persistence": 0.878,
+      "persistence": 0.877,
       "hours_to_clear_fees": 58,
-      "n": 164,
+      "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 1,
+      "closes_in_h": 23,
       "verdict": "reject",
-      "why": "closes in 1h, needs 58h to clear fees"
+      "why": "closes in 23h, needs 58h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "What stands out is that these extremely high annualized funding rates across multiple assets are not profitable opportunities, as the positions are consistently closed by markets (\"reject\") before they can earn enough to cover the trading fees.",
+    "text": "All these crypto funding rates are persistently positive and unusually high, signaling extreme bullish leverage and a crowded long-side trade vulnerable to a sharp corrective squeeze.",
     "model": "deepseek-v3.2",
-    "tx": "3RX9PzTAjmcyghF2UEf9YSNKAZt1WGnW1wdxLrzha3jkspMkHtwHhD786eGgj3ZrwENyrRos7nvX9TEnhe7QSodB",
-    "charged_micro": 38
+    "tx": "5T2WocbrFhEitUhrgCmai7wvF22Rk7KNUgXr4Nqq18uVmgUFmGL98PJTcJE7Ca4XUdKasERXwTpxFtqS7eHUCpk2",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 66,
-    "span_h": 107.85,
+    "entries": 67,
+    "span_h": 108.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T21:07:22.246785+00:00"
+    "last": "2026-08-26T22:07:21.023054+00:00"
   }
 }
