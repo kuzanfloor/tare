@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-26T11:07:22.479861+00:00",
+  "generated_at": "2026-08-26T12:07:22.341852+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.6,
+      "apr_pct": 28.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 26.7,
+      "apr_pct": 26.8,
       "persistence": 0.976,
       "hours_to_clear_fees": 23,
       "n": 167,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.4,
+      "apr_pct": 19.1,
       "persistence": 0.959,
       "hours_to_clear_fees": 32,
-      "n": 145,
+      "n": 146,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 16.4,
+      "apr_pct": 16.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 37,
       "n": 168,
@@ -103,15 +103,15 @@
       "hours_to_clear_fees": 59,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 10,
+      "closes_in_h": 9,
       "verdict": "reject",
-      "why": "closes in 10h, needs 59h to clear fees"
+      "why": "closes in 9h, needs 59h to clear fees"
     }
   ],
   "history": {
-    "entries": 56,
-    "span_h": 97.85,
+    "entries": 57,
+    "span_h": 98.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T11:07:22.479861+00:00"
+    "last": "2026-08-26T12:07:22.341852+00:00"
   }
 }
