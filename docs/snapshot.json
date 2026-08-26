@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-26T00:07:22.551682+00:00",
+  "generated_at": "2026-08-26T01:07:06.104317+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -20,19 +20,8 @@
   "unconfirmed": 1,
   "carry": [
     {
-      "symbol": "SOL",
-      "apr_pct": 27.6,
-      "persistence": 0.958,
-      "hours_to_clear_fees": 22,
-      "n": 166,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "NEAR",
-      "apr_pct": 27.6,
+      "apr_pct": 27.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -42,8 +31,19 @@
       "why": "open continuously"
     },
     {
+      "symbol": "SOL",
+      "apr_pct": 27.7,
+      "persistence": 0.958,
+      "hours_to_clear_fees": 22,
+      "n": 166,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "ZEC",
-      "apr_pct": 26.4,
+      "apr_pct": 26.5,
       "persistence": 0.976,
       "hours_to_clear_fees": 23,
       "n": 167,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.4,
-      "persistence": 0.963,
-      "hours_to_clear_fees": 29,
+      "apr_pct": 21.7,
+      "persistence": 0.97,
+      "hours_to_clear_fees": 28,
       "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.4,
-      "persistence": 0.949,
+      "apr_pct": 19.3,
+      "persistence": 0.95,
       "hours_to_clear_fees": 32,
-      "n": 138,
+      "n": 139,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.2,
+      "apr_pct": 11.1,
       "persistence": 0.872,
       "hours_to_clear_fees": 55,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 21,
+      "closes_in_h": 20,
       "verdict": "reject",
-      "why": "closes in 21h, needs 55h to clear fees"
+      "why": "closes in 20h, needs 55h to clear fees"
     }
   ],
   "history": {
-    "entries": 45,
-    "span_h": 86.85,
+    "entries": 46,
+    "span_h": 87.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T00:07:22.551682+00:00"
+    "last": "2026-08-26T01:07:06.104317+00:00"
   }
 }
