@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 35,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-26T22:07:21.023054+00:00",
+  "generated_at": "2026-08-26T23:07:22.428722+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.8,
+      "apr_pct": 28.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.5,
+      "apr_pct": 25.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.7,
+      "apr_pct": 19.8,
       "persistence": 0.98,
       "hours_to_clear_fees": 31,
       "n": 152,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 16.3,
+      "apr_pct": 16.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 38,
       "n": 168,
@@ -99,25 +99,25 @@
     {
       "symbol": "GOLD",
       "apr_pct": 10.5,
-      "persistence": 0.877,
+      "persistence": 0.883,
       "hours_to_clear_fees": 58,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 23,
+      "closes_in_h": 22,
       "verdict": "reject",
-      "why": "closes in 23h, needs 58h to clear fees"
+      "why": "closes in 22h, needs 58h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "All these crypto funding rates are persistently positive and unusually high, signaling extreme bullish leverage and a crowded long-side trade vulnerable to a sharp corrective squeeze.",
+    "text": "What stands out is that the carry opportunities (high APRs from holding positions) are systematically negated by the markets rejecting and closing before fees are recovered.",
     "model": "deepseek-v3.2",
-    "tx": "5T2WocbrFhEitUhrgCmai7wvF22Rk7KNUgXr4Nqq18uVmgUFmGL98PJTcJE7Ca4XUdKasERXwTpxFtqS7eHUCpk2",
-    "charged_micro": 36
+    "tx": "5twezE9uCtswVa4wKn6SoL4tnqUz9pHFuMZ283c6CDpfKQoDDeTmDbriobs3w6jot1Pq1XBybdgVLWSuF3c9WsaW",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 67,
-    "span_h": 108.85,
+    "entries": 68,
+    "span_h": 109.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T22:07:21.023054+00:00"
+    "last": "2026-08-26T23:07:22.428722+00:00"
   }
 }
