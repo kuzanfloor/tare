@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-26T06:07:17.007076+00:00",
+  "generated_at": "2026-08-26T07:07:22.296222+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.7,
+      "apr_pct": 25.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -66,7 +66,7 @@
     {
       "symbol": "AAVE",
       "apr_pct": 21.8,
-      "persistence": 0.976,
+      "persistence": 0.982,
       "hours_to_clear_fees": 28,
       "n": 166,
       "calendar": "24/7",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 16.1,
+      "apr_pct": 16.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 38,
       "n": 168,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 10.8,
+      "apr_pct": 10.7,
       "persistence": 0.872,
       "hours_to_clear_fees": 57,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 15,
+      "closes_in_h": 14,
       "verdict": "reject",
-      "why": "closes in 15h, needs 57h to clear fees"
+      "why": "closes in 14h, needs 57h to clear fees"
     }
   ],
   "history": {
-    "entries": 51,
-    "span_h": 92.85,
+    "entries": 52,
+    "span_h": 93.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T06:07:17.007076+00:00"
+    "last": "2026-08-26T07:07:22.296222+00:00"
   }
 }
