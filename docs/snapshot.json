@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-08-26T02:07:22.361730+00:00",
+  "generated_at": "2026-08-26T03:07:02.519230+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.8,
+      "apr_pct": 27.9,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.6,
-      "persistence": 0.97,
+      "apr_pct": 21.8,
+      "persistence": 0.976,
       "hours_to_clear_fees": 28,
       "n": 165,
       "calendar": "24/7",
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.3,
+      "apr_pct": 19.2,
       "persistence": 0.95,
       "hours_to_clear_fees": 32,
-      "n": 140,
+      "n": 141,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.8,
+      "apr_pct": 15.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.1,
+      "apr_pct": 11.0,
       "persistence": 0.872,
-      "hours_to_clear_fees": 55,
+      "hours_to_clear_fees": 56,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 19,
+      "closes_in_h": 18,
       "verdict": "reject",
-      "why": "closes in 19h, needs 55h to clear fees"
+      "why": "closes in 18h, needs 56h to clear fees"
     }
   ],
   "history": {
-    "entries": 47,
-    "span_h": 88.85,
+    "entries": 48,
+    "span_h": 89.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-26T02:07:22.361730+00:00"
+    "last": "2026-08-26T03:07:02.519230+00:00"
   }
 }
