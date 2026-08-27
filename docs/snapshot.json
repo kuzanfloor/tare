@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T03:07:22.459964+00:00",
+  "generated_at": "2026-08-27T04:07:22.456764+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 28.3,
+      "apr_pct": 28.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.3,
+      "apr_pct": 25.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.0,
+      "apr_pct": 20.1,
       "persistence": 0.98,
       "hours_to_clear_fees": 31,
       "n": 152,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 10.6,
+      "apr_pct": 10.5,
       "persistence": 0.889,
       "hours_to_clear_fees": 58,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 18,
+      "closes_in_h": 17,
       "verdict": "reject",
-      "why": "closes in 18h, needs 58h to clear fees"
+      "why": "closes in 17h, needs 58h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "All listed assets show unusually and suspiciously consistent high APRs for funding holds, suggesting these numbers are likely placeholder or fabricated data.",
+    "text": "The standout feature is that **despite multiple crypto assets (SOL, NEAR, ZEC, BNB, AAVE) holding unusually high APRs between 22% and 28.5%, traders cannot capture this yield because the markets are set to \"reject\" and close positions before",
     "model": "deepseek-v3.2",
-    "tx": "3iLC8BYoufuvFVgzaj7JwdDTFrSiXWivwF3ytwhLLzLTjeXCky9gJE5CngfPwjVAG9X1ubswFoRaFYfEbXssiz8m",
+    "tx": "125agAww81suYpakiTKnWavRpejCw9F5UYLkn5Y11NbU5RjbV5XYyKim4Es6MR7mfA2EPJUoKtw4jLoYkbdSpbkU",
     "charged_micro": 38
   },
   "history": {
-    "entries": 72,
-    "span_h": 113.85,
+    "entries": 73,
+    "span_h": 114.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T03:07:22.459964+00:00"
+    "last": "2026-08-27T04:07:22.456764+00:00"
   }
 }
