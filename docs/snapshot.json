@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T01:07:22.416702+00:00",
+  "generated_at": "2026-08-27T02:07:06.056298+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -20,22 +20,22 @@
   "unconfirmed": 1,
   "carry": [
     {
-      "symbol": "NEAR",
-      "apr_pct": 28.5,
-      "persistence": 0.988,
+      "symbol": "SOL",
+      "apr_pct": 28.4,
+      "persistence": 0.958,
       "hours_to_clear_fees": 22,
-      "n": 168,
+      "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     },
     {
-      "symbol": "SOL",
+      "symbol": "NEAR",
       "apr_pct": 28.4,
-      "persistence": 0.958,
+      "persistence": 0.988,
       "hours_to_clear_fees": 22,
-      "n": 166,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.8,
+      "apr_pct": 19.9,
       "persistence": 0.98,
       "hours_to_clear_fees": 31,
       "n": 152,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 10.6,
-      "persistence": 0.896,
+      "apr_pct": 10.5,
+      "persistence": 0.89,
       "hours_to_clear_fees": 58,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 20,
+      "closes_in_h": 19,
       "verdict": "reject",
-      "why": "closes in 20h, needs 58h to clear fees"
+      "why": "closes in 19h, needs 58h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "What stands out is the implausibly high sustained yields across all assets, which are immediately hedged with a caution that markets may reject a position before it becomes profitable.",
+    "text": "The funding carry table reveals notably high and similar APR holds across major cryptocurrencies, dominated by SOL and NEAR at 28.4%, which stand out as unusually elevated and consistent rates in a volatile market environment.",
     "model": "deepseek-v3.2",
-    "tx": "5QqEtzuXCNF8BFFtiDaKaCVkjiJmRWW7bg81nr4ceJ1XEQMbh8bwgA4tC1yK5787SBLm6PHb9LsL4Gsy2H72XJoz",
+    "tx": "4oC5VPrvkkMWxn2mLYke7oGf9eNAhTPGFes6JEZZ7T8DFgP22oyxB3bhhjvPXrv37ikai1LNVNSJkWK2tUH64ftQ",
     "charged_micro": 38
   },
   "history": {
-    "entries": 70,
-    "span_h": 111.85,
+    "entries": 71,
+    "span_h": 112.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T01:07:22.416702+00:00"
+    "last": "2026-08-27T02:07:06.056298+00:00"
   }
 }
