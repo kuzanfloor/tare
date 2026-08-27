@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 32,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T06:07:01.565336+00:00",
+  "generated_at": "2026-08-27T07:07:22.334204+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 27.9,
+      "apr_pct": 27.8,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.1,
+      "apr_pct": 25.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 10.4,
-      "persistence": 0.883,
+      "apr_pct": 10.3,
+      "persistence": 0.877,
       "hours_to_clear_fees": 59,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 15,
+      "closes_in_h": 14,
       "verdict": "reject",
-      "why": "closes in 15h, needs 59h to clear fees"
+      "why": "closes in 14h, needs 59h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "What stands out is that all assets show extremely high funding carry APRs, suggesting persistent, elevated demand for long positions that is not being met by enough shorts, leading to perpetual longs paying heavy premiums to shorts.",
+    "text": "What stands out is that despite these extremely high funding rates (APRs from 22.1% to 28.5%), the persistent market structure is bearish, as each market consistently rejects and closes down before a long position can profit from the carry.",
     "model": "deepseek-v3.2",
-    "tx": "3Vyhzcnh3BbEJXaAWhPy93dCCfjDvUyVmxiqPRKf6dRSs82CC315339HTfZgVSB7B6aEfZ7hMBbP3mwt9zDmqP53",
-    "charged_micro": 38
+    "tx": "2yjKnPE3SpSA7xaoUwooFrLHJUBxetmumSb7n6FFEu7P1vEgAHRJisJQA6cET361yoYBsFXdcY3cnNrDxitR8B78",
+    "charged_micro": 32
   },
   "history": {
-    "entries": 75,
-    "span_h": 116.85,
+    "entries": 76,
+    "span_h": 117.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T06:07:01.565336+00:00"
+    "last": "2026-08-27T07:07:22.334204+00:00"
   }
 }
