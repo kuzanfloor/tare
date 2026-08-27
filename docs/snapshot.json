@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 31,
+  "inference_charged_micro": 30,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T17:07:02.103916+00:00",
+  "generated_at": "2026-08-27T18:07:22.416751+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 29.0,
+      "apr_pct": 28.9,
       "persistence": 0.958,
       "hours_to_clear_fees": 21,
       "n": 166,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 27.7,
+      "apr_pct": 27.8,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 167,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 24.8,
+      "apr_pct": 24.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.1,
+      "apr_pct": 22.5,
       "persistence": 0.987,
-      "hours_to_clear_fees": 28,
+      "hours_to_clear_fees": 27,
       "n": 159,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.6,
-      "persistence": 0.862,
-      "hours_to_clear_fees": 49,
+      "apr_pct": 12.9,
+      "persistence": 0.868,
+      "hours_to_clear_fees": 48,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The pattern of unusually high \"APR hold\" percentages for negative funding rates suggests a sustained and severe market structure anomaly across multiple assets.",
+    "text": "The unusually high funding carry APRs indicate significant short interest and borrowing demand across these assets.",
     "model": "deepseek-v3.2",
-    "tx": "2kiCCpYJgF1QcrmhE9hVGtVJKoUZ2v8tTvzCuPM2x7K6vkCsuCi8xbceygX14fGPEdGjFAqGXg8Cbcjshrb2RjWy",
-    "charged_micro": 31
+    "tx": "DJcYVdej3d3j5vG12LghVvZxGrEcnkhPACn7qW7SB3KaURfKgp1Sfhu8VghhphCFYzJNm9yucDtBs6hvcjJnt2A",
+    "charged_micro": 30
   },
   "history": {
-    "entries": 85,
-    "span_h": 127.85,
+    "entries": 86,
+    "span_h": 128.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T17:07:02.103916+00:00"
+    "last": "2026-08-27T18:07:22.416751+00:00"
   }
 }
