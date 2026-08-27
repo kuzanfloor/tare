@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T00:07:14.962481+00:00",
+  "generated_at": "2026-08-27T01:07:22.416702+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -23,7 +23,7 @@
       "symbol": "NEAR",
       "apr_pct": 28.5,
       "persistence": 0.988,
-      "hours_to_clear_fees": 21,
+      "hours_to_clear_fees": 22,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 28.3,
+      "apr_pct": 28.4,
       "persistence": 0.958,
       "hours_to_clear_fees": 22,
       "n": 166,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 25.4,
+      "apr_pct": 25.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 22.0,
+      "apr_pct": 22.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 167,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 16.1,
+      "apr_pct": 16.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 38,
       "n": 168,
@@ -99,25 +99,25 @@
     {
       "symbol": "GOLD",
       "apr_pct": 10.6,
-      "persistence": 0.89,
+      "persistence": 0.896,
       "hours_to_clear_fees": 58,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 21,
+      "closes_in_h": 20,
       "verdict": "reject",
-      "why": "closes in 21h, needs 58h to clear fees"
+      "why": "closes in 20h, needs 58h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "This table stands out because all assets listed show negative funding rates (indicated by \"hold\" meaning holders are paid) yet the markets are rejecting price moves upward and closing before positions become profitable, creating a contradictory dynamic.",
+    "text": "What stands out is the implausibly high sustained yields across all assets, which are immediately hedged with a caution that markets may reject a position before it becomes profitable.",
     "model": "deepseek-v3.2",
-    "tx": "2vS9tSkjU9j5ATYzowA2V8LHMkpao82CawuXZt5xXfjc1qP8DnVWMJNvuJs9rL4mqJ47p9iuLnkrsMEheYVAESrL",
+    "tx": "5QqEtzuXCNF8BFFtiDaKaCVkjiJmRWW7bg81nr4ceJ1XEQMbh8bwgA4tC1yK5787SBLm6PHb9LsL4Gsy2H72XJoz",
     "charged_micro": 38
   },
   "history": {
-    "entries": 69,
-    "span_h": 110.85,
+    "entries": 70,
+    "span_h": 111.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T00:07:14.962481+00:00"
+    "last": "2026-08-27T01:07:22.416702+00:00"
   }
 }
