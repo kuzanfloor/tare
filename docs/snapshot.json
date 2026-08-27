@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 27,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T14:07:22.425710+00:00",
+  "generated_at": "2026-08-27T15:07:09.069756+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 28.1,
+      "apr_pct": 28.2,
       "persistence": 0.994,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 22.2,
-      "persistence": 1.0,
+      "apr_pct": 22.1,
+      "persistence": 0.994,
       "hours_to_clear_fees": 28,
       "n": 167,
       "calendar": "24/7",
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 21.8,
+      "apr_pct": 21.9,
       "persistence": 0.987,
       "hours_to_clear_fees": 28,
-      "n": 156,
+      "n": 157,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 11.6,
-      "persistence": 0.844,
-      "hours_to_clear_fees": 53,
+      "apr_pct": 12.0,
+      "persistence": 0.85,
+      "hours_to_clear_fees": 51,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extremely high funding rates indicate traders are paying exorbitant short-term premiums to maintain leveraged long positions, creating unsustainable conditions where markets frequently reverse before profits can be realized.",
+    "text": "The extremely high APRs on these funding rates, coupled with a market structure that forces position closure before fees are cleared, indicate a precarious and likely unsustainable short-term lending environment.",
     "model": "deepseek-v3.2",
-    "tx": "Qqcc5KiouAVX4ZR4x6yEUafsgwqYKawN8gQ8URnDtHAruTVKnCxzQbEFMtHVPcf5wJRUHPmiQedXjyTUJRvoPjt",
-    "charged_micro": 27
+    "tx": "k1cpRugzoXTsqhDxTM59KMLhM2jaivTZN4RiysABpfnNjdZibhyETkj6JmpCypudyg68qCsMSZ8Y8aSKp3VPcqH",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 82,
-    "span_h": 124.85,
+    "entries": 83,
+    "span_h": 125.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T14:07:22.425710+00:00"
+    "last": "2026-08-27T15:07:09.069756+00:00"
   }
 }
