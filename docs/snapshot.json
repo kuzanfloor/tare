@@ -11,7 +11,7 @@
   "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T04:07:22.456764+00:00",
+  "generated_at": "2026-08-27T05:07:22.452868+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 28.2,
+      "apr_pct": 28.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.1,
+      "apr_pct": 20.2,
       "persistence": 0.98,
-      "hours_to_clear_fees": 31,
+      "hours_to_clear_fees": 30,
       "n": 152,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 15.9,
       "persistence": 1.0,
-      "hours_to_clear_fees": 38,
+      "hours_to_clear_fees": 39,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -100,24 +100,24 @@
       "symbol": "GOLD",
       "apr_pct": 10.5,
       "persistence": 0.889,
-      "hours_to_clear_fees": 58,
+      "hours_to_clear_fees": 59,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 17,
+      "closes_in_h": 16,
       "verdict": "reject",
-      "why": "closes in 17h, needs 58h to clear fees"
+      "why": "closes in 16h, needs 59h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The standout feature is that **despite multiple crypto assets (SOL, NEAR, ZEC, BNB, AAVE) holding unusually high APRs between 22% and 28.5%, traders cannot capture this yield because the markets are set to \"reject\" and close positions before",
+    "text": "The extremely high APR holds across all listed cryptocurrencies (ranging from 22.1% to 28.5%) are exceptionally high and unrealistic compared to standard market lending or yield rates.",
     "model": "deepseek-v3.2",
-    "tx": "125agAww81suYpakiTKnWavRpejCw9F5UYLkn5Y11NbU5RjbV5XYyKim4Es6MR7mfA2EPJUoKtw4jLoYkbdSpbkU",
+    "tx": "DAPBxHxkmJ1h5HCZGKP5zQLLTrrbMzCsq6avpgBhRUxMv6Lr2vccHVMmLgaP3aPxUBgarwQCCZebTquniYDhxPm",
     "charged_micro": 38
   },
   "history": {
-    "entries": 73,
-    "span_h": 114.85,
+    "entries": 74,
+    "span_h": 115.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T04:07:22.456764+00:00"
+    "last": "2026-08-27T05:07:22.452868+00:00"
   }
 }
