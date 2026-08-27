@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 37,
+  "inference_charged_micro": 31,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T16:07:22.444441+00:00",
+  "generated_at": "2026-08-27T17:07:02.103916+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 28.2,
+      "apr_pct": 28.3,
       "persistence": 0.994,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 24.9,
+      "apr_pct": 24.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -64,8 +64,19 @@
       "why": "open continuously"
     },
     {
-      "symbol": "AAVE",
+      "symbol": "TAO",
       "apr_pct": 22.1,
+      "persistence": 0.987,
+      "hours_to_clear_fees": 28,
+      "n": 159,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "AAVE",
+      "apr_pct": 22.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
       "n": 167,
@@ -75,19 +86,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "TAO",
-      "apr_pct": 22.0,
-      "persistence": 0.987,
-      "hours_to_clear_fees": 28,
-      "n": 158,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "ETH",
-      "apr_pct": 15.6,
+      "apr_pct": 15.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.3,
-      "persistence": 0.856,
-      "hours_to_clear_fees": 50,
+      "apr_pct": 12.6,
+      "persistence": 0.862,
+      "hours_to_clear_fees": 49,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "This table highlights anomalously high annual percentage rate (APR) holds across different assets, which traders are likely to lose if the market closes against them before covering the steep funding costs.",
+    "text": "The pattern of unusually high \"APR hold\" percentages for negative funding rates suggests a sustained and severe market structure anomaly across multiple assets.",
     "model": "deepseek-v3.2",
-    "tx": "3SvTEZHEe4NA6RpRAtkZBnqgtPyNhqQmN4LrQYhyNd7FwCHm1hPgqjqQvsbuKVbaLGvY1GgGB88y9CftTZfarH6j",
-    "charged_micro": 37
+    "tx": "2kiCCpYJgF1QcrmhE9hVGtVJKoUZ2v8tTvzCuPM2x7K6vkCsuCi8xbceygX14fGPEdGjFAqGXg8Cbcjshrb2RjWy",
+    "charged_micro": 31
   },
   "history": {
-    "entries": 84,
-    "span_h": 126.85,
+    "entries": 85,
+    "span_h": 127.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T16:07:22.444441+00:00"
+    "last": "2026-08-27T17:07:02.103916+00:00"
   }
 }
