@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 25,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T19:07:22.315838+00:00",
+  "generated_at": "2026-08-27T20:07:21.154088+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 24.6,
+      "apr_pct": 24.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.6,
-      "persistence": 0.988,
+      "apr_pct": 23.0,
+      "persistence": 0.994,
       "hours_to_clear_fees": 27,
       "n": 160,
       "calendar": "24/7",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.5,
+      "apr_pct": 15.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.1,
-      "persistence": 0.874,
-      "hours_to_clear_fees": 47,
+      "apr_pct": 13.5,
+      "persistence": 0.88,
+      "hours_to_clear_fees": 46,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extremely high annualized funding rates suggest traders are paying a massive premium for leveraged long positions that are likely unsustainable and at risk of a sharp reversal.",
+    "text": "The funding rates across these assets are strikingly high and consistent, all showing positive \"APR hold\" values that suggest a persistent, expensive cost to maintain long positions.",
     "model": "deepseek-v3.2",
-    "tx": "4pPdkBvj1XeAu5iVf5uG5jTaw7tfcL7PXYeHfgRRhhLbXGogRTTnBPFfEkSUNHsLrgzwarJYH2M6bjWJ3mKkb65r",
-    "charged_micro": 25
+    "tx": "jjmnH9YzgG68FpeLRC3hxyxa47UTPTf5QnKC9bN69PAFAXTPcrQM2RW9Foz6MZmKH4GhWbbbNkL7xSmp3Jrhrn3",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 87,
-    "span_h": 129.85,
+    "entries": 88,
+    "span_h": 130.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T19:07:22.315838+00:00"
+    "last": "2026-08-27T20:07:21.154088+00:00"
   }
 }
