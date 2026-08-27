@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 30,
+  "inference_charged_micro": 25,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T08:07:22.375118+00:00",
+  "generated_at": "2026-08-27T09:07:21.031047+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -23,7 +23,7 @@
       "symbol": "SOL",
       "apr_pct": 28.5,
       "persistence": 0.958,
-      "hours_to_clear_fees": 22,
+      "hours_to_clear_fees": 21,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -79,7 +79,7 @@
       "apr_pct": 20.5,
       "persistence": 0.98,
       "hours_to_clear_fees": 30,
-      "n": 152,
+      "n": 153,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 60,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 13,
+      "closes_in_h": 12,
       "verdict": "reject",
-      "why": "closes in 13h, needs 60h to clear fees"
+      "why": "closes in 12h, needs 60h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The extremely high APR holds across all assets signal unsustainable borrowing demand or illiquidity, as these rates far exceed typical market yields and likely trigger automatic liquidations before positions become profitable.",
+    "text": "The extremely high APR holds across multiple assets stand out, indicating elevated borrowing demand and potential funding pressure.",
     "model": "deepseek-v3.2",
-    "tx": "jgWNBdS6cPBTA1gdiMq17Bx3hQsMLqhTUGtwEMMNcieKEUeKtuq8iczdGEYWQRyHEpqB2BuNumSXfVmvM8vfDUQ",
-    "charged_micro": 30
+    "tx": "3mEHQMQbgSB79KAy659W21ZMH3TAqWPX5zegC221q4hFfTFdrcELNyu4PCU6BHfkZzK1QmwHNE3eefiNiLppHhV8",
+    "charged_micro": 25
   },
   "history": {
-    "entries": 77,
-    "span_h": 118.85,
+    "entries": 78,
+    "span_h": 119.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T08:07:22.375118+00:00"
+    "last": "2026-08-27T09:07:21.031047+00:00"
   }
 }
