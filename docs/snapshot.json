@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T13:07:17.061572+00:00",
+  "generated_at": "2026-08-28T14:07:22.380618+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 27.8,
+      "apr_pct": 27.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 25.4,
+      "apr_pct": 25.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 23.0,
+      "apr_pct": 22.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.5,
+      "apr_pct": 14.4,
       "persistence": 0.922,
       "hours_to_clear_fees": 42,
       "n": 167,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "This funding carry table stands out because it shows extremely high implied APRs (ranging from 23% to 30%) across all listed assets, which are unsustainable and indicate markets are repeatedly rejecting price levels *before* a trader could capture that carry and clear the funding fees.",
+    "text": "The striking feature is the negative funding rate (requiring \"hold\" payments) for these assets, paired with extremely high APRs that are likely unsustainable before price correction.",
     "model": "deepseek-v3.2",
-    "tx": "DkHkzYdrGPbujzJ7xYfbQbCzS7eK3JnntXXoovCPizhDwNeQbhR7MbycAhCtA6Ba9FP3QxjGiYnTEHzdz2iYxY1",
-    "charged_micro": 33
+    "tx": "37XViSL3o5R5wuyaw82fopBH6A5RwpKJKk9qaYRVqQ6GLy9gW9eEPYyX2XuV46vEHNzchfBzxMb8ugTPpjYi41f3",
+    "charged_micro": 39
   },
   "history": {
-    "entries": 105,
-    "span_h": 147.85,
+    "entries": 106,
+    "span_h": 148.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T13:07:17.061572+00:00"
+    "last": "2026-08-28T14:07:22.380618+00:00"
   }
 }
