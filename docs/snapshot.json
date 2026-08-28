@@ -11,7 +11,7 @@
   "inference_charged_micro": 33,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T03:07:17.089679+00:00",
+  "generated_at": "2026-08-28T04:07:22.450754+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.4,
+      "apr_pct": 29.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 28.9,
-      "persistence": 0.958,
+      "apr_pct": 29.0,
+      "persistence": 0.964,
       "hours_to_clear_fees": 21,
       "n": 166,
       "calendar": "24/7",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.4,
+      "apr_pct": 24.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 24.0,
+      "apr_pct": 23.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 22.0,
+      "apr_pct": 21.8,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
-      "n": 165,
+      "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "What stands out is that despite all these assets having exceptionally high estimated annual percentage rates (APR) for \"hold\" (likely referring to funding rates or staking yields), the markets consistently reject (close) the position before it can clear the fees necessary to realize that yield.",
+    "text": "The table highlights consistently high funding rates across multiple assets, yet notes that rejecting markets can close positions before they even cover their fees.",
     "model": "deepseek-v3.2",
-    "tx": "2ZpjPD7MiuFCx5kD1WGdqYEJvNbnjAeAwAnXuMfqUNBGohhCDNBPWwo2sFe1Bi4oRWhggPjc2QEEpkqtMksGjgTh",
+    "tx": "4x77r5mdKZ8Y4FSr6JJ5g7gfS36zcE6gCRqdLDGzvKCwrrZo251RmUaQEt9sbkYxCoSzLqEShs7smwoyrMYgm6zs",
     "charged_micro": 33
   },
   "history": {
-    "entries": 95,
-    "span_h": 137.85,
+    "entries": 96,
+    "span_h": 138.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T03:07:17.089679+00:00"
+    "last": "2026-08-28T04:07:22.450754+00:00"
   }
 }
