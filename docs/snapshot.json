@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 35,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T06:07:22.465619+00:00",
+  "generated_at": "2026-08-28T07:07:18.957753+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.7,
+      "apr_pct": 29.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.2,
-      "persistence": 0.976,
+      "apr_pct": 29.3,
+      "persistence": 0.982,
       "hours_to_clear_fees": 21,
       "n": 166,
       "calendar": "24/7",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.8,
+      "apr_pct": 25.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 23.9,
+      "apr_pct": 23.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.9,
+      "apr_pct": 22.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
-      "n": 165,
+      "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.1,
+      "apr_pct": 14.2,
       "persistence": 0.904,
       "hours_to_clear_fees": 43,
       "n": 167,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "This funding carry table stands out because the listed assets offer remarkably high annualized returns for holding the position, but those profits are systematically negated as markets trend against the trade (\"marked reject\") before the funding fees can be collected.",
+    "text": "The exceptionally high and suspiciously similar APRs on long-only \"hold\" positions across different assets suggest this \"funding carry table\" is likely fabricated to promote a scam or unrealistic scheme.",
     "model": "deepseek-v3.2",
-    "tx": "5YNVXeT349rjVWfwmPr28117x1yg9e911WWBk5XP3K9N7DvtdCAZdveq8wzXqF8fMnR6RPEGJeArWjS78L7KFYdu",
-    "charged_micro": 38
+    "tx": "3USvTYLoLswc2YRXFZzSuDEoXRj1ZdeXt2MNyd3kEovHXz2wesDECZZoewvucKpUZqWvbVAjn9zUovaFGtQCQ1PW",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 98,
-    "span_h": 140.85,
+    "entries": 99,
+    "span_h": 141.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T06:07:22.465619+00:00"
+    "last": "2026-08-28T07:07:18.957753+00:00"
   }
 }
