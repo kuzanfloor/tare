@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 28,
+  "inference_charged_micro": 35,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T21:07:22.420998+00:00",
+  "generated_at": "2026-08-28T22:07:05.054295+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 30.0,
+      "apr_pct": 30.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 20,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 26.7,
+      "apr_pct": 26.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.9,
+      "apr_pct": 24.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 21.9,
+      "apr_pct": 21.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.9,
+      "apr_pct": 20.8,
       "persistence": 0.988,
-      "hours_to_clear_fees": 29,
+      "hours_to_clear_fees": 30,
       "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.1,
+      "apr_pct": 15.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 41,
       "n": 168,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "What stands out is that all five listed assets show exceptionally high, seemingly unsustainable APRs for a hold strategy, suggesting a high-risk environment likely driven by speculative lending demand or short squeezes.",
+    "text": "All assets show substantial annual percentage rate (APR) \"holds,\" indicating high funding costs or interest for maintaining leveraged positions before positions are closed to cover fees.",
     "model": "deepseek-v3.2",
-    "tx": "3EMoEYntq3PouqBkLgLkSaafwX6nfJBpMmDZD8mi1GGrqdWZCTk7YRtePLrEVE3LM2njoQiu679C4sx4tphV6tPL",
-    "charged_micro": 28
+    "tx": "4hq9VUnGDKJxSd7dVJZ4DpwrUUbZQjf754QtNRN92EDyScwwLeNFpfEbyUgxMpDv2PDBneRRQbP192M1yV1Jqnmo",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 113,
-    "span_h": 155.85,
+    "entries": 114,
+    "span_h": 156.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T21:07:22.420998+00:00"
+    "last": "2026-08-28T22:07:05.054295+00:00"
   }
 }
