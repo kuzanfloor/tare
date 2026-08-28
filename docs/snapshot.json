@@ -11,7 +11,7 @@
   "inference_charged_micro": 33,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T04:07:22.450754+00:00",
+  "generated_at": "2026-08-28T05:07:21.050820+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.5,
+      "apr_pct": 29.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.0,
-      "persistence": 0.964,
+      "apr_pct": 29.1,
+      "persistence": 0.97,
       "hours_to_clear_fees": 21,
       "n": 166,
       "calendar": "24/7",
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 28.3,
+      "apr_pct": 28.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.6,
+      "apr_pct": 24.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.0,
+      "apr_pct": 14.1,
       "persistence": 0.904,
       "hours_to_clear_fees": 44,
       "n": 167,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table highlights consistently high funding rates across multiple assets, yet notes that rejecting markets can close positions before they even cover their fees.",
+    "text": "The exceptionally high funding rates and the stipulation that trades can close before fees are recouped highlight the table's significant risk-reward asymmetry.",
     "model": "deepseek-v3.2",
-    "tx": "4x77r5mdKZ8Y4FSr6JJ5g7gfS36zcE6gCRqdLDGzvKCwrrZo251RmUaQEt9sbkYxCoSzLqEShs7smwoyrMYgm6zs",
+    "tx": "BNo4SDYF8m29wd6chgwJgCQPSq8Jd6KJ5n5Bv571DrqtdhFGxbteSSBeYndwH9Rsf1szhqYQ8cZeXwrWzyGDSXZ",
     "charged_micro": 33
   },
   "history": {
-    "entries": 96,
-    "span_h": 138.85,
+    "entries": 97,
+    "span_h": 139.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T04:07:22.450754+00:00"
+    "last": "2026-08-28T05:07:21.050820+00:00"
   }
 }
