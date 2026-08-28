@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 39,
+  "inference_charged_micro": 32,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T14:07:22.380618+00:00",
+  "generated_at": "2026-08-28T15:07:08.025743+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,9 +21,9 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 30.0,
+      "apr_pct": 29.9,
       "persistence": 1.0,
-      "hours_to_clear_fees": 20,
+      "hours_to_clear_fees": 21,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 27.6,
+      "apr_pct": 27.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 25.3,
+      "apr_pct": 25.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 22.8,
+      "apr_pct": 22.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.6,
+      "apr_pct": 21.5,
       "persistence": 0.988,
-      "hours_to_clear_fees": 28,
+      "hours_to_clear_fees": 29,
       "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.3,
+      "apr_pct": 15.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 40,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.4,
-      "persistence": 0.922,
-      "hours_to_clear_fees": 42,
+      "apr_pct": 14.3,
+      "persistence": 0.916,
+      "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The striking feature is the negative funding rate (requiring \"hold\" payments) for these assets, paired with extremely high APRs that are likely unsustainable before price correction.",
+    "text": "All listed assets exhibit unusually high positive funding rates, suggesting traders are overwhelmingly paying to hold long positions in anticipation of price increases.",
     "model": "deepseek-v3.2",
-    "tx": "37XViSL3o5R5wuyaw82fopBH6A5RwpKJKk9qaYRVqQ6GLy9gW9eEPYyX2XuV46vEHNzchfBzxMb8ugTPpjYi41f3",
-    "charged_micro": 39
+    "tx": "5HqHrt1KVBi2ePcq7ZzDdQD7zntEeTqsDteDCmto9ewQmxD4vAsMXVfffnQa5iarprtZ8tvrfYtCaHo21UaQU1zU",
+    "charged_micro": 32
   },
   "history": {
-    "entries": 106,
-    "span_h": 148.85,
+    "entries": 107,
+    "span_h": 149.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T14:07:22.380618+00:00"
+    "last": "2026-08-28T15:07:08.025743+00:00"
   }
 }
