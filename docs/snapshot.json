@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 26,
+  "inference_charged_micro": 27,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T10:07:22.395469+00:00",
+  "generated_at": "2026-08-28T11:07:15.087686+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 28.3,
+      "apr_pct": 28.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 25.4,
+      "apr_pct": 25.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 23.4,
+      "apr_pct": 23.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.4,
+      "apr_pct": 15.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 40,
       "n": 168,
@@ -99,8 +99,8 @@
     {
       "symbol": "BTC",
       "apr_pct": 14.4,
-      "persistence": 0.91,
-      "hours_to_clear_fees": 43,
+      "persistence": 0.916,
+      "hours_to_clear_fees": 42,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "These funding rates are unusually and unsustainably high, indicating extreme bullish sentiment that typically precedes a sharp market correction.",
+    "text": "The unusually high and consistent APR \"hold\" rates across these crypto assets suggest these are likely synthetic or simulated returns rather than actual market funding rates.",
     "model": "deepseek-v3.2",
-    "tx": "2BLyCAa2wTEqNH8t7iwLbn8xg9K1j9CdKvDPvzKL6jpRHumoKqm63UpYp9uNt2H29RWCv4qm1rrW8GEQojkTvu2z",
-    "charged_micro": 26
+    "tx": "2yz9bdqW5r2NT4tJpFAF7XKEyVZD5Quqn4etB2digSobGnvagdzuJtubZtxJJZQRPFXB2HXUmqmBtuCD6k93n9ss",
+    "charged_micro": 27
   },
   "history": {
-    "entries": 102,
-    "span_h": 144.85,
+    "entries": 103,
+    "span_h": 145.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T10:07:22.395469+00:00"
+    "last": "2026-08-28T11:07:15.087686+00:00"
   }
 }
