@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T02:07:22.385439+00:00",
+  "generated_at": "2026-08-28T03:07:17.089679+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.2,
+      "apr_pct": 29.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 28.8,
+      "apr_pct": 28.9,
       "persistence": 0.958,
       "hours_to_clear_fees": 21,
       "n": 166,
@@ -43,8 +43,8 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 28.2,
-      "persistence": 0.994,
+      "apr_pct": 28.3,
+      "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
       "calendar": "24/7",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.2,
+      "apr_pct": 24.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.8,
+      "apr_pct": 22.0,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
-      "n": 166,
+      "n": 165,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.6,
+      "apr_pct": 15.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.1,
+      "apr_pct": 14.0,
       "persistence": 0.904,
-      "hours_to_clear_fees": 43,
+      "hours_to_clear_fees": 44,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "This stands out because the listed \"hold APRs\" are impossibly and suspiciously high for standard market conditions, suggesting they likely represent extreme, short-term funding rates for perpetual futures contracts rather than actual staking or investment yields.",
+    "text": "What stands out is that despite all these assets having exceptionally high estimated annual percentage rates (APR) for \"hold\" (likely referring to funding rates or staking yields), the markets consistently reject (close) the position before it can clear the fees necessary to realize that yield.",
     "model": "deepseek-v3.2",
-    "tx": "5iACuF41GjL7rmgLrpk6R7LpywBiFUG5PXVajk4WVAUnUMhhCmm4KB2XRPcpeLU3RmSUZsKsC6HMC7gEUm3nqN11",
-    "charged_micro": 38
+    "tx": "2ZpjPD7MiuFCx5kD1WGdqYEJvNbnjAeAwAnXuMfqUNBGohhCDNBPWwo2sFe1Bi4oRWhggPjc2QEEpkqtMksGjgTh",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 94,
-    "span_h": 136.85,
+    "entries": 95,
+    "span_h": 137.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T02:07:22.385439+00:00"
+    "last": "2026-08-28T03:07:17.089679+00:00"
   }
 }
