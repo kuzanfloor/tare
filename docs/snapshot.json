@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 32,
+  "inference_charged_micro": 35,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T15:07:08.025743+00:00",
+  "generated_at": "2026-08-28T16:07:22.472146+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.9,
+      "apr_pct": 29.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.4,
+      "apr_pct": 29.5,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
       "n": 167,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 27.4,
+      "apr_pct": 27.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 25.2,
+      "apr_pct": 25.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 22.7,
+      "apr_pct": 22.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -98,8 +98,8 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.3,
-      "persistence": 0.916,
+      "apr_pct": 14.2,
+      "persistence": 0.91,
       "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All listed assets exhibit unusually high positive funding rates, suggesting traders are overwhelmingly paying to hold long positions in anticipation of price increases.",
+    "text": "The extremely high APR 'hold' figures alongside the statement that positions are often rejected before clearing fees suggests these are likely deceptive or unsustainable yields, possibly from manipulated perpetual futures markets rather than legitimate returns.",
     "model": "deepseek-v3.2",
-    "tx": "5HqHrt1KVBi2ePcq7ZzDdQD7zntEeTqsDteDCmto9ewQmxD4vAsMXVfffnQa5iarprtZ8tvrfYtCaHo21UaQU1zU",
-    "charged_micro": 32
+    "tx": "3YRWmF1LiSXCiPvu4b6dvMMGmTa8rmEvePirPsaFWsnw1yTBpFFvW5Z9p14XgZtv1aWPEFDQ2ADFXCe5UL3wLrdX",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 107,
-    "span_h": 149.85,
+    "entries": 108,
+    "span_h": 150.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T15:07:08.025743+00:00"
+    "last": "2026-08-28T16:07:22.472146+00:00"
   }
 }
