@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T05:07:21.050820+00:00",
+  "generated_at": "2026-08-28T06:07:22.465619+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.6,
+      "apr_pct": 29.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,8 +32,8 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.1,
-      "persistence": 0.97,
+      "apr_pct": 29.2,
+      "persistence": 0.976,
       "hours_to_clear_fees": 21,
       "n": 166,
       "calendar": "24/7",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.7,
+      "apr_pct": 24.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.8,
+      "apr_pct": 21.9,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
-      "n": 166,
+      "n": 165,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 15.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 39,
+      "hours_to_clear_fees": 40,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -100,7 +100,7 @@
       "symbol": "BTC",
       "apr_pct": 14.1,
       "persistence": 0.904,
-      "hours_to_clear_fees": 44,
+      "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high funding rates and the stipulation that trades can close before fees are recouped highlight the table's significant risk-reward asymmetry.",
+    "text": "This funding carry table stands out because the listed assets offer remarkably high annualized returns for holding the position, but those profits are systematically negated as markets trend against the trade (\"marked reject\") before the funding fees can be collected.",
     "model": "deepseek-v3.2",
-    "tx": "BNo4SDYF8m29wd6chgwJgCQPSq8Jd6KJ5n5Bv571DrqtdhFGxbteSSBeYndwH9Rsf1szhqYQ8cZeXwrWzyGDSXZ",
-    "charged_micro": 33
+    "tx": "5YNVXeT349rjVWfwmPr28117x1yg9e911WWBk5XP3K9N7DvtdCAZdveq8wzXqF8fMnR6RPEGJeArWjS78L7KFYdu",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 97,
-    "span_h": 139.85,
+    "entries": 98,
+    "span_h": 140.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T05:07:21.050820+00:00"
+    "last": "2026-08-28T06:07:22.465619+00:00"
   }
 }
