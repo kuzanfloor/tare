@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 30,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-27T23:07:22.351832+00:00",
+  "generated_at": "2026-08-28T00:07:01.691021+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -19,6 +19,17 @@
   "delta": 0.0,
   "unconfirmed": 1,
   "carry": [
+    {
+      "symbol": "NEAR",
+      "apr_pct": 28.9,
+      "persistence": 0.994,
+      "hours_to_clear_fees": 21,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
     {
       "symbol": "SOL",
       "apr_pct": 28.7,
@@ -31,19 +42,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "NEAR",
-      "apr_pct": 28.7,
-      "persistence": 0.994,
-      "hours_to_clear_fees": 21,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "ZEC",
-      "apr_pct": 28.0,
+      "apr_pct": 28.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 22,
       "n": 167,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 24.2,
+      "apr_pct": 24.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -68,7 +68,7 @@
       "apr_pct": 23.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
-      "n": 162,
+      "n": 163,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,8 +98,8 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.2,
-      "persistence": 0.898,
+      "apr_pct": 14.3,
+      "persistence": 0.904,
       "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "What stands out is that all five listed assets show substantial positive funding rates (\"APR hold\"), yet the market is actively rejecting higher prices, creating a scenario where traders paying the fee are consistently betting against the prevailing price action.",
+    "text": "The table shows surprisingly similar high APRs across several major cryptocurrencies, all flagged with \"hold\" alongside a warning that positions may close at a loss due to fees before funding is received.",
     "model": "deepseek-v3.2",
-    "tx": "37j62xhTswtYa2qjH5BtXQ4NE8L1Lzq7edVAnBXB5qgZGYv7byXiRkkeevbUQkQxcJjghxMJh74tYZcD5dPga9CC",
-    "charged_micro": 30
+    "tx": "QDvjR3FGSMVA7kPKQSqtSY8adG7T5sjR8yJsLmHmVDSNCfWUo1xj5YwiVUBV7YiVJxSM8JDhRqqua6mx9bJ82JV",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 91,
-    "span_h": 133.85,
+    "entries": 92,
+    "span_h": 134.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-27T23:07:22.351832+00:00"
+    "last": "2026-08-28T00:07:01.691021+00:00"
   }
 }
