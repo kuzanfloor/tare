@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T12:07:22.522226+00:00",
+  "generated_at": "2026-08-28T13:07:17.061572+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.5,
+      "apr_pct": 29.4,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
       "n": 167,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 28.0,
+      "apr_pct": 27.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 23.1,
+      "apr_pct": 23.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "What stands out is the strikingly high APR percentages for holding these assets and the fact that markets tend to reject (\"close\") before a position can clear its trading fees, implying the high potential returns are effectively inaccessible.",
+    "text": "This funding carry table stands out because it shows extremely high implied APRs (ranging from 23% to 30%) across all listed assets, which are unsustainable and indicate markets are repeatedly rejecting price levels *before* a trader could capture that carry and clear the funding fees.",
     "model": "deepseek-v3.2",
-    "tx": "WTehskuc2ZtVjvPyeqsw6XAk1yKdHRtTXvnWWW66HprMyTL8uChAENaiP4wuCwznDV6XWiWrGRfa9CBfpBEByHb",
-    "charged_micro": 36
+    "tx": "DkHkzYdrGPbujzJ7xYfbQbCzS7eK3JnntXXoovCPizhDwNeQbhR7MbycAhCtA6Ba9FP3QxjGiYnTEHzdz2iYxY1",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 104,
-    "span_h": 146.85,
+    "entries": 105,
+    "span_h": 147.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T12:07:22.522226+00:00"
+    "last": "2026-08-28T13:07:17.061572+00:00"
   }
 }
