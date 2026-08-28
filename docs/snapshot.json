@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
-  "inference_quoted_micro": 38,
+  "inference_charged_micro": 39,
+  "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T08:07:22.421699+00:00",
+  "generated_at": "2026-08-28T09:07:19.027163+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,10 +32,10 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.6,
+      "apr_pct": 29.4,
       "persistence": 0.988,
       "hours_to_clear_fees": 21,
-      "n": 166,
+      "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 25.1,
+      "apr_pct": 25.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 23.7,
+      "apr_pct": 23.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 21.7,
+      "apr_pct": 21.6,
       "persistence": 0.988,
       "hours_to_clear_fees": 28,
       "n": 164,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 15.5,
+      "apr_pct": 15.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 40,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.3,
-      "persistence": 0.91,
-      "hours_to_clear_fees": 43,
+      "apr_pct": 14.4,
+      "persistence": 0.916,
+      "hours_to_clear_fees": 42,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extremely high \"hold\" APR percentages suggest these are not sustainable investment returns but likely represent the cost or penalty for holding short positions in a volatile market.",
+    "text": "The consistently high funding rates across these assets, all showing \"APR hold\" rather than paying, suggest traders are aggressively paying to maintain perpetual long positions in a sharply bullish market that risks a reversal.",
     "model": "deepseek-v3.2",
-    "tx": "4vuPTFrdnj7okArbTx97E7FD5L2cmreBq2B9rr6AD8hAD9YcYVmGPt94NMPUNdkipjEWaWY7t1GpEFEEHnbtNvW5",
-    "charged_micro": 38
+    "tx": "42ERSfGNd5xwu4S4pqhZiigq9vHhvrDVr8EW2Dohny9jdJSdHAG3UF5dHFQJ8NpgJSvanvS5LFp8ZfyJojGv8gFS",
+    "charged_micro": 39
   },
   "history": {
-    "entries": 100,
-    "span_h": 142.85,
+    "entries": 101,
+    "span_h": 143.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T08:07:22.421699+00:00"
+    "last": "2026-08-28T09:07:19.027163+00:00"
   }
 }
