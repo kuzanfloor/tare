@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 40,
+  "inference_charged_micro": 35,
   "inference_quoted_micro": 40,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T13:07:19.102030+00:00",
+  "generated_at": "2026-08-29T14:07:22.355478+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.9,
+      "apr_pct": 28.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 28.7,
+      "apr_pct": 28.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 21,
+      "hours_to_clear_fees": 22,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.6,
+      "apr_pct": 22.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 164,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 18.6,
+      "apr_pct": 18.3,
       "persistence": 0.988,
-      "hours_to_clear_fees": 33,
+      "hours_to_clear_fees": 34,
       "n": 161,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.0,
+      "apr_pct": 17.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.4,
+      "apr_pct": 12.3,
       "persistence": 0.873,
-      "hours_to_clear_fees": 49,
+      "hours_to_clear_fees": 50,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The funding carry table stands out for offering exceptionally high APRs across multiple assets, with NEAR and SOL leading at nearly 29%, but carries the unusual and significant risk that positions may be forced to close at a loss before fees are recouped if markets move against them.",
+    "text": "The extremely high carry APR percentages across all listed assets suggest these are likely synthetic or perpetual futures funding rates, not traditional staking yields, indicating intense and unsustainable short-side leverage pressure in these markets.",
     "model": "deepseek-v3.2",
-    "tx": "sRY6Msu6YRQTYzuFpvSEgQKuUbjySVrXhiQTRuRqQfamv2mj7VWtwQ4ZuTHDt5NfN51FZdptZawD8rGg5Zci8XZ",
-    "charged_micro": 40
+    "tx": "kSzDCTAAvikbN24pM7VpkkbsAaBU51fHkvk9ncRndW7RXXQxnbAy2jp3QL5Xwd4CvH7oL1UA6hH4Ce9CHcaJgQz",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 129,
-    "span_h": 171.85,
+    "entries": 130,
+    "span_h": 172.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T13:07:19.102030+00:00"
+    "last": "2026-08-29T14:07:22.355478+00:00"
   }
 }
