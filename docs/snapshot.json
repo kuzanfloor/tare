@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 34,
+  "inference_charged_micro": 27,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T04:07:09.992842+00:00",
+  "generated_at": "2026-08-29T05:07:22.484104+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 30.2,
+      "apr_pct": 30.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 20,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 29.7,
+      "apr_pct": 29.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 25.9,
+      "apr_pct": 25.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.8,
+      "apr_pct": 23.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.0,
+      "apr_pct": 19.9,
       "persistence": 0.988,
       "hours_to_clear_fees": 31,
       "n": 163,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 19.9,
+      "apr_pct": 19.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.7,
+      "apr_pct": 14.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 42,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.5,
+      "apr_pct": 13.3,
       "persistence": 0.892,
-      "hours_to_clear_fees": 45,
+      "hours_to_clear_fees": 46,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high funding carry APRs indicate extreme and likely unsustainable short-selling pressure, as these high yields are intended to incentivize longs to open positions against the prevailing bearish sentiment.",
+    "text": "The table shows an unusually high, and suspiciously consistent, profitability across different assets despite market reject conditions, suggesting potential unrealistic modeling or a \"too good to be true\" scenario.",
     "model": "deepseek-v3.2",
-    "tx": "GBy3NAHeBowJWYoyske2MXWPGEwpLeoviaVCNVCd29Q77jTZXuywKYdgoK7QsMpPByFmicH6ypefdMu7DSWe4e6",
-    "charged_micro": 34
+    "tx": "58ufBA3iszvTkYPJfzRSDCF1Mvdb7pJ2CbdB84ERqcMxAnDXmpBVq4bgT2W83FVHR2ZNGTXEU3gQxxfxjkhP6wxN",
+    "charged_micro": 27
   },
   "history": {
-    "entries": 120,
-    "span_h": 162.85,
+    "entries": 121,
+    "span_h": 163.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T04:07:09.992842+00:00"
+    "last": "2026-08-29T05:07:22.484104+00:00"
   }
 }
