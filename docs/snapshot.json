@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 26,
+  "inference_charged_micro": 40,
   "inference_quoted_micro": 40,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T12:07:22.360048+00:00",
+  "generated_at": "2026-08-29T13:07:19.102030+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,17 +21,6 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.1,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 21,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
       "apr_pct": 28.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
@@ -42,8 +31,19 @@
       "why": "open continuously"
     },
     {
+      "symbol": "SOL",
+      "apr_pct": 28.7,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 21,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "ZEC",
-      "apr_pct": 25.2,
+      "apr_pct": 25.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.8,
+      "apr_pct": 22.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 164,
@@ -65,10 +65,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 18.7,
+      "apr_pct": 18.6,
       "persistence": 0.988,
       "hours_to_clear_fees": 33,
-      "n": 162,
+      "n": 161,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.1,
+      "apr_pct": 18.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -89,7 +89,7 @@
       "symbol": "ETH",
       "apr_pct": 14.4,
       "persistence": 1.0,
-      "hours_to_clear_fees": 42,
+      "hours_to_clear_fees": 43,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.5,
+      "apr_pct": 12.4,
       "persistence": 0.873,
       "hours_to_clear_fees": 49,
       "n": 166,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The astronomically high \"APR hold\" percentages stand out because they are extreme, unsustainable, and cannot possibly be genuine yields offered by legitimate financial products.",
+    "text": "The funding carry table stands out for offering exceptionally high APRs across multiple assets, with NEAR and SOL leading at nearly 29%, but carries the unusual and significant risk that positions may be forced to close at a loss before fees are recouped if markets move against them.",
     "model": "deepseek-v3.2",
-    "tx": "4L1ABcVbPkPtsMPXtTGV2DkgHkj5C1BCvgarGnsH1k5PwZhWwt6LAbyBkk5cRwLVtPKKrBUi24MD3qRBLbGGgSPW",
-    "charged_micro": 26
+    "tx": "sRY6Msu6YRQTYzuFpvSEgQKuUbjySVrXhiQTRuRqQfamv2mj7VWtwQ4ZuTHDt5NfN51FZdptZawD8rGg5Zci8XZ",
+    "charged_micro": 40
   },
   "history": {
-    "entries": 128,
-    "span_h": 170.85,
+    "entries": 129,
+    "span_h": 171.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T12:07:22.360048+00:00"
+    "last": "2026-08-29T13:07:19.102030+00:00"
   }
 }
