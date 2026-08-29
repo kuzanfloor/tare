@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 27,
+  "inference_charged_micro": 34,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T03:07:22.294557+00:00",
+  "generated_at": "2026-08-29T04:07:09.992842+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 30.3,
+      "apr_pct": 30.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 20,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 26.1,
+      "apr_pct": 25.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.9,
+      "apr_pct": 23.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 164,
@@ -64,22 +64,22 @@
       "why": "open continuously"
     },
     {
-      "symbol": "BNB",
-      "apr_pct": 20.2,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
+      "symbol": "AAVE",
+      "apr_pct": 20.0,
+      "persistence": 0.988,
+      "hours_to_clear_fees": 31,
+      "n": 163,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     },
     {
-      "symbol": "AAVE",
-      "apr_pct": 20.1,
-      "persistence": 0.988,
-      "hours_to_clear_fees": 30,
-      "n": 163,
+      "symbol": "BNB",
+      "apr_pct": 19.9,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 31,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.7,
+      "apr_pct": 13.5,
       "persistence": 0.892,
       "hours_to_clear_fees": 45,
       "n": 166,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table highlights the exceptionally high funding carry percentages, all above 20% APR, with SOL being the highest at 30.3%.",
+    "text": "The exceptionally high funding carry APRs indicate extreme and likely unsustainable short-selling pressure, as these high yields are intended to incentivize longs to open positions against the prevailing bearish sentiment.",
     "model": "deepseek-v3.2",
-    "tx": "39qqs1GAwAn7pzgnzuyVbP79cUiW7P3MH2yaHAa1HSRHnMF73LT2Sh7vh3VvhKGrViqhUasMTvQkQaHwNV9KSXrs",
-    "charged_micro": 27
+    "tx": "GBy3NAHeBowJWYoyske2MXWPGEwpLeoviaVCNVCd29Q77jTZXuywKYdgoK7QsMpPByFmicH6ypefdMu7DSWe4e6",
+    "charged_micro": 34
   },
   "history": {
-    "entries": 119,
-    "span_h": 161.85,
+    "entries": 120,
+    "span_h": 162.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T03:07:22.294557+00:00"
+    "last": "2026-08-29T04:07:09.992842+00:00"
   }
 }
