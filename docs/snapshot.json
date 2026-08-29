@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 29,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T22:07:22.413970+00:00",
+  "generated_at": "2026-08-29T23:07:15.175551+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.7,
+      "apr_pct": 27.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 27.1,
+      "apr_pct": 26.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.6,
+      "apr_pct": 24.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 21.8,
+      "apr_pct": 21.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 17.1,
+      "apr_pct": 17.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 36,
       "n": 168,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 16.1,
+      "apr_pct": 16.0,
       "persistence": 0.975,
       "hours_to_clear_fees": 38,
-      "n": 158,
+      "n": 157,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All listed assets show exceptionally high APR hold rates, but the accompanying risk warning indicates these returns are jeopardized by markets closing prematurely, preventing investors from recouping fees.",
+    "text": "The unusually high \"hold\" APRs across multiple assets stand out because they suggest a potentially illiquid or speculative market environment where the cost to maintain a short position is exceptionally high, yet positions are repeatedly being liquidated (\"rejected\") before they can earn that carry.",
     "model": "deepseek-v3.2",
-    "tx": "R7Auv8Y2QNv7RMfqeZJv125Yixbvpdhz9DM23mYVQqTCTRqnvf4RmvM1pv3JDNrc8WFaKX7Hgyid1rCPoRoprib",
-    "charged_micro": 29
+    "tx": "3R3zRHwZa56vyWRxPkDtivHAmUycGsd2qDuz4SJXNeubcgXgwmkYeHqwDPwDe7h8dHYqS9QGA5axLaG2pyJaqYm3",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 138,
-    "span_h": 180.85,
+    "entries": 139,
+    "span_h": 181.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T22:07:22.413970+00:00"
+    "last": "2026-08-29T23:07:15.175551+00:00"
   }
 }
