@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 40,
+  "inference_charged_micro": 37,
   "inference_quoted_micro": 40,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T09:07:21.112542+00:00",
+  "generated_at": "2026-08-29T10:07:22.400102+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.7,
+      "apr_pct": 29.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.4,
+      "apr_pct": 29.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 25.4,
+      "apr_pct": 25.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.3,
+      "apr_pct": 23.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 164,
@@ -68,7 +68,7 @@
       "apr_pct": 19.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 32,
-      "n": 163,
+      "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.6,
+      "apr_pct": 18.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 33,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.6,
+      "apr_pct": 14.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 42,
       "n": 168,
@@ -98,8 +98,8 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.8,
-      "persistence": 0.886,
+      "apr_pct": 12.7,
+      "persistence": 0.88,
       "hours_to_clear_fees": 48,
       "n": 166,
       "calendar": "24/7",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "What stands out is that despite these extremely high annualized funding rates (APRs), the strategy of \"holding\" to collect them is negated because the markets consistently move to liquidate positions (\"reject close\") before the profits can exceed the transaction fees.",
+    "text": "This table strikingly shows that all listed assets have exceptionally high \"APR hold\" values for what is likely a funding rate, indicating a highly skewed perpetual futures market tilted towards short interest.",
     "model": "deepseek-v3.2",
-    "tx": "284wbXcQxvCaQ3dhadtABrrVnYLT9B1otBes2RfaTtfmmeEBYPH9z6W2ozKvJ1xZjLFmz5n9SHKRGgYR8SqqJcSH",
-    "charged_micro": 40
+    "tx": "2RAzepbcvWYKcxKWMxrhS2nhA26QUq1oxUY6uViPBnrYGSvAyHZ97jvZbmoCA5zmYAsLaoL6uMGFb1duo7NiqXPY",
+    "charged_micro": 37
   },
   "history": {
-    "entries": 125,
-    "span_h": 167.85,
+    "entries": 126,
+    "span_h": 168.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T09:07:21.112542+00:00"
+    "last": "2026-08-29T10:07:22.400102+00:00"
   }
 }
