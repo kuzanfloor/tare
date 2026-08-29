@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 27,
+  "inference_charged_micro": 38,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T05:07:22.484104+00:00",
+  "generated_at": "2026-08-29T06:07:03.132682+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,9 +21,9 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 30.0,
+      "apr_pct": 29.9,
       "persistence": 1.0,
-      "hours_to_clear_fees": 20,
+      "hours_to_clear_fees": 21,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 29.8,
+      "apr_pct": 29.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.6,
+      "apr_pct": 23.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.9,
+      "apr_pct": 19.7,
       "persistence": 0.988,
       "hours_to_clear_fees": 31,
       "n": 163,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 19.6,
+      "apr_pct": 19.3,
       "persistence": 1.0,
-      "hours_to_clear_fees": 31,
+      "hours_to_clear_fees": 32,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,7 +98,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.3,
+      "apr_pct": 13.2,
       "persistence": 0.892,
       "hours_to_clear_fees": 46,
       "n": 166,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table shows an unusually high, and suspiciously consistent, profitability across different assets despite market reject conditions, suggesting potential unrealistic modeling or a \"too good to be true\" scenario.",
+    "text": "The table highlights extremely high annual percentage rates (APR) across various crypto assets, all marked as \"hold,\" suggesting sustained borrowing costs, paired with a market condition where positions are closed before fees are recouped due to rejection.",
     "model": "deepseek-v3.2",
-    "tx": "58ufBA3iszvTkYPJfzRSDCF1Mvdb7pJ2CbdB84ERqcMxAnDXmpBVq4bgT2W83FVHR2ZNGTXEU3gQxxfxjkhP6wxN",
-    "charged_micro": 27
+    "tx": "5BatSZyyPDqfByxDHMAQ4xhoFaFuqqcgFSUoemkP8374wrHHhZP2c4eFSGnGPFVKmW54SvGUiFihjS8mmc2gTqeC",
+    "charged_micro": 38
   },
   "history": {
-    "entries": 121,
-    "span_h": 163.85,
+    "entries": 122,
+    "span_h": 164.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T05:07:22.484104+00:00"
+    "last": "2026-08-29T06:07:03.132682+00:00"
   }
 }
