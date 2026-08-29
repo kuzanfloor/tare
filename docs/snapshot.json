@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 28,
+  "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-28T23:07:22.469715+00:00",
+  "generated_at": "2026-08-29T00:07:02.152601+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "SOL",
-      "apr_pct": 30.1,
+      "apr_pct": 30.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 20,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "NEAR",
-      "apr_pct": 29.6,
+      "apr_pct": 29.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.7,
+      "apr_pct": 24.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 21.5,
+      "apr_pct": 21.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.7,
+      "apr_pct": 20.4,
       "persistence": 0.988,
       "hours_to_clear_fees": 30,
       "n": 163,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.9,
+      "apr_pct": 14.8,
       "persistence": 1.0,
-      "hours_to_clear_fees": 41,
+      "hours_to_clear_fees": 42,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,8 +98,8 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.2,
-      "persistence": 0.91,
+      "apr_pct": 14.1,
+      "persistence": 0.904,
       "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table highlights extremely high funding rates (APRs from 21% to 30%) that are not being captured because positions are being liquidated or closed by the market before they can collect them.",
+    "text": "Despite offering exceptionally high funding rates (APRs), these markets consistently close or reject traders' positions before they can profit from those rates, turning the promised yield into an elusive trap.",
     "model": "deepseek-v3.2",
-    "tx": "5289NK4jHiMPixiZwHqqVP7CYy5UVQLWPaby4YRcxeYfP2vh9dNvUJN23ZZzwPLWHAGcQZMZ1pVgZYKaHX3zm1X7",
-    "charged_micro": 28
+    "tx": "5arRmEBwKtu2nPRGh6w5jhHiT9ZKoxKDypj3WDtXwjirAycVkyADMxgSESfTCyHtoWEU8YoHsGrB8WCJ4KwouYTB",
+    "charged_micro": 39
   },
   "history": {
-    "entries": 115,
-    "span_h": 157.85,
+    "entries": 116,
+    "span_h": 158.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-28T23:07:22.469715+00:00"
+    "last": "2026-08-29T00:07:02.152601+00:00"
   }
 }
