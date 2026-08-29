@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 28,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T06:07:03.132682+00:00",
+  "generated_at": "2026-08-29T07:07:22.468347+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -20,8 +20,8 @@
   "unconfirmed": 1,
   "carry": [
     {
-      "symbol": "SOL",
-      "apr_pct": 29.9,
+      "symbol": "NEAR",
+      "apr_pct": 29.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -31,8 +31,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "NEAR",
-      "apr_pct": 29.9,
+      "symbol": "SOL",
+      "apr_pct": 29.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 25.6,
+      "apr_pct": 25.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.5,
+      "apr_pct": 23.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 19.7,
+      "apr_pct": 19.6,
       "persistence": 0.988,
       "hours_to_clear_fees": 31,
       "n": 163,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 19.3,
+      "apr_pct": 19.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 32,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.2,
+      "apr_pct": 13.1,
       "persistence": 0.892,
-      "hours_to_clear_fees": 46,
+      "hours_to_clear_fees": 47,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table highlights extremely high annual percentage rates (APR) across various crypto assets, all marked as \"hold,\" suggesting sustained borrowing costs, paired with a market condition where positions are closed before fees are recouped due to rejection.",
+    "text": "The strikingly high APRs for simply holding positions (with \"hold\" appended) suggest a market heavily skewed towards funding payments from perpetual shorts to longs, indicating extreme bullish sentiment or a crowded long trade.",
     "model": "deepseek-v3.2",
-    "tx": "5BatSZyyPDqfByxDHMAQ4xhoFaFuqqcgFSUoemkP8374wrHHhZP2c4eFSGnGPFVKmW54SvGUiFihjS8mmc2gTqeC",
-    "charged_micro": 38
+    "tx": "29qkTmMpzCHNkcFSLn6auJoW7MyPubAitScrDcB52833o8qRrkDa9cACAmjLq9rsYuvH2ySMt9rdxhPYEpkoeN6o",
+    "charged_micro": 28
   },
   "history": {
-    "entries": 122,
-    "span_h": 164.85,
+    "entries": 123,
+    "span_h": 165.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T06:07:03.132682+00:00"
+    "last": "2026-08-29T07:07:22.468347+00:00"
   }
 }
