@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 38,
+  "inference_charged_micro": 26,
   "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T01:07:22.430041+00:00",
+  "generated_at": "2026-08-29T02:07:09.065916+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 26.4,
+      "apr_pct": 26.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 24.4,
+      "apr_pct": 24.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 164,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 20.8,
+      "apr_pct": 20.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 29,
+      "hours_to_clear_fees": 30,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 20.4,
+      "apr_pct": 20.2,
       "persistence": 0.988,
       "hours_to_clear_fees": 30,
       "n": 163,
@@ -98,10 +98,10 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.0,
+      "apr_pct": 13.9,
       "persistence": 0.898,
       "hours_to_clear_fees": 44,
-      "n": 167,
+      "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The incredibly high funding rates (exceeding 20% APR across assets) stand out because they are unsustainable and signal that traders holding long positions are paying an extreme premium to shorts, likely due to intense, crowded bullish sentiment that typically precedes a sharp market reversal.",
+    "text": "The funding rates and fees are structured so that perpetual market prices are driven to close positions at a loss just before traders can profit from the high APR holds.",
     "model": "deepseek-v3.2",
-    "tx": "4wMTQZkKYN2cLtq4dRxL2G7vde4hDrnK9gb5p78mcybvShgxgqBuyAoZiccQnxMmr6torZ6LQwM2Sr6Nsi1JhwkX",
-    "charged_micro": 38
+    "tx": "3nNR9ezxM2wMLsME6EhwcVmtoMHfGx5P1emQWfGYF8q35E7EPz9SK9LX8zmmmMrktyJ4ZxfF7Lw5bnquDr1UAQwz",
+    "charged_micro": 26
   },
   "history": {
-    "entries": 117,
-    "span_h": 159.85,
+    "entries": 118,
+    "span_h": 160.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T01:07:22.430041+00:00"
+    "last": "2026-08-29T02:07:09.065916+00:00"
   }
 }
