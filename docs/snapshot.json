@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 27,
+  "inference_charged_micro": 26,
   "inference_quoted_micro": 40,
   "inference_onchain": 1,
-  "generated_at": "2026-08-29T11:07:11.066480+00:00",
+  "generated_at": "2026-08-29T12:07:22.360048+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.3,
+      "apr_pct": 29.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 29.1,
+      "apr_pct": 28.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 23.1,
+      "apr_pct": 22.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 164,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 18.9,
+      "apr_pct": 18.7,
       "persistence": 0.988,
-      "hours_to_clear_fees": 32,
+      "hours_to_clear_fees": 33,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.2,
+      "apr_pct": 18.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.5,
+      "apr_pct": 14.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 42,
       "n": 168,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extraordinarily high APRs paired with the warning about markets closing before positions can cover their fees suggest these yields come with significant liquidation risk.",
+    "text": "The astronomically high \"APR hold\" percentages stand out because they are extreme, unsustainable, and cannot possibly be genuine yields offered by legitimate financial products.",
     "model": "deepseek-v3.2",
-    "tx": "5sYREndVA5c3jXgAZQsxMvi4tg3vqmhmvuf5hfrBnrFVJo2outkM9i5XCmriRfj8upp1oACq2crworAMBTwiNpKz",
-    "charged_micro": 27
+    "tx": "4L1ABcVbPkPtsMPXtTGV2DkgHkj5C1BCvgarGnsH1k5PwZhWwt6LAbyBkk5cRwLVtPKKrBUi24MD3qRBLbGGgSPW",
+    "charged_micro": 26
   },
   "history": {
-    "entries": 127,
-    "span_h": 169.85,
+    "entries": 128,
+    "span_h": 170.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-29T11:07:11.066480+00:00"
+    "last": "2026-08-29T12:07:22.360048+00:00"
   }
 }
