@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
-  "inference_quoted_micro": 39,
+  "inference_charged_micro": 35,
+  "inference_quoted_micro": 38,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T00:07:02.045037+00:00",
+  "generated_at": "2026-08-30T01:07:13.115526+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 26.8,
+      "apr_pct": 26.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.3,
+      "apr_pct": 24.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 16.9,
+      "apr_pct": 16.8,
       "persistence": 1.0,
-      "hours_to_clear_fees": 36,
+      "hours_to_clear_fees": 37,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,10 +76,10 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 15.6,
+      "apr_pct": 15.5,
       "persistence": 0.968,
-      "hours_to_clear_fees": 39,
-      "n": 157,
+      "hours_to_clear_fees": 40,
+      "n": 156,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 11.1,
+      "apr_pct": 11.0,
       "persistence": 0.873,
-      "hours_to_clear_fees": 55,
+      "hours_to_clear_fees": 56,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extremely high annual percentage rates (APRs) for holding\u2014ranging from 16.9% to 27.3%\u2014stand out in the funding carry table, indicating a significant cost for maintaining long positions.",
+    "text": "The unusually high and consistent \"hold\" APRs across different assets suggest these are likely synthetic or promotional rates, not genuine market funding rates.",
     "model": "deepseek-v3.2",
-    "tx": "4RsfwMJZhX8bBUtDxyjtH2rnhbMjdmE4Jr4E26hmSvT4DnxTzJnyxnb2U6phiFTxi8Hfi6n1XqvdvwDo6dpnRkCK",
-    "charged_micro": 33
+    "tx": "2RXZn91qg44HTWXV9umZnHmKeLTjYwKo6T5E1k2R7StogaWSTnn2mGPiAKQVoP63syMN1HgqykVx16AYDLFUyJjx",
+    "charged_micro": 35
   },
   "history": {
-    "entries": 140,
-    "span_h": 182.85,
+    "entries": 141,
+    "span_h": 183.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T00:07:02.045037+00:00"
+    "last": "2026-08-30T01:07:13.115526+00:00"
   }
 }
