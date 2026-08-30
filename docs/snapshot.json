@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 37,
-  "inference_quoted_micro": 38,
-  "inference_onchain": 1,
-  "generated_at": "2026-08-30T03:07:11.054167+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-08-30T04:07:22.472399+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 26.3,
+      "apr_pct": 26.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 24.1,
+      "apr_pct": 24.0,
       "persistence": 1.0,
-      "hours_to_clear_fees": 25,
+      "hours_to_clear_fees": 26,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.0,
+      "apr_pct": 22.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 164,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 14.9,
+      "apr_pct": 14.7,
       "persistence": 0.961,
-      "hours_to_clear_fees": 41,
+      "hours_to_clear_fees": 42,
       "n": 155,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -108,16 +108,10 @@
       "why": "open continuously"
     }
   ],
-  "carry_review": {
-    "text": "These relatively high APRs for holding short positions are unusual, as such returns typically arise only in heavily skewed funding rate markets where shorts are being heavily incentivized.",
-    "model": "deepseek-v3.2",
-    "tx": "3ns8AHfwcW2dRSf5GroecJwKGTCkDyVP9zZJNgbzZaMHbd88CxnLFJNgXi55NfijRNmrhQB7LRyN342NqcVNJKBA",
-    "charged_micro": 37
-  },
   "history": {
-    "entries": 143,
-    "span_h": 185.85,
+    "entries": 144,
+    "span_h": 186.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T03:07:11.054167+00:00"
+    "last": "2026-08-30T04:07:22.472399+00:00"
   }
 }
