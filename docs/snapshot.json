@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 35,
+  "inference_charged_micro": 26,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T16:07:01.580915+00:00",
+  "generated_at": "2026-08-30T17:07:21.057132+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.9,
+      "apr_pct": 26.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 24.3,
+      "apr_pct": 24.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.9,
+      "apr_pct": 22.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -56,7 +56,7 @@
       "symbol": "TAO",
       "apr_pct": 20.8,
       "persistence": 1.0,
-      "hours_to_clear_fees": 29,
+      "hours_to_clear_fees": 30,
       "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 11.8,
-      "persistence": 0.935,
-      "hours_to_clear_fees": 52,
+      "apr_pct": 11.5,
+      "persistence": 0.928,
+      "hours_to_clear_fees": 53,
       "n": 153,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 10.8,
+      "apr_pct": 10.9,
       "persistence": 0.873,
-      "hours_to_clear_fees": 57,
+      "hours_to_clear_fees": 56,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The funding carry table shows high annual percentage returns for holding these positions, but the key warning is that markets can reject and close before fees are covered.",
+    "text": "The standout feature is the remarkably high, sustained holding APRs across multiple assets while simultaneously showing a pattern of markets rejecting (falling) before positions can become profitable.",
     "model": "deepseek-v3.2",
-    "tx": "4JmyFJ38e2yvpYi6obngNwE88YWaEePVvjFn5e9cB3yfRtyJPnMPj193GMt84n3zgXurCoETnK8oGrXwy8aamABs",
-    "charged_micro": 35
+    "tx": "4EjnuSypfdBYQ4S59TCwoU3cH5gcrbR7W6Kt5YT9Dc1HKUXiRd5AE4p6tYo8zH4isGvFAKuyyjVx99iVemUHhH1n",
+    "charged_micro": 26
   },
   "history": {
-    "entries": 156,
-    "span_h": 198.85,
+    "entries": 157,
+    "span_h": 199.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T16:07:01.580915+00:00"
+    "last": "2026-08-30T17:07:21.057132+00:00"
   }
 }
