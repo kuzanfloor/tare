@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 24,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T21:07:13.117121+00:00",
+  "generated_at": "2026-08-30T22:07:22.539138+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 23.5,
+      "apr_pct": 23.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.9,
+      "apr_pct": 20.7,
       "persistence": 1.0,
-      "hours_to_clear_fees": 29,
+      "hours_to_clear_fees": 30,
       "n": 164,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.7,
+      "apr_pct": 13.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 45,
       "n": 168,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 11.2,
-      "persistence": 0.873,
-      "hours_to_clear_fees": 55,
+      "apr_pct": 11.4,
+      "persistence": 0.88,
+      "hours_to_clear_fees": 54,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 10.4,
+      "apr_pct": 10.0,
       "persistence": 0.921,
-      "hours_to_clear_fees": 59,
+      "hours_to_clear_fees": 61,
       "n": 151,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high annualized funding rates across these major crypto assets indicate extreme short-term bullish leverage demand that is likely unsustainable before correcting.",
+    "text": "The extremely high APRs for holding long positions indicate these markets are in severe, prolonged contango with persistent and costly funding payments.",
     "model": "deepseek-v3.2",
-    "tx": "3ek5uFyQaKAfrnFqomatDiQyaKJRdAwGPgCAvQfPuxmhz5kaLQQerDCw6AsTNvdJcdTVj2MAEXHnKrzej6SWmPiU",
-    "charged_micro": 33
+    "tx": "4HCxLRsAysmNMn25ptcVJtVFYbhpVLMHkFetXFZZfBuaoaM4CNvqJcBG9rDFk3re23vJmh3DFJ89JsqQa8hgWGWb",
+    "charged_micro": 24
   },
   "history": {
-    "entries": 161,
-    "span_h": 203.85,
+    "entries": 162,
+    "span_h": 204.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T21:07:13.117121+00:00"
+    "last": "2026-08-30T22:07:22.539138+00:00"
   }
 }
