@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 32,
+  "inference_charged_micro": 31,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T07:07:01.689697+00:00",
+  "generated_at": "2026-08-30T08:07:22.468681+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,9 +21,9 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.2,
+      "apr_pct": 27.3,
       "persistence": 1.0,
-      "hours_to_clear_fees": 23,
+      "hours_to_clear_fees": 22,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 25.6,
+      "apr_pct": 25.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.5,
+      "apr_pct": 23.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 21.9,
+      "apr_pct": 21.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 164,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 16.4,
+      "apr_pct": 16.3,
       "persistence": 1.0,
-      "hours_to_clear_fees": 37,
+      "hours_to_clear_fees": 38,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -78,7 +78,7 @@
       "symbol": "ETH",
       "apr_pct": 14.1,
       "persistence": 1.0,
-      "hours_to_clear_fees": 43,
+      "hours_to_clear_fees": 44,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 14.0,
+      "apr_pct": 13.8,
       "persistence": 0.955,
       "hours_to_clear_fees": 44,
       "n": 154,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 10.5,
+      "apr_pct": 10.4,
       "persistence": 0.873,
-      "hours_to_clear_fees": 58,
+      "hours_to_clear_fees": 59,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high APRs across all listed assets stand out, indicating they are likely unsustainable or carry significant risk.",
+    "text": "The exceptionally high funding rates across these major crypto assets indicate extreme market leverage and a strong, unsustainable bias toward holding long positions.",
     "model": "deepseek-v3.2",
-    "tx": "3pAwYeDuc6BtQNL8BLvEi8ai51Y6PsaQVWANdRTCqWtswuXLPb24KqXhAwY38DaKc4rAQSPRNreEaz3JwuHLB96C",
-    "charged_micro": 32
+    "tx": "2xSDQPRQokKgN3LFQdybBHu6VnmLmVRUDaLjC1BGuo9ZHj8tE86ZWwytNL3SqXRjQf87y6M1gE46sTCWSiawSLpE",
+    "charged_micro": 31
   },
   "history": {
-    "entries": 147,
-    "span_h": 189.85,
+    "entries": 148,
+    "span_h": 190.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T07:07:01.689697+00:00"
+    "last": "2026-08-30T08:07:22.468681+00:00"
   }
 }
