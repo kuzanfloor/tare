@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 33,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T13:07:22.538513+00:00",
+  "generated_at": "2026-08-30T14:07:05.981781+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 24.8,
+      "apr_pct": 24.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 25,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.1,
+      "apr_pct": 23.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 21.1,
+      "apr_pct": 21.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.9,
+      "apr_pct": 15.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.7,
+      "apr_pct": 13.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 45,
       "n": 168,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 12.6,
-      "persistence": 0.948,
-      "hours_to_clear_fees": 49,
+      "apr_pct": 12.3,
+      "persistence": 0.941,
+      "hours_to_clear_fees": 50,
       "n": 153,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 10.6,
+      "apr_pct": 10.7,
       "persistence": 0.873,
-      "hours_to_clear_fees": 58,
+      "hours_to_clear_fees": 57,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The persistently high funding rates across multiple major assets indicate that bullish perpetual swap markets are severely overextended and paying a steep, unsustainable premium to short sellers.",
+    "text": "This funding carry table stands out for consistently high annual percentage returns (APRs) across multiple assets, with NEAR leading at 27.2%, but carries the inherent risk that markets may \"reject\" (reverse) and close before a position can cover its fees.",
     "model": "deepseek-v3.2",
-    "tx": "3gXBZyztUV7ENKtZCygtnunsdFUc2NFQhzMF51dAeHaBowRfpbTGx9X7NkE5ehe4FPT1fyyKectVKR5ka4a9j99Z",
-    "charged_micro": 33
+    "tx": "48JuE5173xG8XumBFxadzdjohDVvhN1ViU73jgrCBBnGthQ1aiWpxzsvSxDLxaEDyvsKBoCbprtVrxst9KDEyyRh",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 153,
-    "span_h": 195.85,
+    "entries": 154,
+    "span_h": 196.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T13:07:22.538513+00:00"
+    "last": "2026-08-30T14:07:05.981781+00:00"
   }
 }
