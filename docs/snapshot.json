@@ -11,7 +11,7 @@
   "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T05:07:03.141131+00:00",
+  "generated_at": "2026-08-30T06:07:22.367814+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.1,
+      "apr_pct": 27.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 25.9,
+      "apr_pct": 25.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.9,
+      "apr_pct": 23.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 22.1,
+      "apr_pct": 22.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 164,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 16.6,
+      "apr_pct": 16.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 37,
       "n": 168,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 14.6,
+      "apr_pct": 14.3,
       "persistence": 0.961,
-      "hours_to_clear_fees": 42,
+      "hours_to_clear_fees": 43,
       "n": 154,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.3,
+      "apr_pct": 14.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 43,
       "n": 168,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 10.8,
+      "apr_pct": 10.7,
       "persistence": 0.873,
-      "hours_to_clear_fees": 57,
+      "hours_to_clear_fees": 58,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table stands out because it shows extremely high funding rates for \"hold\" positions, which suggests a market heavily skewed toward perpetual futures contracts with excessive long-side premiums and heightened risk of liquidation cascades.",
+    "text": "The most striking feature is the exceptionally high implied funding rates for holding long positions, suggesting intense bullish perpetual futures demand across these major assets.",
     "model": "deepseek-v3.2",
-    "tx": "2BzA9f5xBu8ptC1wruDfWvM8FukroZSDKH6HxpPnSAbabB1xDi4nSG6c3utmFGbjd5PvpjjF9ujCpJvASxiLsqe1",
+    "tx": "26k6WPXJA2F86uiUFDSzGEBi6FJ8YxK3HN4xiVsfSDaUaF5TFzS4gxuu3hE2nndtWbQ5diSvdeB3PbVBhqERUwjR",
     "charged_micro": 39
   },
   "history": {
-    "entries": 145,
-    "span_h": 187.85,
+    "entries": 146,
+    "span_h": 188.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T05:07:03.141131+00:00"
+    "last": "2026-08-30T06:07:22.367814+00:00"
   }
 }
