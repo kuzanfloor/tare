@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 31,
+  "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T09:07:22.461320+00:00",
+  "generated_at": "2026-08-30T10:07:11.039719+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.3,
+      "apr_pct": 27.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 25.3,
+      "apr_pct": 25.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 24,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 23.4,
+      "apr_pct": 23.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 16.2,
+      "apr_pct": 16.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 38,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 14.0,
+      "apr_pct": 13.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 44,
       "n": 168,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 13.6,
+      "apr_pct": 13.4,
       "persistence": 0.954,
-      "hours_to_clear_fees": 45,
+      "hours_to_clear_fees": 46,
       "n": 153,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All assets show a positive funding carry, indicating a market-wide environment where longs are consistently paying shorts to hold positions.",
+    "text": "What stands out is that each of these crypto assets offers a consistently high APR for holding, yet the markets are structured to reject and close positions before fees can be recouped, suggesting a potential profitability barrier for traders.",
     "model": "deepseek-v3.2",
-    "tx": "Kb3jcm5NC1ZDadrPbpseUzzHR27ufwJtZ3EMHjZHeWyJ1o3CyrWGK2SfACUoMnAwCLRWghqzzyh4EXKkYwxHutv",
-    "charged_micro": 31
+    "tx": "3gWtni3fYAVpTPR5aWr3mmwUSJAYVFtuy5jpmMfXpiBqzrTZRbukUVSeirJvFZ9AWAWbBNj1GeHpBE9M53bERNk3",
+    "charged_micro": 39
   },
   "history": {
-    "entries": 149,
-    "span_h": 191.85,
+    "entries": 150,
+    "span_h": 192.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T09:07:22.461320+00:00"
+    "last": "2026-08-30T10:07:11.039719+00:00"
   }
 }
