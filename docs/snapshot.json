@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 25,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-30T19:07:21.046923+00:00",
+  "generated_at": "2026-08-30T20:07:22.462048+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.6,
+      "apr_pct": 26.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 23.8,
+      "apr_pct": 23.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 26,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.8,
+      "apr_pct": 20.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 164,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 11.0,
-      "persistence": 0.928,
-      "hours_to_clear_fees": 56,
+      "apr_pct": 10.6,
+      "persistence": 0.921,
+      "hours_to_clear_fees": 58,
       "n": 152,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "These high APR holds with frequent market rejections suggest artificially inflated yields from an unsustainable, highly speculative environment prone to liquidation before profits materialize.",
+    "text": "The exceptionally high funding rates across these assets, all in double-digit APRs, stand out as extreme and unsustainable for long positions.",
     "model": "deepseek-v3.2",
-    "tx": "262tU5xbMNcyLxxkJFyctbkPQpvb7Rqhr6PdbzEf26i5vJeNLahj1QyqacrLkPLnHXuWhVePPvoxrBXBjQeFiyqZ",
-    "charged_micro": 25
+    "tx": "2XcyBoSsCXGMpfrQrVc5dh5ysP8FJASjvoakuN3vbz5BFssawwAPp9TPXi75hbC1DUMJTB4yqRKMSH34zRTTaUfY",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 159,
-    "span_h": 201.85,
+    "entries": 160,
+    "span_h": 202.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-30T19:07:21.046923+00:00"
+    "last": "2026-08-30T20:07:22.462048+00:00"
   }
 }
