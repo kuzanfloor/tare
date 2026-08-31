@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 37,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T17:07:22.677311+00:00",
+  "generated_at": "2026-08-31T18:07:03.069753+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 20.8,
+      "apr_pct": 20.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 30,
       "n": 168,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 17.3,
-      "persistence": 0.912,
-      "hours_to_clear_fees": 35,
+      "apr_pct": 17.1,
+      "persistence": 0.906,
+      "hours_to_clear_fees": 36,
       "n": 160,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -100,24 +100,24 @@
       "symbol": "WTIOIL",
       "apr_pct": 6.7,
       "persistence": 0.805,
-      "hours_to_clear_fees": 92,
+      "hours_to_clear_fees": 91,
       "n": 154,
       "calendar": "cme_commodities",
-      "closes_in_h": 4,
+      "closes_in_h": 3,
       "verdict": "reject",
-      "why": "closes in 4h, needs 92h to clear fees"
+      "why": "closes in 3h, needs 91h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "**The table shows unusually high APRs for perpetual futures across multiple major assets\u2014suggesting sustained, extreme funding rates that would incentivize holding short positions rather than long ones.**",
+    "text": "These high, consistent positive funding rates suggest a heavily skewed market with traders overwhelmingly paying to hold long positions, indicating extreme bullish sentiment and potential overcrowding.",
     "model": "deepseek-v3.2",
-    "tx": "2Pj3KtQdeJCSJKijj27UMLdyKN9fp4vKM4iJdGEeerVmcbb7nuKpcoP3i4X8kLvz9e6k7tgKBbHPwhR7bXaSKsBw",
-    "charged_micro": 37
+    "tx": "5ufEHCUuwmZtBrywDfAikM6p7f6xyEdV7zDRVsT9eVt92cgRKgbTYQfU4ncNpYmzTHhqJAm8WSgKXM5H6Wv8WPzq",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 181,
-    "span_h": 223.85,
+    "entries": 182,
+    "span_h": 224.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T17:07:22.677311+00:00"
+    "last": "2026-08-31T18:07:03.069753+00:00"
   }
 }
