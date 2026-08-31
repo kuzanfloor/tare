@@ -11,7 +11,7 @@
   "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T10:07:22.544971+00:00",
+  "generated_at": "2026-08-31T11:07:02.188521+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,17 +32,6 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 21.6,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 28,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ZEC",
       "apr_pct": 21.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
@@ -53,10 +42,21 @@
       "why": "open continuously"
     },
     {
+      "symbol": "ZEC",
+      "apr_pct": 21.3,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 29,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "TAO",
-      "apr_pct": 18.3,
-      "persistence": 0.944,
-      "hours_to_clear_fees": 33,
+      "apr_pct": 18.1,
+      "persistence": 0.938,
+      "hours_to_clear_fees": 34,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.8,
+      "apr_pct": 15.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.4,
+      "apr_pct": 13.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 46,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.4,
+      "apr_pct": 12.5,
       "persistence": 0.88,
       "hours_to_clear_fees": 49,
       "n": 166,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 7.0,
-      "persistence": 0.872,
-      "hours_to_clear_fees": 88,
+      "apr_pct": 6.8,
+      "persistence": 0.866,
+      "hours_to_clear_fees": 90,
       "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All three assets demonstrate exceptional funding carry with consistent \u201chold\u201d patterns and high APRs, but the discrepancy is that this lucrative opportunity is effectively negated by markets that consistently close before position fees are recovered.",
+    "text": "The funding carry table stands out for its unusually high annualized funding rates, indicating strong and consistent market demand to hold long positions across these assets, which can expose traders to significant liquidation risks if the market reverses before fees are recouped.",
     "model": "deepseek-v3.2",
-    "tx": "2FK6HnUnuvHD8zvxRonC6q2AhdWF4qr5tRhQFCxZa5H2gtu8HjypdKL634N2jpNCcDHLNxPxBSmJmzoy7f2139eR",
+    "tx": "5dy3nkNgqmSFGC3MMPEDGGazt645WSgNe8zXtiHmG1jKQvArHnMrdetrsvqiZdVeTiT4USQaH8rBHKGGFUkcuPcQ",
     "charged_micro": 39
   },
   "history": {
-    "entries": 174,
-    "span_h": 216.85,
+    "entries": 175,
+    "span_h": 217.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T10:07:22.544971+00:00"
+    "last": "2026-08-31T11:07:02.188521+00:00"
   }
 }
