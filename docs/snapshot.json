@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 26,
+  "inference_charged_micro": 33,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T01:07:22.539435+00:00",
+  "generated_at": "2026-08-31T02:07:11.161581+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 22.9,
+      "apr_pct": 22.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.4,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
+      "apr_pct": 19.9,
+      "persistence": 0.994,
+      "hours_to_clear_fees": 31,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 11.8,
+      "apr_pct": 11.9,
       "persistence": 0.88,
       "hours_to_clear_fees": 52,
       "n": 166,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 9.0,
-      "persistence": 0.907,
-      "hours_to_clear_fees": 68,
+      "apr_pct": 8.7,
+      "persistence": 0.901,
+      "hours_to_clear_fees": 70,
       "n": 151,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All assets show a \"hold\" classification with high APRs, yet the markets reject positions before the fees are covered.",
+    "text": "The persistently high annual hold rates across multiple assets suggest these markets are dominated by traders willing to pay significant premiums to maintain short positions.",
     "model": "deepseek-v3.2",
-    "tx": "3v4MEMUNVwVcAeMys7pw9cUTc6q6g2J1cMUkY5KzgMxFGqwjEXDnDBT4gH8AdThZFzTSFtzZPZivgZDA5hQBbiqG",
-    "charged_micro": 26
+    "tx": "2pVAs8UCkTyYmfTWgehvb3sBMFKr4FZ2VJuUdwAeyrVge9TbqB3kJkVR7yuspDAQ83Q6tbGcm8CEmGk2k7u3W7Th",
+    "charged_micro": 33
   },
   "history": {
-    "entries": 165,
-    "span_h": 207.85,
+    "entries": 166,
+    "span_h": 208.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T01:07:22.539435+00:00"
+    "last": "2026-08-31T02:07:11.161581+00:00"
   }
 }
