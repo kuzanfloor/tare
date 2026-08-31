@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 39,
+  "inference_charged_micro": 26,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T00:07:19.179159+00:00",
+  "generated_at": "2026-08-31T01:07:22.539435+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.5,
+      "apr_pct": 26.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 23.1,
+      "apr_pct": 22.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 27,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 22.2,
+      "apr_pct": 22.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -54,10 +54,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 20.5,
+      "apr_pct": 20.4,
       "persistence": 1.0,
       "hours_to_clear_fees": 30,
-      "n": 163,
+      "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 11.7,
+      "apr_pct": 11.8,
       "persistence": 0.88,
-      "hours_to_clear_fees": 53,
+      "hours_to_clear_fees": 52,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 9.4,
-      "persistence": 0.914,
-      "hours_to_clear_fees": 65,
+      "apr_pct": 9.0,
+      "persistence": 0.907,
+      "hours_to_clear_fees": 68,
       "n": 151,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The extraordinarily high annualized percentage rates (APRs) in this funding carry table are unsustainable anomalies, likely indicating extreme short-term market imbalances rather than viable long-term returns.",
+    "text": "All assets show a \"hold\" classification with high APRs, yet the markets reject positions before the fees are covered.",
     "model": "deepseek-v3.2",
-    "tx": "4iGv21X8pCRWS9P1U9SfCVQRKrae7YYgsMfwC1Lj93x2ZdbQg9RS1CAzbezRANfybW8tyAkn2D4W3iDxVhS8PRvj",
-    "charged_micro": 39
+    "tx": "3v4MEMUNVwVcAeMys7pw9cUTc6q6g2J1cMUkY5KzgMxFGqwjEXDnDBT4gH8AdThZFzTSFtzZPZivgZDA5hQBbiqG",
+    "charged_micro": 26
   },
   "history": {
-    "entries": 164,
-    "span_h": 206.85,
+    "entries": 165,
+    "span_h": 207.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T00:07:19.179159+00:00"
+    "last": "2026-08-31T01:07:22.539435+00:00"
   }
 }
