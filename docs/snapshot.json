@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 29,
+  "inference_charged_micro": 37,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T16:07:11.120348+00:00",
+  "generated_at": "2026-08-31T17:07:22.677311+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.9,
+      "apr_pct": 27.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 20.9,
+      "apr_pct": 20.8,
       "persistence": 1.0,
-      "hours_to_clear_fees": 29,
+      "hours_to_clear_fees": 30,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 20.7,
+      "apr_pct": 20.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 30,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 17.5,
-      "persistence": 0.919,
+      "apr_pct": 17.3,
+      "persistence": 0.912,
       "hours_to_clear_fees": 35,
       "n": 160,
       "calendar": "24/7",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.9,
+      "apr_pct": 16.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 38,
       "n": 168,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 13.0,
-      "persistence": 0.88,
-      "hours_to_clear_fees": 47,
+      "apr_pct": 13.2,
+      "persistence": 0.886,
+      "hours_to_clear_fees": 46,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "WTIOIL",
-      "apr_pct": 6.6,
+      "apr_pct": 6.7,
       "persistence": 0.805,
       "hours_to_clear_fees": 92,
       "n": 154,
       "calendar": "cme_commodities",
-      "closes_in_h": 5,
+      "closes_in_h": 4,
       "verdict": "reject",
-      "why": "closes in 5h, needs 92h to clear fees"
+      "why": "closes in 4h, needs 92h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The carry table is dominated by high APRs for holding positions, yet all listed markets consistently close before fees are recouped, indicating persistent unfavorable timing for traders.",
+    "text": "**The table shows unusually high APRs for perpetual futures across multiple major assets\u2014suggesting sustained, extreme funding rates that would incentivize holding short positions rather than long ones.**",
     "model": "deepseek-v3.2",
-    "tx": "3VYuBswVXjQanKcG8pa69WDwQWQkPArBP6b3jbGwCxSMs5bxWpxdMd1p7BTEgb1jSCbDYb9f4rCT42b15biiZJkq",
-    "charged_micro": 29
+    "tx": "2Pj3KtQdeJCSJKijj27UMLdyKN9fp4vKM4iJdGEeerVmcbb7nuKpcoP3i4X8kLvz9e6k7tgKBbHPwhR7bXaSKsBw",
+    "charged_micro": 37
   },
   "history": {
-    "entries": 180,
-    "span_h": 222.85,
+    "entries": 181,
+    "span_h": 223.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T16:07:11.120348+00:00"
+    "last": "2026-08-31T17:07:22.677311+00:00"
   }
 }
