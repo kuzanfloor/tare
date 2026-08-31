@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 32,
+  "inference_charged_micro": 27,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T04:07:22.568193+00:00",
+  "generated_at": "2026-08-31T05:07:01.868543+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.9,
+      "apr_pct": 21.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.5,
-      "persistence": 0.981,
-      "hours_to_clear_fees": 31,
+      "apr_pct": 19.2,
+      "persistence": 0.975,
+      "hours_to_clear_fees": 32,
       "n": 162,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -67,7 +67,7 @@
       "symbol": "BNB",
       "apr_pct": 15.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 40,
+      "hours_to_clear_fees": 39,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 8.2,
+      "apr_pct": 8.0,
       "persistence": 0.893,
-      "hours_to_clear_fees": 75,
+      "hours_to_clear_fees": 77,
       "n": 150,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The table stands out for its exceptionally high and consistent funding rates across all assets, indicating a sustained, extreme market imbalance favoring long positions.",
+    "text": "This funding rate table is unusual because all five major assets are persistently posting positive \"APR hold\" rates, indicating a consistent and expensive cost to hold short positions across these markets.",
     "model": "deepseek-v3.2",
-    "tx": "5jByif8Xe3Wn9WVSiDzRazSXioD2RHdMaWs3wTpbSdLEtseQZCecQY2KC7gt2dURCyJFHXqAdTbVpwqW3GHrcEz8",
-    "charged_micro": 32
+    "tx": "E7WFwLkWvTGrhwEAW5kLtYHY1bUArWontqjbb8wzmJ1pSshCBBVnn23wLoDw66iRKJk5YRXdguoXdGdq9ZSoAJf",
+    "charged_micro": 27
   },
   "history": {
-    "entries": 168,
-    "span_h": 210.85,
+    "entries": 169,
+    "span_h": 211.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T04:07:22.568193+00:00"
+    "last": "2026-08-31T05:07:01.868543+00:00"
   }
 }
