@@ -7,117 +7,22 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 39,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-08-31T20:07:22.509271+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-08-31T21:07:11.126081+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
   "perp_qty": -28.0,
   "delta": 0.0,
   "unconfirmed": 1,
-  "carry": [
-    {
-      "symbol": "NEAR",
-      "apr_pct": 27.1,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 23,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
-      "apr_pct": 20.5,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ZEC",
-      "apr_pct": 20.4,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "TAO",
-      "apr_pct": 16.8,
-      "persistence": 0.894,
-      "hours_to_clear_fees": 36,
-      "n": 160,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BNB",
-      "apr_pct": 16.1,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 38,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BTC",
-      "apr_pct": 13.3,
-      "persistence": 0.886,
-      "hours_to_clear_fees": 46,
-      "n": 166,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ETH",
-      "apr_pct": 13.3,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 46,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "WTIOIL",
-      "apr_pct": 6.8,
-      "persistence": 0.805,
-      "hours_to_clear_fees": 90,
-      "n": 154,
-      "calendar": "cme_commodities",
-      "closes_in_h": 1,
-      "verdict": "reject",
-      "why": "closes in 1h, needs 90h to clear fees"
-    }
-  ],
-  "carry_review": {
-    "text": "The standout anomaly is that these markets would require sustained extreme funding rates for traders to hold positions, yet they are still subject to market rejections before fees are recovered.",
-    "model": "deepseek-v3.2",
-    "tx": "56if7kXxDtJfKecuGTdnNFqfXiRXgkjacWsDwJuF5thjaz91nbVRV6Yij91Zfzvsd5hrfTTPAD48f2brSseeDKYq",
-    "charged_micro": 39
-  },
+  "carry": null,
   "history": {
-    "entries": 184,
-    "span_h": 226.85,
+    "entries": 185,
+    "span_h": 227.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T20:07:22.509271+00:00"
+    "last": "2026-08-31T21:07:11.126081+00:00"
   }
 }
