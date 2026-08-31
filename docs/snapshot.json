@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 24,
+  "inference_charged_micro": 25,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T07:07:22.548089+00:00",
+  "generated_at": "2026-08-31T08:07:06.141034+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.9,
+      "apr_pct": 27.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 22.2,
+      "apr_pct": 22.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.7,
+      "apr_pct": 21.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 18.9,
-      "persistence": 0.963,
+      "apr_pct": 18.6,
+      "persistence": 0.957,
       "hours_to_clear_fees": 33,
       "n": 162,
       "calendar": "24/7",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.6,
+      "apr_pct": 15.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.1,
+      "apr_pct": 12.2,
       "persistence": 0.88,
-      "hours_to_clear_fees": 51,
+      "hours_to_clear_fees": 50,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 7.5,
-      "persistence": 0.886,
-      "hours_to_clear_fees": 82,
+      "apr_pct": 7.3,
+      "persistence": 0.879,
+      "hours_to_clear_fees": 84,
       "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "NEAR offers the highest funding carry APR at 26.9% among the listed assets.",
+    "text": "All assets show consistently high positive funding rates across the board, indicating intense and uniform perpetual long interest.",
     "model": "deepseek-v3.2",
-    "tx": "45Csr4NB4wmmoCfTPdEsLAinFWrAztUrfvKbMCGoF5ouQn5Er1GqQjuEHsZj4iBAB4Wbh9Xzmr46Fuko9ARoPQAr",
-    "charged_micro": 24
+    "tx": "5QNbi3yZNrJo7X1yTtjYVWTRrmqjdr5i8nxhrVzwVuK6nqxHsku1nFhcov9n4TwyhecUryAKJynWQ6dnAFfMCwjm",
+    "charged_micro": 25
   },
   "history": {
-    "entries": 171,
-    "span_h": 213.85,
+    "entries": 172,
+    "span_h": 214.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T07:07:22.548089+00:00"
+    "last": "2026-08-31T08:07:06.141034+00:00"
   }
 }
