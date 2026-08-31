@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 25,
+  "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T08:07:06.141034+00:00",
+  "generated_at": "2026-08-31T09:07:14.150211+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 22.0,
+      "apr_pct": 21.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.6,
+      "apr_pct": 21.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 18.6,
-      "persistence": 0.957,
+      "apr_pct": 18.5,
+      "persistence": 0.951,
       "hours_to_clear_fees": 33,
       "n": 162,
       "calendar": "24/7",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.2,
+      "apr_pct": 12.3,
       "persistence": 0.88,
       "hours_to_clear_fees": 50,
       "n": 166,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 7.3,
+      "apr_pct": 7.2,
       "persistence": 0.879,
-      "hours_to_clear_fees": 84,
+      "hours_to_clear_fees": 85,
       "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "All assets show consistently high positive funding rates across the board, indicating intense and uniform perpetual long interest.",
+    "text": "The funding carry table stands out because it shows relatively high annual percentage returns (APRs) for several cryptocurrencies, suggesting these assets offer attractive yields for holding positions, but it also notes that markets tend to reverse and close positions before traders can clear their fees, indicating significant risk or volatility despite the high returns",
     "model": "deepseek-v3.2",
-    "tx": "5QNbi3yZNrJo7X1yTtjYVWTRrmqjdr5i8nxhrVzwVuK6nqxHsku1nFhcov9n4TwyhecUryAKJynWQ6dnAFfMCwjm",
-    "charged_micro": 25
+    "tx": "qHmE7aHgSfonZqC8QuoVoKdsWzaY9gWiRbeDD8qrYZLDBtLpU2uzu2QX9fs7WRHNW5Zby63fkRf3CiSmq69P7md",
+    "charged_micro": 39
   },
   "history": {
-    "entries": 172,
-    "span_h": 214.85,
+    "entries": 173,
+    "span_h": 215.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T08:07:06.141034+00:00"
+    "last": "2026-08-31T09:07:14.150211+00:00"
   }
 }
