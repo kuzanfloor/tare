@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 27,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-08-31T05:07:01.868543+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-08-31T06:07:23.721118+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.8,
+      "apr_pct": 26.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.8,
+      "apr_pct": 21.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 28,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 19.2,
-      "persistence": 0.975,
+      "apr_pct": 19.0,
+      "persistence": 0.969,
       "hours_to_clear_fees": 32,
       "n": 162,
       "calendar": "24/7",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.5,
+      "apr_pct": 15.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -78,7 +78,7 @@
       "symbol": "ETH",
       "apr_pct": 13.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 45,
+      "hours_to_clear_fees": 46,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.0,
+      "apr_pct": 12.1,
       "persistence": 0.88,
       "hours_to_clear_fees": 51,
       "n": 166,
@@ -98,26 +98,20 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 8.0,
+      "apr_pct": 7.8,
       "persistence": 0.893,
-      "hours_to_clear_fees": 77,
-      "n": 150,
+      "hours_to_clear_fees": 78,
+      "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     }
   ],
-  "carry_review": {
-    "text": "This funding rate table is unusual because all five major assets are persistently posting positive \"APR hold\" rates, indicating a consistent and expensive cost to hold short positions across these markets.",
-    "model": "deepseek-v3.2",
-    "tx": "E7WFwLkWvTGrhwEAW5kLtYHY1bUArWontqjbb8wzmJ1pSshCBBVnn23wLoDw66iRKJk5YRXdguoXdGdq9ZSoAJf",
-    "charged_micro": 27
-  },
   "history": {
-    "entries": 169,
-    "span_h": 211.85,
+    "entries": 170,
+    "span_h": 212.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T05:07:01.868543+00:00"
+    "last": "2026-08-31T06:07:23.721118+00:00"
   }
 }
