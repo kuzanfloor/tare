@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 39,
+  "inference_charged_micro": 36,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T13:07:22.590988+00:00",
+  "generated_at": "2026-08-31T14:07:13.118563+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.2,
+      "apr_pct": 21.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 21.1,
+      "apr_pct": 21.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 168,
@@ -55,9 +55,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 17.9,
-      "persistence": 0.926,
+      "persistence": 0.925,
       "hours_to_clear_fees": 34,
-      "n": 162,
+      "n": 161,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.7,
+      "apr_pct": 12.8,
       "persistence": 0.88,
       "hours_to_clear_fees": 48,
       "n": 166,
@@ -97,27 +97,27 @@
       "why": "open continuously"
     },
     {
-      "symbol": "AAVE",
+      "symbol": "WTIOIL",
       "apr_pct": 6.5,
-      "persistence": 0.859,
+      "persistence": 0.805,
       "hours_to_clear_fees": 94,
-      "n": 149,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
+      "n": 154,
+      "calendar": "cme_commodities",
+      "closes_in_h": 7,
+      "verdict": "reject",
+      "why": "closes in 7h, needs 94h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The exceptionally high positive annual percentage rates for holding long positions stand out, as they are large enough to potentially outweigh typical trading fees if sustained.",
+    "text": "NEAR's notably high 26.8% funding carry stands out relative to the other listed assets, despite the overall risk of negative price action eroding positions before fees are recovered.",
     "model": "deepseek-v3.2",
-    "tx": "5FGWUz1it4soj5gUheE6rqjh6arxY6K42wBuD1gRC3WGzTFzDP6vu2M9r51N4PEtq31uNF5pkgzMSh1HZ5xLbdqw",
-    "charged_micro": 39
+    "tx": "gRCBDR8nhqetKv68gXdkmXAd6z7y1hDuPjGopUA6xkG8nXQxmSGYzMT9ks8uGWUaTqdy1LfLNjFhPDSXAhpf1Sy",
+    "charged_micro": 36
   },
   "history": {
-    "entries": 177,
-    "span_h": 219.85,
+    "entries": 178,
+    "span_h": 220.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T13:07:22.590988+00:00"
+    "last": "2026-08-31T14:07:13.118563+00:00"
   }
 }
