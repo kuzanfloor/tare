@@ -11,7 +11,7 @@
   "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T19:07:21.160927+00:00",
+  "generated_at": "2026-08-31T20:07:22.509271+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -31,17 +31,6 @@
       "why": "open continuously"
     },
     {
-      "symbol": "ZEC",
-      "apr_pct": 20.6,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
       "symbol": "SOL",
       "apr_pct": 20.5,
       "persistence": 1.0,
@@ -53,9 +42,20 @@
       "why": "open continuously"
     },
     {
+      "symbol": "ZEC",
+      "apr_pct": 20.4,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 30,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "TAO",
-      "apr_pct": 16.9,
-      "persistence": 0.9,
+      "apr_pct": 16.8,
+      "persistence": 0.894,
       "hours_to_clear_fees": 36,
       "n": 160,
       "calendar": "24/7",
@@ -75,22 +75,22 @@
       "why": "open continuously"
     },
     {
-      "symbol": "ETH",
+      "symbol": "BTC",
       "apr_pct": 13.3,
-      "persistence": 1.0,
+      "persistence": 0.886,
       "hours_to_clear_fees": 46,
-      "n": 168,
+      "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     },
     {
-      "symbol": "BTC",
-      "apr_pct": 13.2,
-      "persistence": 0.886,
+      "symbol": "ETH",
+      "apr_pct": 13.3,
+      "persistence": 1.0,
       "hours_to_clear_fees": 46,
-      "n": 166,
+      "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -103,21 +103,21 @@
       "hours_to_clear_fees": 90,
       "n": 154,
       "calendar": "cme_commodities",
-      "closes_in_h": 2,
+      "closes_in_h": 1,
       "verdict": "reject",
-      "why": "closes in 2h, needs 90h to clear fees"
+      "why": "closes in 1h, needs 90h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "The key observation is that the high funding APRs for long positions in these assets (like NEAR's 27.1%) are likely unsustainable because markets frequently \"reject\" or reverse before a holder can earn enough to cover the funding fees.",
+    "text": "The standout anomaly is that these markets would require sustained extreme funding rates for traders to hold positions, yet they are still subject to market rejections before fees are recovered.",
     "model": "deepseek-v3.2",
-    "tx": "2kgnp2Ldo5k4eTHR1Tf1bdk67zQ8w3nafoLfpYpCnqrL9koVDzcEZwby2cEKqqHxqoaj8oXVgyM3ZRavqxKJxNQs",
+    "tx": "56if7kXxDtJfKecuGTdnNFqfXiRXgkjacWsDwJuF5thjaz91nbVRV6Yij91Zfzvsd5hrfTTPAD48f2brSseeDKYq",
     "charged_micro": 39
   },
   "history": {
-    "entries": 183,
-    "span_h": 225.85,
+    "entries": 184,
+    "span_h": 226.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T19:07:21.160927+00:00"
+    "last": "2026-08-31T20:07:22.509271+00:00"
   }
 }
