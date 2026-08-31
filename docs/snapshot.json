@@ -11,7 +11,7 @@
   "inference_charged_micro": 39,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T11:07:02.188521+00:00",
+  "generated_at": "2026-08-31T12:07:21.216045+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,20 +21,9 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 26.9,
+      "apr_pct": 26.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 23,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
-      "apr_pct": 21.4,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 29,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -53,9 +42,20 @@
       "why": "open continuously"
     },
     {
+      "symbol": "SOL",
+      "apr_pct": 21.2,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 29,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "TAO",
-      "apr_pct": 18.1,
-      "persistence": 0.938,
+      "apr_pct": 18.0,
+      "persistence": 0.932,
       "hours_to_clear_fees": 34,
       "n": 162,
       "calendar": "24/7",
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.5,
+      "apr_pct": 12.6,
       "persistence": 0.88,
       "hours_to_clear_fees": 49,
       "n": 166,
@@ -98,9 +98,9 @@
     },
     {
       "symbol": "AAVE",
-      "apr_pct": 6.8,
+      "apr_pct": 6.7,
       "persistence": 0.866,
-      "hours_to_clear_fees": 90,
+      "hours_to_clear_fees": 92,
       "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,15 +109,15 @@
     }
   ],
   "carry_review": {
-    "text": "The funding carry table stands out for its unusually high annualized funding rates, indicating strong and consistent market demand to hold long positions across these assets, which can expose traders to significant liquidation risks if the market reverses before fees are recouped.",
+    "text": "The extraordinarily high and consistent \"hold\" APRs across multiple major assets suggest these are likely artificial, risk-free yields from perpetual futures funding rates that traders are aggressively paying to maintain directional bets, not sustainable investment returns.",
     "model": "deepseek-v3.2",
-    "tx": "5dy3nkNgqmSFGC3MMPEDGGazt645WSgNe8zXtiHmG1jKQvArHnMrdetrsvqiZdVeTiT4USQaH8rBHKGGFUkcuPcQ",
+    "tx": "sGXGiqw5jmpjWrHWteEwTQcQ5aKLL4L1F69HXrFaPmzeirw5AFrWms3NkBK9crceJsuXXEaaJisSS4JoeQ7yDRk",
     "charged_micro": 39
   },
   "history": {
-    "entries": 175,
-    "span_h": 217.85,
+    "entries": 176,
+    "span_h": 218.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T11:07:02.188521+00:00"
+    "last": "2026-08-31T12:07:21.216045+00:00"
   }
 }
