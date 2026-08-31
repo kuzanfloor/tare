@@ -8,10 +8,10 @@
     "delta_unknown_unconfirmed_fills": 1
   },
   "inference_calls": 1,
-  "inference_charged_micro": 36,
+  "inference_charged_micro": 26,
   "inference_quoted_micro": 39,
   "inference_onchain": 1,
-  "generated_at": "2026-08-31T14:07:13.118563+00:00",
+  "generated_at": "2026-08-31T15:07:22.483011+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,17 +32,6 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 21.1,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 29,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
       "apr_pct": 21.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
@@ -53,11 +42,22 @@
       "why": "open continuously"
     },
     {
+      "symbol": "SOL",
+      "apr_pct": 20.8,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 29,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
       "symbol": "TAO",
-      "apr_pct": 17.9,
+      "apr_pct": 17.8,
       "persistence": 0.925,
       "hours_to_clear_fees": 34,
-      "n": 161,
+      "n": 160,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 15.8,
+      "apr_pct": 15.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -87,7 +87,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 12.8,
+      "apr_pct": 12.9,
       "persistence": 0.88,
       "hours_to_clear_fees": 48,
       "n": 166,
@@ -98,26 +98,26 @@
     },
     {
       "symbol": "WTIOIL",
-      "apr_pct": 6.5,
+      "apr_pct": 6.6,
       "persistence": 0.805,
-      "hours_to_clear_fees": 94,
+      "hours_to_clear_fees": 93,
       "n": 154,
       "calendar": "cme_commodities",
-      "closes_in_h": 7,
+      "closes_in_h": 6,
       "verdict": "reject",
-      "why": "closes in 7h, needs 94h to clear fees"
+      "why": "closes in 6h, needs 93h to clear fees"
     }
   ],
   "carry_review": {
-    "text": "NEAR's notably high 26.8% funding carry stands out relative to the other listed assets, despite the overall risk of negative price action eroding positions before fees are recovered.",
+    "text": "The table's extremely high and uniform \"hold\" APRs suggest these are likely synthetic or promotional rates that are not sustainable or indicative of true market funding costs.",
     "model": "deepseek-v3.2",
-    "tx": "gRCBDR8nhqetKv68gXdkmXAd6z7y1hDuPjGopUA6xkG8nXQxmSGYzMT9ks8uGWUaTqdy1LfLNjFhPDSXAhpf1Sy",
-    "charged_micro": 36
+    "tx": "5YyWwdboPw3gHmWecSAtobB1fVJ31zyiv4gtfSVh7UZ7R6dF6AtwAD7dYBPj7maWKgLkyv74JkUqZ2NLceNb5hMy",
+    "charged_micro": 26
   },
   "history": {
-    "entries": 178,
-    "span_h": 220.85,
+    "entries": 179,
+    "span_h": 221.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-08-31T14:07:13.118563+00:00"
+    "last": "2026-08-31T15:07:22.483011+00:00"
   }
 }
