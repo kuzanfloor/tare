@@ -33,14 +33,48 @@ def _header(headers: dict, name: str) -> str | None:
     return None
 
 
-def _rpc(method: str, params: list) -> dict:
-    request = urllib.request.Request(
-        RPC,
-        data=json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode(),
-        headers={"Content-Type": "application/json", "User-Agent": UA},
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read())
+class RpcUnavailable(RuntimeError):
+    """The node refused to answer. NOT the same as "the chain said no"."""
+
+
+def _rpc(method: str, params: list, attempts: int = 5) -> dict:
+    """One JSON-RPC call, with backoff on refusals.
+
+    The public endpoint rate-limits by IP, and it is a SHARED resource: any other
+    process on this machine that hammers it takes this publisher down with it.
+    That is not hypothetical — it happened on 2026-08-31, when an unrelated
+    research job on the same host earned the IP a `429 Connection rate limits
+    exceeded` and tare-publish failed every hour for a day with a raw traceback.
+
+    A refusal is transient by nature, so it is retried; when it is not transient,
+    it is raised as `RpcUnavailable` — "I could not ask", which is a different
+    thing from "the answer was no" and must not be reported as the same.
+    """
+    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode()
+    last = ""
+    for attempt in range(attempts):
+        request = urllib.request.Request(
+            RPC, data=body,
+            headers={"Content-Type": "application/json", "User-Agent": UA},
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = json.loads(response.read())
+            # Un 429 arriva anche con codice 200 e l'errore nel corpo.
+            err = payload.get("error") or {}
+            if err.get("code") == 429:
+                last = err.get("message", "429")
+            else:
+                return payload
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 502, 503, 504):
+                raise
+            last = f"HTTP {e.code}"
+        except urllib.error.URLError as e:
+            last = str(e.reason)
+        if attempt < attempts - 1:
+            time.sleep(2 * (attempt + 1))
+    raise RpcUnavailable(f"{RPC} non risponde dopo {attempts} tentativi: {last}")
 
 
 def _post(body: bytes, extra: dict | None = None) -> tuple[int, dict, bytes]:
@@ -62,6 +96,27 @@ def buy_one(cid: str, prompt: str, model: str = "deepseek-v3.2", max_tokens: int
     Returns None rather than raising: a publisher that cannot buy inference must
     report that it bought none, not crash and leave the last reading standing.
     """
+    if not KEYPAIR.exists():
+        return None
+    try:
+        return _buy_one_inner(cid, prompt, model, max_tokens)
+    except RpcUnavailable as e:
+        # Il contratto di questa funzione e' "torno None se non ho comprato".
+        # Un nodo che rifiuta e' un caso di non-acquisto come gli altri: il
+        # pubblicatore deve poter uscire dicendo che non ha comprato niente,
+        # non morire e lasciare in piedi la lettura vecchia come se fosse nuova.
+        print(f"  inferenza non comprata: {e}")
+        return None
+
+
+def _buy_one_inner(cid: str, prompt: str, model: str, max_tokens: int):
+    """Il corpo vero. Separato solo perche' `buy_one` possa garantire il proprio
+    contratto ("torno None, non sollevo") con un solo `try` invece di sparpagliarlo.
+
+    Gli import stanno QUI e non nel chiamante: `solders` e `spl` sono pesanti e si
+    caricano solo quando si compra davvero. Spostarli di funzione senza spostarli
+    davvero produce un NameError che nessun test vede, perche' i test non arrivano
+    fin qui — successo mentre scrivevo questa modifica, l'01/09/2026."""
     from solders.hash import Hash
     from solders.keypair import Keypair
     from solders.message import Message
@@ -71,8 +126,6 @@ def buy_one(cid: str, prompt: str, model: str = "deepseek-v3.2", max_tokens: int
     from spl.token.instructions import get_associated_token_address, transfer_checked
     from spl.token.models import TransferCheckedParams
 
-    if not KEYPAIR.exists():
-        return None
     keypair = Keypair.from_bytes(bytes(json.loads(KEYPAIR.read_text())))
     mint = Pubkey.from_string(USDC_MINT)
 
