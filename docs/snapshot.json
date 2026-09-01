@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-01T20:07:22.407058+00:00",
+  "generated_at": "2026-09-01T21:07:02.429417+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -42,9 +42,9 @@
       "why": "open continuously"
     },
     {
-      "symbol": "ZEC",
+      "symbol": "BNB",
       "apr_pct": 17.5,
-      "persistence": 0.982,
+      "persistence": 1.0,
       "hours_to_clear_fees": 35,
       "n": 168,
       "calendar": "24/7",
@@ -53,9 +53,9 @@
       "why": "open continuously"
     },
     {
-      "symbol": "BNB",
+      "symbol": "ZEC",
       "apr_pct": 17.4,
-      "persistence": 1.0,
+      "persistence": 0.982,
       "hours_to_clear_fees": 35,
       "n": 168,
       "calendar": "24/7",
@@ -77,9 +77,9 @@
     {
       "symbol": "TAO",
       "apr_pct": 13.6,
-      "persistence": 0.808,
+      "persistence": 0.807,
       "hours_to_clear_fees": 45,
-      "n": 151,
+      "n": 150,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "WTIOIL",
-      "apr_pct": 6.1,
-      "persistence": 0.753,
-      "hours_to_clear_fees": 100,
-      "n": 146,
+      "apr_pct": 6.0,
+      "persistence": 0.748,
+      "hours_to_clear_fees": 103,
+      "n": 147,
       "calendar": "cme_commodities",
       "closes_in_h": 1,
       "verdict": "reject",
-      "why": "closes in 1h, needs 100h to clear fees"
+      "why": "closes in 1h, needs 103h to clear fees"
     }
   ],
   "history": {
-    "entries": 192,
-    "span_h": 250.85,
+    "entries": 193,
+    "span_h": 251.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-01T20:07:22.407058+00:00"
+    "last": "2026-09-01T21:07:02.429417+00:00"
   }
 }
