@@ -19,7 +19,12 @@ GIT_SSH_COMMAND="ssh -o ConnectTimeout=20 -o BatchMode=yes" \
   git fetch -q origin main 2>/dev/null || true
 git rebase -q FETCH_HEAD >/dev/null 2>&1 || {
   git checkout --ours docs/snapshot.json 2>/dev/null
-  git add -A >/dev/null 2>&1
+  # SOLO docs/. `git add -A` metteva in stage l'INTERO albero di lavoro, e il
+  # commit successivo lo pubblicava sotto "chore: refresh reading" su un repo
+  # PUBBLICO. Successo l'01/09/2026: una modifica al client di pagamento, in
+  # corso di scrittura, e' finita spinta con quel messaggio. Qualunque lavoro non
+  # finito presente sulla macchina sarebbe uscito allo stesso modo.
+  git add docs/ >/dev/null 2>&1
   GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || git rebase --abort
 }
 
