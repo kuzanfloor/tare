@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 0,
-  "inference_charged_micro": 0,
-  "inference_quoted_micro": 0,
-  "inference_onchain": 0,
-  "generated_at": "2026-09-01T18:07:22.369017+00:00",
+  "inference_calls": 1,
+  "inference_charged_micro": 25,
+  "inference_quoted_micro": 39,
+  "inference_onchain": 1,
+  "generated_at": "2026-09-01T19:07:13.023281+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.4,
+      "apr_pct": 28.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 17.9,
-      "persistence": 0.994,
-      "hours_to_clear_fees": 34,
+      "apr_pct": 17.7,
+      "persistence": 0.988,
+      "hours_to_clear_fees": 35,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -56,7 +56,7 @@
       "symbol": "BNB",
       "apr_pct": 17.3,
       "persistence": 1.0,
-      "hours_to_clear_fees": 36,
+      "hours_to_clear_fees": 35,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 13.9,
-      "persistence": 0.821,
-      "hours_to_clear_fees": 44,
+      "apr_pct": 13.7,
+      "persistence": 0.815,
+      "hours_to_clear_fees": 45,
       "n": 151,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -100,18 +100,24 @@
       "symbol": "WTIOIL",
       "apr_pct": 6.2,
       "persistence": 0.753,
-      "hours_to_clear_fees": 99,
+      "hours_to_clear_fees": 100,
       "n": 146,
       "calendar": "cme_commodities",
-      "closes_in_h": 3,
+      "closes_in_h": 2,
       "verdict": "reject",
-      "why": "closes in 3h, needs 99h to clear fees"
+      "why": "closes in 2h, needs 100h to clear fees"
     }
   ],
+  "carry_review": {
+    "text": "The exceptionally high funding rates suggest these markets are overheated with aggressive leveraged long positioning, making them vulnerable to sharp reversals before traders can profit.",
+    "model": "deepseek-v3.2",
+    "tx": "NAghtZZGNxz43TwhW3hmp3jvod4yNSi9WeXWrKxtQU9sS8AmcmibGZ74jLerhtG8CXsbdjcBkodN7xAaTtxiq7v",
+    "charged_micro": 25
+  },
   "history": {
-    "entries": 190,
-    "span_h": 248.85,
+    "entries": 191,
+    "span_h": 249.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-01T18:07:22.369017+00:00"
+    "last": "2026-09-01T19:07:13.023281+00:00"
   }
 }
