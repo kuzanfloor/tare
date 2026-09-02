@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 0,
-  "inference_charged_micro": 0,
-  "inference_quoted_micro": 0,
-  "inference_onchain": 0,
-  "generated_at": "2026-09-02T12:07:01.648052+00:00",
+  "inference_calls": 1,
+  "inference_charged_micro": 34,
+  "inference_quoted_micro": 39,
+  "inference_onchain": 1,
+  "generated_at": "2026-09-02T13:07:23.002081+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 15.8,
+      "apr_pct": 16.0,
       "persistence": 0.91,
-      "hours_to_clear_fees": 39,
+      "hours_to_clear_fees": 38,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -88,7 +88,7 @@
     {
       "symbol": "TAO",
       "apr_pct": 12.7,
-      "persistence": 0.719,
+      "persistence": 0.712,
       "hours_to_clear_fees": 48,
       "n": 153,
       "calendar": "24/7",
@@ -98,20 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 7.4,
+      "apr_pct": 7.5,
       "persistence": 0.784,
-      "hours_to_clear_fees": 83,
+      "hours_to_clear_fees": 82,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 9,
+      "closes_in_h": 8,
       "verdict": "reject",
-      "why": "closes in 9h, needs 83h to clear fees"
+      "why": "closes in 8h, needs 82h to clear fees"
     }
   ],
+  "carry_review": {
+    "text": "The funding carry table stands out because the unusually high \"APR hold\" rates suggest a potential data anomaly, market dislocation, or a period of extreme positive funding rates across multiple major assets.",
+    "model": "deepseek-v3.2",
+    "tx": "62K1CApLpthRu6jUddUkqDNapAP78bhjtpkweGHZRiqCMyYpnfQAn7SFXbsbzuA7oA1que6TidMEVTH9894atAwc",
+    "charged_micro": 34
+  },
   "history": {
-    "entries": 208,
-    "span_h": 266.85,
+    "entries": 209,
+    "span_h": 267.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-02T12:07:01.648052+00:00"
+    "last": "2026-09-02T13:07:23.002081+00:00"
   }
 }
