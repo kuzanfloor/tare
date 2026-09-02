@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 34,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-09-02T13:07:23.002081+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-09-02T14:07:27.357353+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.9,
+      "apr_pct": 27.8,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 19.9,
+      "apr_pct": 20.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.2,
+      "apr_pct": 18.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 16.0,
+      "apr_pct": 16.2,
       "persistence": 0.91,
       "hours_to_clear_fees": 38,
       "n": 166,
@@ -87,9 +87,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 12.7,
-      "persistence": 0.712,
-      "hours_to_clear_fees": 48,
+      "apr_pct": 12.6,
+      "persistence": 0.706,
+      "hours_to_clear_fees": 49,
       "n": 153,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,26 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 7.5,
+      "apr_pct": 7.6,
       "persistence": 0.784,
-      "hours_to_clear_fees": 82,
+      "hours_to_clear_fees": 81,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 8,
+      "closes_in_h": 7,
       "verdict": "reject",
-      "why": "closes in 8h, needs 82h to clear fees"
+      "why": "closes in 7h, needs 81h to clear fees"
     }
   ],
-  "carry_review": {
-    "text": "The funding carry table stands out because the unusually high \"APR hold\" rates suggest a potential data anomaly, market dislocation, or a period of extreme positive funding rates across multiple major assets.",
-    "model": "deepseek-v3.2",
-    "tx": "62K1CApLpthRu6jUddUkqDNapAP78bhjtpkweGHZRiqCMyYpnfQAn7SFXbsbzuA7oA1que6TidMEVTH9894atAwc",
-    "charged_micro": 34
-  },
   "history": {
-    "entries": 209,
-    "span_h": 267.85,
+    "entries": 210,
+    "span_h": 268.86,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-02T13:07:23.002081+00:00"
+    "last": "2026-09-02T14:07:27.357353+00:00"
   }
 }
