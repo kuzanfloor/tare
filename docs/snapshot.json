@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-02T03:07:11.008703+00:00",
+  "generated_at": "2026-09-02T04:07:22.398977+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.5,
+      "apr_pct": 28.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 19.6,
+      "apr_pct": 19.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 16.8,
+      "apr_pct": 16.7,
       "persistence": 0.976,
       "hours_to_clear_fees": 37,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.9,
+      "apr_pct": 15.0,
       "persistence": 0.91,
       "hours_to_clear_fees": 41,
       "n": 166,
@@ -76,9 +76,9 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 13.2,
-      "persistence": 0.773,
-      "hours_to_clear_fees": 46,
+      "apr_pct": 13.1,
+      "persistence": 0.767,
+      "hours_to_clear_fees": 47,
       "n": 150,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 6.5,
+      "apr_pct": 6.6,
       "persistence": 0.784,
-      "hours_to_clear_fees": 94,
+      "hours_to_clear_fees": 93,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 18,
+      "closes_in_h": 17,
       "verdict": "reject",
-      "why": "closes in 18h, needs 94h to clear fees"
+      "why": "closes in 17h, needs 93h to clear fees"
     }
   ],
   "history": {
-    "entries": 199,
-    "span_h": 257.85,
+    "entries": 200,
+    "span_h": 258.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-02T03:07:11.008703+00:00"
+    "last": "2026-09-02T04:07:22.398977+00:00"
   }
 }
