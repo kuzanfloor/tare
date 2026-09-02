@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 0,
-  "inference_charged_micro": 0,
-  "inference_quoted_micro": 0,
-  "inference_onchain": 0,
-  "generated_at": "2026-09-02T08:07:17.135999+00:00",
+  "inference_calls": 1,
+  "inference_charged_micro": 39,
+  "inference_quoted_micro": 39,
+  "inference_onchain": 1,
+  "generated_at": "2026-09-02T09:07:22.407934+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.0,
+      "apr_pct": 18.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 15.4,
+      "apr_pct": 15.5,
       "persistence": 0.91,
       "hours_to_clear_fees": 40,
       "n": 166,
@@ -76,7 +76,7 @@
     },
     {
       "symbol": "ETH",
-      "apr_pct": 13.1,
+      "apr_pct": 13.0,
       "persistence": 1.0,
       "hours_to_clear_fees": 47,
       "n": 168,
@@ -87,8 +87,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 12.9,
-      "persistence": 0.742,
+      "apr_pct": 13.0,
+      "persistence": 0.735,
       "hours_to_clear_fees": 47,
       "n": 151,
       "calendar": "24/7",
@@ -98,20 +98,26 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 7.0,
+      "apr_pct": 7.2,
       "persistence": 0.784,
-      "hours_to_clear_fees": 87,
+      "hours_to_clear_fees": 86,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 13,
+      "closes_in_h": 12,
       "verdict": "reject",
-      "why": "closes in 13h, needs 87h to clear fees"
+      "why": "closes in 12h, needs 86h to clear fees"
     }
   ],
+  "carry_review": {
+    "text": "The standout feature is that all listed assets show positive funding rates (APR hold), meaning long positions consistently pay shorts despite the market moving against long holders before fees can be recouped.",
+    "model": "deepseek-v3.2",
+    "tx": "3pgY8BTpkdQbZ3GAt5dKY6edefHyeTy3ff34Sczv9Nrk4K2RBdV3py4fizuwmxexefstCnfF1q7CkwCA8RWGC2Rh",
+    "charged_micro": 39
+  },
   "history": {
-    "entries": 204,
-    "span_h": 262.85,
+    "entries": 205,
+    "span_h": 263.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-02T08:07:17.135999+00:00"
+    "last": "2026-09-02T09:07:22.407934+00:00"
   }
 }
