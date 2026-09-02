@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 26,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-09-02T02:07:22.400962+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-09-02T03:07:11.008703+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 17.8,
+      "apr_pct": 17.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 34,
       "n": 168,
@@ -56,7 +56,7 @@
       "symbol": "ZEC",
       "apr_pct": 16.8,
       "persistence": 0.976,
-      "hours_to_clear_fees": 36,
+      "hours_to_clear_fees": 37,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 14.7,
-      "persistence": 0.904,
-      "hours_to_clear_fees": 42,
+      "apr_pct": 14.9,
+      "persistence": 0.91,
+      "hours_to_clear_fees": 41,
       "n": 166,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,8 +76,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 13.4,
-      "persistence": 0.78,
+      "apr_pct": 13.2,
+      "persistence": 0.773,
       "hours_to_clear_fees": 46,
       "n": 150,
       "calendar": "24/7",
@@ -98,26 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 6.4,
+      "apr_pct": 6.5,
       "persistence": 0.784,
-      "hours_to_clear_fees": 95,
+      "hours_to_clear_fees": 94,
       "n": 162,
       "calendar": "cme_commodities",
-      "closes_in_h": 19,
+      "closes_in_h": 18,
       "verdict": "reject",
-      "why": "closes in 19h, needs 95h to clear fees"
+      "why": "closes in 18h, needs 94h to clear fees"
     }
   ],
-  "carry_review": {
-    "text": "The exceptionally high funding carry APRs compared to typical market rates indicate these assets are in intense, unsustainable perpetual futures contract squeezes.",
-    "model": "deepseek-v3.2",
-    "tx": "oytQZvXNZVb7GjVbAtvtDPD32BRPoKso3LVQ4DniBmckgGzpviTtsvzobtAfyfiGq4JcxxGtM37sgacHQ6HS16e",
-    "charged_micro": 26
-  },
   "history": {
-    "entries": 198,
-    "span_h": 256.85,
+    "entries": 199,
+    "span_h": 257.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-02T02:07:22.400962+00:00"
+    "last": "2026-09-02T03:07:11.008703+00:00"
   }
 }
