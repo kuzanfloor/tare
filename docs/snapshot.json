@@ -7,117 +7,22 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 35,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-09-03T22:07:11.008902+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-09-03T23:07:22.429616+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
   "perp_qty": -28.0,
   "delta": 0.0,
   "unconfirmed": 1,
-  "carry": [
-    {
-      "symbol": "NEAR",
-      "apr_pct": 28.5,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 21,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BNB",
-      "apr_pct": 20.2,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
-      "apr_pct": 19.8,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 31,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BTC",
-      "apr_pct": 16.9,
-      "persistence": 0.88,
-      "hours_to_clear_fees": 36,
-      "n": 167,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ZEC",
-      "apr_pct": 13.6,
-      "persistence": 0.928,
-      "hours_to_clear_fees": 45,
-      "n": 166,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ETH",
-      "apr_pct": 13.0,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 47,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "GOLD",
-      "apr_pct": 10.2,
-      "persistence": 0.883,
-      "hours_to_clear_fees": 60,
-      "n": 163,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "TAO",
-      "apr_pct": 6.9,
-      "persistence": 0.549,
-      "hours_to_clear_fees": 89,
-      "n": 142,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    }
-  ],
-  "carry_review": {
-    "text": "The exceptionally high implied funding rates suggest these crypto assets are experiencing extreme perpetual swap demand, forcing shorts to pay a heavy premium to longs.",
-    "model": "deepseek-v3.2",
-    "tx": "sGAbShuTAyjT4iL3aER7YZmGmLUK7rkgMx6h7vDYNvpFZm97Z88rzgZRUH3iMQViy3vWp5F6RWJCs11bheMb7Lq",
-    "charged_micro": 35
-  },
+  "carry": null,
   "history": {
-    "entries": 242,
-    "span_h": 300.85,
+    "entries": 243,
+    "span_h": 301.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T22:07:11.008902+00:00"
+    "last": "2026-09-03T23:07:22.429616+00:00"
   }
 }
