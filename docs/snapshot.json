@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-03T06:07:22.381827+00:00",
+  "generated_at": "2026-09-03T07:07:22.360269+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 20.0,
+      "apr_pct": 19.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 19.1,
+      "apr_pct": 19.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 32,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 17.7,
+      "apr_pct": 17.8,
       "persistence": 0.916,
       "hours_to_clear_fees": 35,
       "n": 167,
@@ -68,7 +68,7 @@
       "apr_pct": 15.2,
       "persistence": 0.976,
       "hours_to_clear_fees": 40,
-      "n": 168,
+      "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -87,8 +87,8 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 10.5,
-      "persistence": 0.63,
+      "apr_pct": 10.3,
+      "persistence": 0.623,
       "hours_to_clear_fees": 59,
       "n": 146,
       "calendar": "24/7",
@@ -98,20 +98,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 8.7,
-      "persistence": 0.799,
+      "apr_pct": 8.8,
+      "persistence": 0.805,
       "hours_to_clear_fees": 70,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 15,
+      "closes_in_h": 14,
       "verdict": "reject",
-      "why": "closes in 15h, needs 70h to clear fees"
+      "why": "closes in 14h, needs 70h to clear fees"
     }
   ],
   "history": {
-    "entries": 226,
-    "span_h": 284.85,
+    "entries": 227,
+    "span_h": 285.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T06:07:22.381827+00:00"
+    "last": "2026-09-03T07:07:22.360269+00:00"
   }
 }
