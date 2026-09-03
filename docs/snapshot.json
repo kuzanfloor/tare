@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 0,
-  "inference_charged_micro": 0,
-  "inference_quoted_micro": 0,
-  "inference_onchain": 0,
-  "generated_at": "2026-09-03T18:07:19.149762+00:00",
+  "inference_calls": 1,
+  "inference_charged_micro": 39,
+  "inference_quoted_micro": 39,
+  "inference_onchain": 1,
+  "generated_at": "2026-09-03T19:07:22.437493+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 28.2,
+      "apr_pct": 28.3,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -54,8 +54,8 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 17.5,
-      "persistence": 0.904,
+      "apr_pct": 17.4,
+      "persistence": 0.898,
       "hours_to_clear_fees": 35,
       "n": 167,
       "calendar": "24/7",
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 14.0,
+      "apr_pct": 13.9,
       "persistence": 0.928,
       "hours_to_clear_fees": 44,
       "n": 166,
@@ -87,31 +87,37 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 9.7,
-      "persistence": 0.859,
+      "apr_pct": 9.8,
+      "persistence": 0.865,
       "hours_to_clear_fees": 63,
       "n": 163,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
+      "calendar": "cme_commodities",
+      "closes_in_h": 2,
+      "verdict": "reject",
+      "why": "closes in 2h, needs 63h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 7.7,
-      "persistence": 0.559,
-      "hours_to_clear_fees": 79,
-      "n": 145,
+      "apr_pct": 7.5,
+      "persistence": 0.556,
+      "hours_to_clear_fees": 81,
+      "n": 144,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
     }
   ],
+  "carry_review": {
+    "text": "The table suggests funding rates are abnormally and unsustainably high across the board, creating a risk that markets will move sharply against holders before they can profit from the positive carry.",
+    "model": "deepseek-v3.2",
+    "tx": "4XMzSaQDri3iZVC646aLT9g7FZvhZ2C1hDmo7TNbC6UZaCAsimuj2RPRCeZ3yxYdrKni3DBwtN9pPPNoTLzogVHa",
+    "charged_micro": 39
+  },
   "history": {
-    "entries": 238,
-    "span_h": 296.85,
+    "entries": 239,
+    "span_h": 297.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T18:07:19.149762+00:00"
+    "last": "2026-09-03T19:07:22.437493+00:00"
   }
 }
