@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-03T12:07:02.015213+00:00",
+  "generated_at": "2026-09-03T13:07:22.457321+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -31,8 +31,8 @@
       "why": "open continuously"
     },
     {
-      "symbol": "SOL",
-      "apr_pct": 19.5,
+      "symbol": "BNB",
+      "apr_pct": 19.6,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -42,7 +42,7 @@
       "why": "open continuously"
     },
     {
-      "symbol": "BNB",
+      "symbol": "SOL",
       "apr_pct": 19.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
@@ -56,7 +56,7 @@
       "symbol": "BTC",
       "apr_pct": 17.8,
       "persistence": 0.916,
-      "hours_to_clear_fees": 35,
+      "hours_to_clear_fees": 34,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,9 +65,9 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 14.5,
-      "persistence": 0.946,
-      "hours_to_clear_fees": 42,
+      "apr_pct": 14.3,
+      "persistence": 0.94,
+      "hours_to_clear_fees": 43,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -88,19 +88,19 @@
     {
       "symbol": "GOLD",
       "apr_pct": 9.3,
-      "persistence": 0.823,
+      "persistence": 0.829,
       "hours_to_clear_fees": 66,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 9,
+      "closes_in_h": 8,
       "verdict": "reject",
-      "why": "closes in 9h, needs 66h to clear fees"
+      "why": "closes in 8h, needs 66h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 9.2,
-      "persistence": 0.589,
-      "hours_to_clear_fees": 66,
+      "apr_pct": 9.0,
+      "persistence": 0.582,
+      "hours_to_clear_fees": 68,
       "n": 146,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,9 +109,9 @@
     }
   ],
   "history": {
-    "entries": 232,
-    "span_h": 290.85,
+    "entries": 233,
+    "span_h": 291.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T12:07:02.015213+00:00"
+    "last": "2026-09-03T13:07:22.457321+00:00"
   }
 }
