@@ -7,11 +7,11 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 1,
-  "inference_charged_micro": 39,
-  "inference_quoted_micro": 39,
-  "inference_onchain": 1,
-  "generated_at": "2026-09-03T11:07:22.449042+00:00",
+  "inference_calls": 0,
+  "inference_charged_micro": 0,
+  "inference_quoted_micro": 0,
+  "inference_onchain": 0,
+  "generated_at": "2026-09-03T12:07:02.015213+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 19.6,
+      "apr_pct": 19.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 31,
       "n": 168,
@@ -43,9 +43,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 19.4,
+      "apr_pct": 19.5,
       "persistence": 1.0,
-      "hours_to_clear_fees": 32,
+      "hours_to_clear_fees": 31,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -56,7 +56,7 @@
       "symbol": "BTC",
       "apr_pct": 17.8,
       "persistence": 0.916,
-      "hours_to_clear_fees": 34,
+      "hours_to_clear_fees": 35,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,8 +65,8 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 14.6,
-      "persistence": 0.952,
+      "apr_pct": 14.5,
+      "persistence": 0.946,
       "hours_to_clear_fees": 42,
       "n": 167,
       "calendar": "24/7",
@@ -86,38 +86,32 @@
       "why": "open continuously"
     },
     {
+      "symbol": "GOLD",
+      "apr_pct": 9.3,
+      "persistence": 0.823,
+      "hours_to_clear_fees": 66,
+      "n": 164,
+      "calendar": "cme_commodities",
+      "closes_in_h": 9,
+      "verdict": "reject",
+      "why": "closes in 9h, needs 66h to clear fees"
+    },
+    {
       "symbol": "TAO",
-      "apr_pct": 9.4,
-      "persistence": 0.596,
-      "hours_to_clear_fees": 65,
+      "apr_pct": 9.2,
+      "persistence": 0.589,
+      "hours_to_clear_fees": 66,
       "n": 146,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
       "why": "open continuously"
-    },
-    {
-      "symbol": "GOLD",
-      "apr_pct": 9.2,
-      "persistence": 0.817,
-      "hours_to_clear_fees": 67,
-      "n": 164,
-      "calendar": "cme_commodities",
-      "closes_in_h": 10,
-      "verdict": "reject",
-      "why": "closes in 10h, needs 67h to clear fees"
     }
   ],
-  "carry_review": {
-    "text": "What stands out is that all five assets (NEAR, SOL, BNB, BTC, ZEC) have an \"APR hold\" designation, indicating these are persistent positive funding rates suggesting a premium for short sellers, yet the market's tendency to \"reject close\" before positions become profitable",
-    "model": "deepseek-v3.2",
-    "tx": "5ewqyRMHBDrvtv8k46DRHhjQWaknqrVU5nMzTovZ8yEjH2ei92T9pA7LYEg65S5Kqi3DX6QRSb8mJvMq9bgq8kA1",
-    "charged_micro": 39
-  },
   "history": {
-    "entries": 231,
-    "span_h": 289.85,
+    "entries": 232,
+    "span_h": 290.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T11:07:22.449042+00:00"
+    "last": "2026-09-03T12:07:02.015213+00:00"
   }
 }
