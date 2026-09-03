@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-03T00:07:22.411173+00:00",
+  "generated_at": "2026-09-03T01:07:17.072879+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 27.8,
+      "apr_pct": 27.7,
       "persistence": 1.0,
       "hours_to_clear_fees": 22,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 20.2,
+      "apr_pct": 20.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 30,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 18.8,
+      "apr_pct": 18.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 33,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 17.5,
+      "apr_pct": 17.6,
       "persistence": 0.916,
       "hours_to_clear_fees": 35,
       "n": 167,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 15.7,
+      "apr_pct": 15.6,
       "persistence": 0.976,
       "hours_to_clear_fees": 39,
       "n": 168,
@@ -87,10 +87,10 @@
     },
     {
       "symbol": "TAO",
-      "apr_pct": 11.7,
-      "persistence": 0.653,
+      "apr_pct": 11.6,
+      "persistence": 0.651,
       "hours_to_clear_fees": 53,
-      "n": 150,
+      "n": 149,
       "calendar": "24/7",
       "closes_in_h": null,
       "verdict": "hold",
@@ -100,18 +100,18 @@
       "symbol": "GOLD",
       "apr_pct": 8.3,
       "persistence": 0.785,
-      "hours_to_clear_fees": 74,
+      "hours_to_clear_fees": 73,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 21,
+      "closes_in_h": 20,
       "verdict": "reject",
-      "why": "closes in 21h, needs 74h to clear fees"
+      "why": "closes in 20h, needs 73h to clear fees"
     }
   ],
   "history": {
-    "entries": 220,
-    "span_h": 278.85,
+    "entries": 221,
+    "span_h": 279.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-03T00:07:22.411173+00:00"
+    "last": "2026-09-03T01:07:17.072879+00:00"
   }
 }
