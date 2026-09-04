@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-04T05:07:11.057690+00:00",
+  "generated_at": "2026-09-04T06:07:22.494036+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.0,
+      "apr_pct": 28.9,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,9 +32,9 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 20.8,
+      "apr_pct": 20.9,
       "persistence": 1.0,
-      "hours_to_clear_fees": 30,
+      "hours_to_clear_fees": 29,
       "n": 168,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 13.6,
+      "apr_pct": 13.5,
       "persistence": 0.928,
       "hours_to_clear_fees": 45,
       "n": 166,
@@ -87,20 +87,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 10.8,
-      "persistence": 0.926,
-      "hours_to_clear_fees": 57,
+      "apr_pct": 10.9,
+      "persistence": 0.933,
+      "hours_to_clear_fees": 56,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 16,
+      "closes_in_h": 15,
       "verdict": "reject",
-      "why": "closes in 16h, needs 57h to clear fees"
+      "why": "closes in 15h, needs 56h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 5.5,
-      "persistence": 0.529,
-      "hours_to_clear_fees": 111,
+      "apr_pct": 5.3,
+      "persistence": 0.522,
+      "hours_to_clear_fees": 116,
       "n": 138,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,9 +109,9 @@
     }
   ],
   "history": {
-    "entries": 249,
-    "span_h": 307.85,
+    "entries": 250,
+    "span_h": 308.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-04T05:07:11.057690+00:00"
+    "last": "2026-09-04T06:07:22.494036+00:00"
   }
 }
