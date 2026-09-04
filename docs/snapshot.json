@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-04T14:07:01.950666+00:00",
+  "generated_at": "2026-09-04T15:07:01.787958+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.0,
+      "apr_pct": 29.1,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 21.4,
+      "apr_pct": 21.5,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 168,
@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SOL",
-      "apr_pct": 20.1,
+      "apr_pct": 20.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 30,
       "n": 168,
@@ -54,9 +54,9 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 17.2,
-      "persistence": 0.88,
-      "hours_to_clear_fees": 36,
+      "apr_pct": 17.4,
+      "persistence": 0.886,
+      "hours_to_clear_fees": 35,
       "n": 167,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -76,8 +76,8 @@
     },
     {
       "symbol": "ZEC",
-      "apr_pct": 12.8,
-      "persistence": 0.909,
+      "apr_pct": 12.7,
+      "persistence": 0.903,
       "hours_to_clear_fees": 48,
       "n": 165,
       "calendar": "24/7",
@@ -88,30 +88,30 @@
     {
       "symbol": "GOLD",
       "apr_pct": 11.1,
-      "persistence": 0.945,
+      "persistence": 0.939,
       "hours_to_clear_fees": 55,
       "n": 164,
       "calendar": "cme_commodities",
-      "closes_in_h": 7,
+      "closes_in_h": 6,
       "verdict": "reject",
-      "why": "closes in 7h, needs 55h to clear fees"
+      "why": "closes in 6h, needs 55h to clear fees"
     },
     {
       "symbol": "WTIOIL",
-      "apr_pct": -4.7,
-      "persistence": 0.55,
-      "hours_to_clear_fees": 131,
+      "apr_pct": -4.8,
+      "persistence": 0.557,
+      "hours_to_clear_fees": 127,
       "n": 149,
       "calendar": "cme_commodities",
-      "closes_in_h": 7,
+      "closes_in_h": 6,
       "verdict": "reject",
-      "why": "closes in 7h, needs 131h to clear fees"
+      "why": "closes in 6h, needs 127h to clear fees"
     }
   ],
   "history": {
-    "entries": 258,
-    "span_h": 316.85,
+    "entries": 259,
+    "span_h": 317.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-04T14:07:01.950666+00:00"
+    "last": "2026-09-04T15:07:01.787958+00:00"
   }
 }
