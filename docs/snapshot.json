@@ -7,22 +7,117 @@
     "inventory_cap_exceeded": 1,
     "delta_unknown_unconfirmed_fills": 1
   },
-  "inference_calls": 0,
-  "inference_charged_micro": 0,
-  "inference_quoted_micro": 0,
-  "inference_onchain": 0,
-  "generated_at": "2026-09-04T21:07:01.811111+00:00",
+  "inference_calls": 1,
+  "inference_charged_micro": 30,
+  "inference_quoted_micro": 30,
+  "inference_onchain": 1,
+  "generated_at": "2026-09-04T22:07:22.408040+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
   "perp_qty": -28.0,
   "delta": 0.0,
   "unconfirmed": 1,
-  "carry": null,
+  "carry": [
+    {
+      "symbol": "NEAR",
+      "apr_pct": 29.5,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 21,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "BNB",
+      "apr_pct": 22.2,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 28,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "SOL",
+      "apr_pct": 20.4,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 30,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "BTC",
+      "apr_pct": 18.0,
+      "persistence": 0.916,
+      "hours_to_clear_fees": 34,
+      "n": 167,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "ETH",
+      "apr_pct": 13.5,
+      "persistence": 1.0,
+      "hours_to_clear_fees": 45,
+      "n": 168,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "ZEC",
+      "apr_pct": 13.0,
+      "persistence": 0.903,
+      "hours_to_clear_fees": 47,
+      "n": 165,
+      "calendar": "24/7",
+      "closes_in_h": null,
+      "verdict": "hold",
+      "why": "open continuously"
+    },
+    {
+      "symbol": "GOLD",
+      "apr_pct": 10.7,
+      "persistence": 0.909,
+      "hours_to_clear_fees": 58,
+      "n": 164,
+      "calendar": "cme_commodities",
+      "closes_in_h": 48,
+      "verdict": "reject",
+      "why": "closes in 48h, needs 58h to clear fees"
+    },
+    {
+      "symbol": "WTIOIL",
+      "apr_pct": -5.9,
+      "persistence": 0.596,
+      "hours_to_clear_fees": 104,
+      "n": 151,
+      "calendar": "cme_commodities",
+      "closes_in_h": 48,
+      "verdict": "reject",
+      "why": "closes in 48h, needs 104h to clear fees"
+    }
+  ],
+  "carry_review": {
+    "text": "All assets show unusually high \"APR hold\" rates for carrying long positions, indicating a persistent, strong market-wide bias favoring short sellers and funding costs for longs.",
+    "model": "deepseek-v3.2",
+    "tx": "53ss4ApsiJtAEAcXp8bw6ZqXyMp3Jb6xmKnc8bXozj5zLSH9ooCRJUZmigSmt6JwjMQn7zLNrrCEWx7cKDaqagN1",
+    "charged_micro": 30
+  },
   "history": {
-    "entries": 265,
-    "span_h": 323.85,
+    "entries": 266,
+    "span_h": 324.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-04T21:07:01.811111+00:00"
+    "last": "2026-09-04T22:07:22.408040+00:00"
   }
 }
