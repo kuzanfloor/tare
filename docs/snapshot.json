@@ -11,107 +11,18 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-04T19:07:01.724577+00:00",
+  "generated_at": "2026-09-04T20:07:01.740137+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
   "perp_qty": -28.0,
   "delta": 0.0,
   "unconfirmed": 1,
-  "carry": [
-    {
-      "symbol": "NEAR",
-      "apr_pct": 29.4,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 21,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BNB",
-      "apr_pct": 21.9,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 28,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "SOL",
-      "apr_pct": 20.4,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 30,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "BTC",
-      "apr_pct": 17.7,
-      "persistence": 0.898,
-      "hours_to_clear_fees": 35,
-      "n": 167,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ETH",
-      "apr_pct": 13.5,
-      "persistence": 1.0,
-      "hours_to_clear_fees": 46,
-      "n": 168,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "ZEC",
-      "apr_pct": 12.9,
-      "persistence": 0.903,
-      "hours_to_clear_fees": 47,
-      "n": 165,
-      "calendar": "24/7",
-      "closes_in_h": null,
-      "verdict": "hold",
-      "why": "open continuously"
-    },
-    {
-      "symbol": "GOLD",
-      "apr_pct": 10.9,
-      "persistence": 0.915,
-      "hours_to_clear_fees": 56,
-      "n": 164,
-      "calendar": "cme_commodities",
-      "closes_in_h": 2,
-      "verdict": "reject",
-      "why": "closes in 2h, needs 56h to clear fees"
-    },
-    {
-      "symbol": "WTIOIL",
-      "apr_pct": -5.4,
-      "persistence": 0.58,
-      "hours_to_clear_fees": 113,
-      "n": 150,
-      "calendar": "cme_commodities",
-      "closes_in_h": 2,
-      "verdict": "reject",
-      "why": "closes in 2h, needs 113h to clear fees"
-    }
-  ],
+  "carry": null,
   "history": {
-    "entries": 263,
-    "span_h": 321.85,
+    "entries": 264,
+    "span_h": 322.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-04T19:07:01.724577+00:00"
+    "last": "2026-09-04T20:07:01.740137+00:00"
   }
 }
