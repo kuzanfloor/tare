@@ -11,7 +11,7 @@
   "inference_charged_micro": 0,
   "inference_quoted_micro": 0,
   "inference_onchain": 0,
-  "generated_at": "2026-09-04T10:07:18.976737+00:00",
+  "generated_at": "2026-09-04T11:07:22.450556+00:00",
   "stale_after_s": 3600,
   "delta_status": "UNKNOWN",
   "spot_qty": 28.0,
@@ -21,7 +21,7 @@
   "carry": [
     {
       "symbol": "NEAR",
-      "apr_pct": 29.1,
+      "apr_pct": 29.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 21,
       "n": 168,
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "BNB",
-      "apr_pct": 21.1,
+      "apr_pct": 21.2,
       "persistence": 1.0,
       "hours_to_clear_fees": 29,
       "n": 168,
@@ -54,7 +54,7 @@
     },
     {
       "symbol": "BTC",
-      "apr_pct": 16.9,
+      "apr_pct": 17.0,
       "persistence": 0.88,
       "hours_to_clear_fees": 36,
       "n": 167,
@@ -87,20 +87,20 @@
     },
     {
       "symbol": "GOLD",
-      "apr_pct": 11.1,
+      "apr_pct": 11.2,
       "persistence": 0.951,
       "hours_to_clear_fees": 55,
       "n": 163,
       "calendar": "cme_commodities",
-      "closes_in_h": 11,
+      "closes_in_h": 10,
       "verdict": "reject",
-      "why": "closes in 11h, needs 55h to clear fees"
+      "why": "closes in 10h, needs 55h to clear fees"
     },
     {
       "symbol": "TAO",
-      "apr_pct": 4.8,
+      "apr_pct": 4.7,
       "persistence": 0.518,
-      "hours_to_clear_fees": 128,
+      "hours_to_clear_fees": 132,
       "n": 137,
       "calendar": "24/7",
       "closes_in_h": null,
@@ -109,9 +109,9 @@
     }
   ],
   "history": {
-    "entries": 254,
-    "span_h": 312.85,
+    "entries": 255,
+    "span_h": 313.85,
     "first": "2026-08-22T09:16:08.805766+00:00",
-    "last": "2026-09-04T10:07:18.976737+00:00"
+    "last": "2026-09-04T11:07:22.450556+00:00"
   }
 }
